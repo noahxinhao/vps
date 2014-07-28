@@ -29,10 +29,10 @@
                      <a href="#" class="list-group-item"><span class="glyphicon glyphicon-user"></span> 基本信息</a>
                      <a href="#" class="list-group-item"><span class="glyphicon glyphicon-hdd"></span> VPS实例</a>
                      <a href="#" class="list-group-item"><span class="glyphicon glyphicon-book"></span> 我的博客</a>
-                     <a href="#" class="list-group-item"><span class="glyphicon glyphicon-usd"></span> 优惠券</a>
-                     <a href="#" class="list-group-item"><span class="glyphicon glyphicon-cog"></span> 个人设置</a>
+                     <a href="#" class="list-group-item"><span class="glyphicon glyphicon-download-alt"></span> 资源仓库</a>
                      <a href="#" class="list-group-item"><span class="glyphicon glyphicon-comment"></span> 好友</a>
                      <a href="#" class="list-group-item"><span class="glyphicon glyphicon-th-list"></span> 好友动态</a>
+                     <a href="#" class="list-group-item"><span class="glyphicon glyphicon-cog"></span> 个人设置</a>
                  </div>
              </div>
              <div class="col-md-9">
