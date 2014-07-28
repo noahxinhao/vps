@@ -221,14 +221,7 @@
             <scope>test</scope>
         </dependency>
         <!--juxinli-model-->
-        <dependency>
-            <groupId>com.infomorrow</groupId>
-            <artifactId>juxinli_model</artifactId>
-            <version>1.0</version>
-        </dependency>
-
     </dependencies>
-
     <profiles>
         <!--本地测试-->
         <profile>
@@ -284,7 +277,7 @@
         </profile>
     </profiles>
     <build>
-        <finalName>vps</finalName>
+        <finalName>${artifactId}</finalName>
         <filters>
             <filter>${filter.property.path}</filter>
         </filters>

@@ -60,4 +60,11 @@ public class MainController {
         model.put("target", "signup");
         return new ModelAndView("/signup",model);
     }
+
+    @RequestMapping(method = RequestMethod.GET,value = "/home")
+    public ModelAndView home(HttpServletRequest request, HttpServletResponse response) {
+        Map model = new HashMap();
+        model.put("target", "home");
+        return new ModelAndView("/home",model);
+    }
 }
