@@ -1,4 +1,5 @@
 package com.vps.configuraction;
+import com.vps.tools.Tool_Hibernate;
 import com.vps.tools.Tool_Mongo;
 import org.apache.log4j.Logger;
 import org.xml.sax.SAXException;
@@ -35,7 +36,8 @@ public class Configuration {
         try {
             System.out.println("#初始化全局配置");
             load_global_config_properties();
-
+            logger.info("#初始化 hibernate 配置文件");
+            Tool_Hibernate.init_session_factory();
             Tool_Mongo.init_mongodb_pool();
         } catch (Exception e) {
             e.printStackTrace();

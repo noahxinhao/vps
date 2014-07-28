@@ -15,9 +15,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <%--<a class="navbar-brand hidden-sm header-a" href="/signin">登录</a>
-            <a class="navbar-brand hidden-sm header-a" href="/signup">注册</a>--%>
-            <ul class="nav navbar-nav">
+            <a class="navbar-brand hidden-sm header-a" href="/signin">登录</a>
+            <a class="navbar-brand hidden-sm header-a" href="/signup">注册</a>
+<%--            <ul class="nav navbar-nav hidden-sm hidden-xs">
                 <li class="dropdown">
                     <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> &nbsp;noahli&nbsp; <span class="caret"></span></a>
                     <ul class="dropdown-menu list-group" role="menu">
@@ -32,7 +32,7 @@
                         <li><a href="javascript:void(0)">帮助中心</a></li>
                     </ul>
                 </li>
-            </ul>
+            </ul>--%>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">

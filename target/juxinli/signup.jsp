@@ -35,16 +35,16 @@
                         <div class="panel-body">
                             <form role="form" class="im-editor">
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">邮箱/手机号码</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                    <label for="exampleInputEmail1">邮箱/手机号码</label><span class="pull-right hidden">手机号码错误</span>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="请输入邮箱或手机号码">
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword1">密&nbsp;码</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="请输入6~15位密码">
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword1">确认密码</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+                                    <input type="password" class="form-control" id="exampleInputPassword2" placeholder="请确认密码">
                                 </div>
                                 <div class="row clearfix" style="margin-bottom: 10px">
                                     <div class="col-md-12">
