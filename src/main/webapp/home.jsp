@@ -41,15 +41,52 @@
                          <h3 class="panel-title">基本信息</h3>
                      </div>
                      <div class="panel-body">
+                         <div class="row hidden">
+                             <div class="col-md-2 text-center">
+                                 <img class="img-circle " style="height:80px;width: 80px" alt="why520crazy" src="http://tp3.sinaimg.cn/2530282462/180/5669530341/1"/>
+                                 <%--<button type="button" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-picture"></span> 更换图像</button>--%>
+                             </div>
+                             <div class=" col-md-8">
+                                 <dl >
+                                     <dt>用户名:</dt>
+                                     <dd>noahxinhao</dd><br/>
+                                     <dt>邮箱:</dt>
+                                     <dd>noahxinhao@gmail.qq.com</dd><br/>
+                                     <dt>电话:</dt>
+                                     <dd>18721988563</dd>
+                                 </dl>
+                             </div>
+                         </div>
+
                          <div class="row">
-                             <dl class=" col-md-8 col-md-offset-2">
-                                 <dt>用户名:</dt>
-                                 <dd>noahxinhao</dd><br/>
-                                 <dt>邮箱:</dt>
-                                 <dd>noahxinhao@gmail.qq.com</dd><br/>
-                                 <dt>电话:</dt>
-                                 <dd>18721988563</dd>
-                             </dl>
+                             <div class="col-md-12">
+                                 <table class="table table-hover">
+                                     <thead>
+                                         <th>
+                                             <td>编号</td>
+                                             <td>机器ID</td>
+                                             <td>申请时间</td>
+                                             <td>状态</td>
+                                             <td>IP</td>
+                                             <td>密码</td>
+                                             <td>到期时间</td>
+                                             <td>操作</td>
+                                         </th>
+                                     </thead>
+                                     <tbody>
+                                         <tr>
+                                             <td>10001</td>
+                                             <td>324354364</td>
+                                             <td>2014年7月13日</td>
+                                             <td>正常</td>
+                                             <td>192.18.2.42</td>
+                                             <td>fre@cd4%</td>
+                                             <td>2015年7月13日</td>
+                                             <td><a class="btn-sm btn-info">操作</a></td>
+                                         </tr>
+                                     </tbody>
+                                 </table>
+                             </div>
                          </div>
                      </div>
                  </div>

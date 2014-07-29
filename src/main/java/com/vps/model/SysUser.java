@@ -23,6 +23,8 @@ public class SysUser {
     private String user_id;
     @Column(length = 30, nullable = false)
     private String real_name;
+    @Column(length = 30, nullable = false)
+    private String account;
     @Column(length = 64, nullable = false)
     private String password;
     @Column(length = 200)
@@ -103,6 +105,14 @@ public class SysUser {
 
     public void setUpdate_time(Calendar update_time) {
         this.update_time = update_time;
+    }
+
+    public String getAccount() {
+        return account;
+    }
+
+    public void setAccount(String account) {
+        this.account = account;
     }
 
     public void setId(String id) {

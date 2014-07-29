@@ -18,6 +18,8 @@ import java.util.Properties;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Created by noah on 14-6-19.
@@ -110,5 +112,37 @@ public class Global_Tools {
             }
         };
         Global_Tools.pool.execute(r);
+    }
+    /*判断是邮箱还是手机号码*/
+    public static String verifyAccount(String account){
+        boolean flag = false;
+        /*邮箱验证*/
+        try {
+            String checkEmail = "^（[a-z0-9A-Z]+[-|\\.]?）+[a-z0-9A-Z]@（[a-z0-9A-Z]+（-[a-z0-9A-Z]+）？\\.）+[a-zA-Z]{2,}$";
+            Pattern regexEmail = Pattern.compile(checkEmail);
+            Matcher matcher = regexEmail.matcher(account);
+            flag = matcher.matches();
+        }catch (Exception e){
+            flag = false;
+        }
+        if(flag){
+            return "Email";
+        }
+
+        /*手机号码验证*/
+        try {
+            String checkPhone = "^（[a-z0-9A-Z]+[-|\\.]?）+[a-z0-9A-Z]@（[a-z0-9A-Z]+（-[a-z0-9A-Z]+）？\\.）+[a-zA-Z]{2,}$";
+            Pattern regexPhone = Pattern.compile(checkPhone);
+            Matcher matcher = regexPhone.matcher(account);
+            flag = matcher.matches();
+        }catch (Exception e){
+            flag = false;
+        }
+
+        if(flag){
+            return "Phone";
+        }
+
+        return null;
     }
 }

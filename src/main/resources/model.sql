@@ -3,6 +3,7 @@ create table sys_user
   id int,
   user_id varchar(45),
   password varchar(64),
+  account varchar(30),
   real_name varchar(30),
   status int,
   update_time timestamp,
