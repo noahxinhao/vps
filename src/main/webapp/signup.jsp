@@ -54,7 +54,7 @@
                                         <input type="text" class="form-control col-md-6"  id="exampleInputPassword3" placeholder="请输入验证码">
                                     </div>
                                     <div class="col-md-5">
-                                        <label for="exampleInputPassword3" class="control-label">验证码</label>
+                                        <img src="/rs/create_validate_code" id="verfity_code_img" alt="点击更新" title="点击更新验证码" style="cursor: pointer;height: 35px" onclick="refresh_validate_code()"/>
                                     </div>
                                 </div>
                                 <button type="submit" class="btn btn-default pull-right">&nbsp;&nbsp;注&nbsp;&nbsp;&nbsp;&nbsp;册&nbsp;&nbsp;</button>
@@ -67,5 +67,6 @@
     </div>
 </div>
 <jsp:include page="footer.jsp"/>
+<script src="${pageContext.request.contextPath}/js_control/signup.js"></script>
 </body>
 </html>

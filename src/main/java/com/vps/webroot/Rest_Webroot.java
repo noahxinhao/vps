@@ -7,13 +7,17 @@ import com.vps._return.Return;
 import com.vps.configuraction.Configuration;
 import com.vps.tools.Global_Tools;
 import com.vps.tools.Tool_Mongo;
+import com.vps.util.ValidateCode;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import javax.imageio.ImageIO;
 import javax.mail.MessagingException;
+import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.util.Date;
 import java.util.HashMap;
@@ -66,5 +70,16 @@ public class Rest_Webroot {
         BasicDBObject basicDBObject = new BasicDBObject(ARTICLES);
         collection.save(basicDBObject);
         response.getWriter().write(Return.SUCCESS(""));
+    }
+
+    /*生成验证码*/
+    @RequestMapping(method = RequestMethod.GET,value = "/create_validate_code")
+    public void create_validate_code(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        response.setContentType("image/png");
+        ValidateCode ve = new ValidateCode();
+        request.getSession().setAttribute(request.getSession().getId(), ve.getCode());// 验证码保存在session中
+        ServletOutputStream out = response.getOutputStream();
+        BufferedImage img = ve.getImage();
+        ImageIO.write(img, "png", out);
     }
 }

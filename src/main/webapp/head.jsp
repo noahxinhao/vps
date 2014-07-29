@@ -28,7 +28,7 @@
                         <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-zoom-in"></span> 审核新帖</a></li>
                         <li class="divider"></li>
                         <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-cog"></span> 个人设置</a></li>
-                        <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-cog"></span> 退出</a></li>
+                        <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-off"></span> 退出</a></li>
                         <li><a href="javascript:void(0)">帮助中心</a></li>
                     </ul>
                 </li>
