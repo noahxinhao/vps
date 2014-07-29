@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97a22a5b-b9a1-4335-bdd0-cd4b4dfe9045" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_UserControl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js_control/angulardemo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/3_form.html" afterPath="$PROJECT_DIR$/src/main/webapp/3_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vps/tools/Global_Tools.java" afterPath="$PROJECT_DIR$/src/main/java/com/vps/tools/Global_Tools.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vps/model/SysUser.java" afterPath="$PROJECT_DIR$/src/main/java/com/vps/model/SysUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/head.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/head.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/home.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/model.sql" afterPath="$PROJECT_DIR$/src/main/resources/model.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js_control/signup.js" afterPath="$PROJECT_DIR$/src/main/webapp/js_control/signup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="97a22a5b-b9a1-4335-bdd0-cd4b4dfe9045" name="Default" comment="" />
     <ignored path="vps.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -129,8 +117,8 @@
       <file leaf-file-name="home.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.024390243" vertical-offset="924" max-vertical-offset="1560">
-              <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.30081302" vertical-offset="924" max-vertical-offset="1560">
+              <caret line="69" column="56" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -932,12 +920,12 @@
       <workItem from="1406599940802" duration="6000" />
       <workItem from="1406599948424" duration="6166000" />
       <workItem from="1406627160327" duration="3743000" />
-      <workItem from="1406640334822" duration="9199000" />
+      <workItem from="1406640334822" duration="9287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19122000" />
+    <option name="totallyTimeSpent" value="19210000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1319,8 +1307,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.024390243" vertical-offset="924" max-vertical-offset="1560">
-          <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.30081302" vertical-offset="924" max-vertical-offset="1560">
+          <caret line="69" column="56" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
           <folding />
         </state>
       </provider>
