@@ -15,14 +15,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand hidden-sm header-a" href="/signin">登录</a>
-            <a class="navbar-brand hidden-sm header-a" href="/signup">注册</a>
-<%--            <ul class="nav navbar-nav hidden-sm hidden-xs">
+            <%--<a class="navbar-brand hidden-sm header-a" href="/signin">登录</a>
+            <a class="navbar-brand hidden-sm header-a" href="/signup">注册</a>--%>
+            <ul class="nav navbar-nav hidden-sm hidden-xs">
                 <li class="dropdown">
                     <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> &nbsp;noahli&nbsp; <span class="caret"></span></a>
                     <ul class="dropdown-menu list-group" role="menu">
                         <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-comment"></span> 新消息 (12)</a></li>
-                        <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-home"></span> 个人中心</a></li>
+                        <li><a href="/home"><span class="glyphicon glyphicon-home"></span> 个人中心</a></li>
                         <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-hdd"></span> 我的主机</a></li>
                         <li><a href="/editor" target="_blank"><span class="glyphicon glyphicon-pencil"></span> 发布帖子</a></li>
                         <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-zoom-in"></span> 审核新帖</a></li>
@@ -32,7 +32,7 @@
                         <li><a href="javascript:void(0)">帮助中心</a></li>
                     </ul>
                 </li>
-            </ul>--%>
+            </ul>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
@@ -57,7 +57,7 @@
                     <li><a href="/vps" >VPS</a></li>
                     <li><a href="/blog" >技术交流</a></li>
                 </c:if>
-                <c:if test="${target == 'signin'||target == 'signup'}">
+                <c:if test="${target == 'signin'||target == 'signup'||target == 'home'}">
                     <li><a href="/index">首页</a></li>
                     <li><a href="/vps" >VPS</a></li>
                     <li><a href="/blog" >技术交流</a></li>

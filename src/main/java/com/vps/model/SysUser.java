@@ -1,6 +1,6 @@
 package com.vps.model;
 
-import com.infomorrow.model.config.Configuration;
+import com.vps.configuraction.Configuration;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
