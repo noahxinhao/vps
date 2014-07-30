@@ -37,7 +37,7 @@
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
 
-                <li class="navbar-brand"><strong>IMDOU8</strong></li>
+                <li class="navbar-brand"><strong>IMDOU8™</strong></li>
                 <c:if test="${target == 'blog'}">
                     <li ><a href="/index">首页</a></li>
                     <li><a href="/vps" >VPS</a></li>

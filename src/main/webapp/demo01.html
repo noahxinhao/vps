@@ -1,0 +1,90 @@
+<!Doctype Html>
+<html ng-app>
+<head>
+   <meta charset="utf-8">
+   <!--<link rel="stylesheet" type="text/css" href="plugin/angular/ng-grid.css" />-->
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+   <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+   <script type="text/javascript" src="plugin/angular/angular.js"></script>
+   <script type="text/javascript" src="js_control/angulardemo.js"></script>
+   <script>
+       function PhoneListCtrl($scope) {
+           $scope.phones = [
+               {"name": "Nexus S",
+                   "snippet": "Fast just got faster with Nexus S.",
+                   "age": 0,"size":4},
+               {"name": "Motorola XOOM™ with Wi-Fi",
+                   "snippet": "The Next, Next Generation tablet.",
+                   "age": 1,"size":5},
+               {"name": "MOTOROLA XOOM™",
+                   "snippet": "The Next, Next Generation tablet.",
+                   "age": 2,"size":5}
+           ];
+           $scope.query = 'M';
+           $scope.order = 'name';
+       }
+       function TestListCtrl($scope){
+           var userList=[];
+           for(var i=0;i<20;i++){
+               var _m = {};
+               _m.name="lixinhao"+i;
+               _m.id=i+1;
+               _m.age=25;
+               _m.addr="shanghaishi"+i;
+               userList.push(_m);
+           }
+           $scope.userList = userList;
+       }
+   </script>
+</head>
+<body>
+	<div class="container">
+        <div class="row">
+            <!--<div class="col-md-8 col-md-offset-2"  ng-controller="PhoneListCtrl">
+                Search: <input ng-model="query">
+                Sort by:
+                <select ng-model="order">
+                    <option value="name">Alphabetical</option>
+                    <option value="snippet">info</option>
+                    <option value="size">size</option>
+                    <option value="age">Newest</option>
+                </select>
+                <p>搜索条件:{{query}},排序规则:{{order}}</p>
+                <ul class="phones" ng-show="(order!='' && query!='')">
+                    <li ng-repeat="phone in phones | filter:query | orderBy:order">
+                        {{phone.name}}
+                        <p>{{phone.snippet}}</p>
+                        <p>size:{{phone.size}}</p>
+                    </li>
+                </ul>
+            </div>-->
+
+            <div class="col-md-8 col-md-offset-2" ng-controller="TestListCtrl">
+                <form class="form-inline" role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="exampleInputEmail2" placeholder="输入过滤条件" ng-model="query">
+                    </div>
+                </form>
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>name</th>
+                        <th>age</th>
+                        <th>addr</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="user in userList|filter:query" ng-class="{true: 'active', false: 'success'}[{{user.id%2==0}}]" ng-show="(user.id<10)">
+                        <td>{{user.id}}</td>
+                        <td>{{user.name}}</td>
+                        <td>{{user.age}}</td>
+                        <td>{{user.addr}}</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+	</div>
+</body>
+</html>
