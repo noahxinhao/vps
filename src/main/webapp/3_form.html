@@ -1,76 +1,47 @@
 <!Doctype Html>
-<html ng-app="app">
+<html ng-app>
 <head>
-    <meta charset="utf-8">
+   <meta charset="utf-8">
    <!--<link rel="stylesheet" type="text/css" href="plugin/angular/ng-grid.css" />-->
    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
    <script type="text/javascript" src="plugin/angular/angular.js"></script>
    <script type="text/javascript" src="js_control/angulardemo.js"></script>
-   <style>
-       .showcase-form textarea .ng-dirty.ng-invalid,
-       .showcase-form select .ng-dirty.ng-invalid,
-       .showcase-form input.ng-dirty.ng-invalid {
-           border-color: #e9322d;
-           -webkit-box-shadow: 0 0 6px #f8b9b7;
-           -moz-box-shadow: 0 0 6px #f8b9b7;
-           box-shadow: 0 0 6px #f8b9b7;
+   <script>
+       function PhoneListCtrl($scope) {
+           $scope.phones = [
+               {"name": "Nexus S",
+                   "snippet": "Fast just got faster with Nexus S.",
+                   "age": 0},
+               {"name": "Motorola XOOM™ with Wi-Fi",
+                   "snippet": "The Next, Next Generation tablet.",
+                   "age": 1},
+               {"name": "MOTOROLA XOOM™",
+                   "snippet": "The Next, Next Generation tablet.",
+                   "age": 2}
+           ];
+
+           $scope.orderProp = 'age';
        }
-   </style>
+   </script>
 </head>
 <body>
-	<div class="container">
+	<div class="container" ng-control="PhoneListCtrl">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <form class="form-horizontal w5c-form demo-form" role="form"
-                      w5c-form-validate="vm.validateOptions" novalidate name="validateForm">
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">邮箱</label>
+                Search: <input ng-model="query">
+                Sort by:
+                <select ng-model="orderProp">
+                    <option value="name">Alphabetical</option>
+                    <option value="age">Newest</option>
+                </select>
 
-                        <div class="col-sm-10">
-                            <input type="email" name="email" ng-model="entity.email" required="" class="form-control"
-                                   placeholder="输入邮箱">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">用户名</label>
-
-                        <div class="col-sm-10">
-                            <input required="" ng-pattern="/^[A-Za-z]{1}[0-9A-Za-z_]{1,19}$/" ng-model="entity.name"
-                                   class="form-control" name="username" placeholder="输入用户名">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">密码</label>
-
-                        <div class="col-sm-10">
-                            <input type="password" required="" ng-model="entity.password" name="password"
-                                   class="form-control" ng-minlength="5" ng-maxlength="15"
-                                   placeholder="输入密码">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">数字</label>
-
-                        <div class="col-sm-10">
-                            <input type="number" required="" ng-model="entity.number" name="number" class="form-control"
-                                   placeholder="输入数字">
-                        </div>
-                    </div>
-                    <div class="form-group" ng-show="validateForm.$errors.length > 0 && vm.showErrorType == 2">
-                        <label class="col-sm-2 control-label"></label>
-
-                        <div class="col-sm-10">
-                            <div class="alert alert-danger">{{validateForm.$errors[0]}}</div>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <div class="col-sm-offset-2 col-sm-10">
-                            <button type="buttom" w5c-form-submit="vm.saveEntity()" class="btn btn-success"> 验证</button>
-                        </div>
-                    </div>
-                </form>
+                <ul class="phones">
+                    <li ng-repeat="phone in phones | filter:query | orderBy:orderProp">
+                        {{phone.name}}
+                        <p>{{phone.snippet}}</p>
+                    </li>
+                </ul>
             </div>
         </div>
 	</div>
