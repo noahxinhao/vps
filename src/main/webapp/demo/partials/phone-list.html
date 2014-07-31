@@ -1,0 +1,24 @@
+<div class="col-md-8 col-md-offset-2" ng-controller="PhoneListCtrl">
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>品牌</th>
+            <th>价格</th>
+            <th>出场日期</th>
+            <th>描述</th>
+            <th>详情</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="phone in phones" ng-class="{true: 'active', false: 'success'}[{{phone.id%2==0}}]">
+            <td>{{phone.id}}</td>
+            <td>{{phone.name}}</td>
+            <td>{{phone.price}}</td>
+            <td>{{phone.date}}</td>
+            <td>{{phone.snippet}}</td>
+            <td><a href="#/phones/{{phone.id}}" target="_blank">详情</a></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
