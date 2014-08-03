@@ -3,12 +3,25 @@
         <div class="row">
             <div class="col-sm-6 col-md-6 col-md-offset-3">
                 <div class="thumbnail">
-                    <img ng-src="{{phone.imageUrl}}" alt="..."/>
+                    <img ng-src="{{mainImageUrl||phone.imgs[2]}}" alt="..." style="height: 260px;"/>
                     <div class="caption">
                         <h3>{{phone.name}}</h3>
                         <p>产品ID：{{phone.id}}</p>
                         <p>价格:{{phone.price}}</p>
+                        <p>GPS:{{phone.GPS|checkmark}}</p>
+                        <p>性价比:{{phone.price|checkPrice}} {{phone.price|checkPrice2}}</p>
                         <p>描述:{{phone.snippet}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="row" >
+                    <div class="col-xs-6 col-md-3" ng-repeat="img in phone.imgs">
+                        <a href="" class="thumbnail">
+                            <img ng-src="{{img}}" alt="..." style="height: 60px" ng-mouseover="setImage(img)"/>
+                        </a>
                     </div>
                 </div>
             </div>

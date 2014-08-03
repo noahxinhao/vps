@@ -1,0 +1,22 @@
+<div class="panel panel-default" ng-controller="friendDynamic">
+    <div class="panel-heading">
+        <h3 class="panel-title">{{title}}</h3>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="media-list">
+                    <li class="media" ng-repeat="dyn in dyns">
+                        <a class="pull-left" href="#" ng-show="(dyn.img!='')">
+                            <img class="media-object" ng-src="{{dyn.img}}" alt="..." height="64px">
+                        </a>
+                        <div class="media-body" style="padding: 0px">
+                            <h4 class="media-heading">{{dyn.name}}</h4>
+                            {{dyn.description}}
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

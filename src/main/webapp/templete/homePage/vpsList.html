@@ -1,0 +1,37 @@
+<div class="panel panel-default" ng-controller="vpsDetail">
+    <div class="panel-heading">
+        <h3 class="panel-title">{{title}}</h3>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th>编号</th>
+                        <th>机器ID</th>
+                        <th>申请时间</th>
+                        <th>状态</th>
+                        <th>IP</th>
+                        <th>密码</th>
+                        <th>到期时间</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="vps in vpsList">
+                        <td>{{vps.id}}</td>
+                        <td>{{vps.mcid}}</td>
+                        <td>{{vps.createDate}}</td>
+                        <td>{{vps.status}}</td>
+                        <td>{{vps.ip}}</td>
+                        <td>{{vps.pwd}}</td>
+                        <td>{{vps.endDate}}</td>
+                        <td><a href="#" target="_blank">操作</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

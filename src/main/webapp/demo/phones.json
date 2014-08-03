@@ -1,0 +1,119 @@
+[
+    {
+        "name": "iphone5s",
+        "snippet": "Fast just got faster with Nexus S.",
+        "GPS": true,
+        "id": 1,
+        "price": 4000,
+        "date": "2014/5/9",
+        "imgs": ["img/phoneImg/iphone.jpeg", "img/phoneImg/moto.jpg", "img/phoneImg/sanxing.jpg", "img/phoneImg/moto.jpg"]
+    },
+    {
+        "name": "Motorola XOOM™ with Wi-Fi",
+        "snippet": "The Next, Next Generation tablet.",
+        "GPS": true,
+        "id": 2,
+        "price": 3500,
+        "date": "2014/5/9",
+        "imgs": ["img/phoneImg/sanxing.jpg", "img/phoneImg/iphone.jpeg", "img/phoneImg/moto.jpg", "img/phoneImg/moto.jpg"]
+    },
+    {
+        "name": "Iphone4",
+        "snippet": "The Next, Next Generation tablet.",
+        "GPS": false,
+        "id": 3,
+        "price": 4500,
+        "date": "2014/5/9",
+        "imgs": ["img/phoneImg/iphone.jpeg", "img/phoneImg/moto.jpg", "img/phoneImg/sanxing.jpg", "img/phoneImg/moto.jpg"]
+    },
+    {
+        "name": "MOTOROLA XOOM™",
+        "snippet": "The Next, Next Generation tablet.",
+        "GPS": false,
+        "id": 4,
+        "price": 5000,
+        "date": "2014/5/9",
+        "imgs": ["img/phoneImg/iphone.jpeg", "img/phoneImg/moto.jpg", "img/phoneImg/sanxing.jpg", "img/phoneImg/moto.jpg"]
+    },
+    {
+        "name": "MOTOROLA XOOM™",
+        "snippet": "The Next, Next Generation tablet.",
+        "GPS": true,
+        "id": 5,
+        "price": 5000,
+        "date": "2014/3/9",
+        "imgs": ["img/phoneImg/sanxing.jpg", "img/phoneImg/iphone.jpeg", "img/phoneImg/moto.jpg", "img/phoneImg/moto.jpg"]
+    },
+    {
+        "name": "MOTOROLA XOOM™",
+        "snippet": "The Next, Next Generation tablet.",
+        "GPS": false,
+        "id": 6,
+        "price": 2700,
+        "date": "2014/4/9",
+        "imgs": ["img/phoneImg/moto.jpg", "img/phoneImg/iphone.jpeg", "img/phoneImg/sanxing.jpg", "img/phoneImg/moto.jpg"]
+    },
+    {
+        "name": "MOTOROLA XOOM™",
+        "snippet": "The Next, Next Generation tablet.",
+        "GPS": true,
+        "id": 7,
+        "price": 2900,
+        "date": "2014/5/9",
+        "imgs": ["img/phoneImg/sanxing.jpg", "img/phoneImg/iphone.jpeg", "img/phoneImg/moto.jpg", "img/phoneImg/moto.jpg"]
+    },
+    {
+        "name": "MOTOROLA XOOM™",
+        "snippet": "The Next, Next Generation tablet.",
+        "GPS": true,
+        "id": 8,
+        "price": 3700,
+        "date": "2014/7/9",
+        "imgs": ["img/phoneImg/sanxing.jpg", "img/phoneImg/iphone.jpeg", "img/phoneImg/moto.jpg", "img/phoneImg/moto.jpg"]
+    },
+    {
+        "name": "MOTOROLA XOOM™",
+        "snippet": "The Next, Next Generation tablet.",
+        "GPS": true,
+        "id": 9,
+        "price": 2400,
+        "date": "2014/5/9",
+        "imgs": ["img/phoneImg/sanxing.jpg", "img/phoneImg/iphone.jpeg", "img/phoneImg/moto.jpg", "img/phoneImg/moto.jpg"]
+    },
+    {
+        "name": "MOTOROLA XOOM™",
+        "snippet": "The Next, Next Generation tablet.",
+        "GPS": true,
+        "id": 10,
+        "price": 3400,
+        "date": "2014/2/9",
+        "imgs": ["img/phoneImg/sanxing.jpg", "img/phoneImg/iphone.jpeg", "img/phoneImg/moto.jpg", "img/phoneImg/moto.jpg"]
+    },
+    {
+        "name": "MOTOROLA XOOM™",
+        "snippet": "The Next, Next Generation tablet.",
+        "GPS": true,
+        "id": 11,
+        "price": 4300,
+        "date": "2014/5/9",
+        "imgs": ["img/phoneImg/sanxing.jpg", "img/phoneImg/iphone.jpeg", "img/phoneImg/moto.jpg", "img/phoneImg/moto.jpg"]
+    },
+    {
+        "name": "MOTOROLA XOOM™",
+        "snippet": "The Next, Next Generation tablet.",
+        "GPS": true,
+        "id": 12,
+        "price": 4400,
+        "date": "2014/5/9",
+        "imgs": ["img/phoneImg/sanxing.jpg", "img/phoneImg/iphone.jpeg", "img/phoneImg/moto.jpg", "img/phoneImg/moto.jpg"]
+    },
+    {
+        "name": "MOTOROLA XOOM™",
+        "snippet": "The Next, Next Generation tablet.",
+        "GPS": true,
+        "id": 13,
+        "price": 3000,
+        "date": "2014/5/9",
+        "imgs": ["img/phoneImg/sanxing.jpg", "img/phoneImg/iphone.jpeg", "img/phoneImg/moto.jpg", "img/phoneImg/moto.jpg"]
+    }
+]

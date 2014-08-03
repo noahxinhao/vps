@@ -19,3 +19,5 @@
 <a style="display: none" id="loadpdf" href="javascript:void(0)"></a>
 <script src="${pageContext.request.contextPath}/js/jquery-1.9.1.min.js"></script>
 <script src="${pageContext.request.contextPath}/js/bootstrap.js"></script>
+<script src="${pageContext.request.contextPath}/plugin/angular/angular.js"></script>
+<script src="${pageContext.request.contextPath}/plugin/angular/angular-router.js"></script>

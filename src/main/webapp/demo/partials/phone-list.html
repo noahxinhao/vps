@@ -1,24 +1,51 @@
-<div class="col-md-8 col-md-offset-2" ng-controller="PhoneListCtrl">
-    <table class="table table-hover">
-        <thead>
-        <tr>
-            <th>ID</th>
-            <th>品牌</th>
-            <th>价格</th>
-            <th>出场日期</th>
-            <th>描述</th>
-            <th>详情</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr ng-repeat="phone in phones" ng-class="{true: 'active', false: 'success'}[{{phone.id%2==0}}]">
-            <td>{{phone.id}}</td>
-            <td>{{phone.name}}</td>
-            <td>{{phone.price}}</td>
-            <td>{{phone.date}}</td>
-            <td>{{phone.snippet}}</td>
-            <td><a href="#/phones/{{phone.id}}" target="_blank">详情</a></td>
-        </tr>
-        </tbody>
-    </table>
+<div class="panel panel-default" >
+    <div class="panel-body">
+        <div class="col-md-8 col-md-offset-2" ng-controller="PhoneListCtrl">
+            <form class="form-inline pull-right" role="form">
+                <div class="dropdown form-group">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                        {{selectText}}
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0)" tag="id" ng-click="changeSelect('按编号排序')">按编号排序</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0)" tag="price" ng-click="changeSelect('按价格排序')">按价格排序</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0)" tag="date" ng-click="changeSelect('按日期排序')">按日期排序</a></li>
+                    </ul>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="exampleInputEmail2" placeholder="输入过滤条件" ng-model="query"/>
+                </div>
+                <div class="form-group">
+                    <button type="button" class="btn btn-primary" ng-click="seachPhones()">提交查询</button>
+                </div>
+                <div>
+                    <p ng-show="((queryText!=null&&queryText!='')||(orderText!=null&&orderText!=''))">您的查询条件是:<span ng-show="(orderText!=null&&orderText!='')">按照 {{orderText}} 排序 </span><span ng-show="(queryText!=null&&queryText!='')">搜索关键字：{{queryText}}</span></p>
+                </div>
+            </form>
+
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>品牌</th>
+                    <th>价格</th>
+                    <th>出场日期</th>
+                    <th>描述</th>
+                    <th>详情</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="phone in phones|filter:queryText|orderBy:orderText" ng-class="{true: 'active', false: 'success'}[{{phone.id%2==0}}]">
+                    <td>{{phone.id}}</td>
+                    <td>{{phone.name}}</td>
+                    <td>{{phone.price}}</td>
+                    <td>{{phone.date}}</td>
+                    <td>{{phone.snippet}}</td>
+                    <td><a href="#/details/{{phone.id}}" target="_blank">详情</a></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div>
