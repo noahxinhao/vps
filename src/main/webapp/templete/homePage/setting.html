@@ -1,22 +1,91 @@
-<div class="panel panel-default" ng-controller="setting">
+<div class="panel panel-default" ng-controller="setting" xmlns="http://www.w3.org/1999/html">
     <div class="panel-heading">
         <h3 class="panel-title">{{title}}</h3>
     </div>
     <div class="panel-body">
         <div class="row">
-            <div class="col-md-2 text-center">
-                <img class="img-circle " style="height:80px;width: 80px" alt="why520crazy" src="http://tp3.sinaimg.cn/2530282462/180/5669530341/1"/>
-            </div>
-            <div class=" col-md-8">
-                <dl >
-                    <dt>用户名:</dt>
-                    <dd>{{user.name}}</dd><br/>
-                    <dt>邮箱:</dt>
-                    <dd>{{user.email}}</dd><br/>
-                    <dt>电话:</dt>
-                    <dd>{{user.phone}}</dd>
-                </dl>
+            <div class="col-md-12">
+                <div class="col-md-2 text-center">
+                    <img class="img-circle " style="height:100px;width: 100px" alt="why520crazy"
+                         src="http://tp3.sinaimg.cn/2530282462/180/5669530341/1"/>
+                    <a class="btn btn-sm btn-info" id="changeImg">更换图像</a>
+                    <form name="form0" id="form0" class="hidden">
+                        <input type="file" name="file0" id="file0" multiple="multiple" /><br><img src="" id="img0" >
+                    </form>
+                </div>
+                <div class=" col-md-5">
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">用户名:</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">邮箱:</label>
+                            <input type="text" class="form-control" id="email" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">手机号码:</label>
+                            <input type="text" class="form-control" id="phone" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-default">保存修改</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">更换用户图像</h4>
+            </div>
+            <div class="modal-body text-center">
+                <div class="row">
+                    <div class="col-xs-7 col-md-8" id="bigImg">
+                        <div class="thumbnail">
+                            <img src="" data-src="holder.js/100%x180" id="showImg"/>
+                        </div>
+                    </div>
+                    <div class="col-xs-5 col-md-4" id="preview-pane">
+                        <div class="preview-container thumbnail">
+                            <img src="" class="jcrop-preview" class="img-circle" data-src="holder.js/100%x180" alt="Preview" id="previewImg"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $("#changeImg").bind("click",function(){
+        $("#file0").click();
+    });
+
+    $("#file0").change(function(){
+        var objUrl = getObjectURL(this.files[0]) ;
+        console.log("objUrl = "+objUrl) ;
+        if (objUrl) {
+            $("#showImg").attr("src", objUrl) ;
+            $("#previewImg").attr("src", objUrl) ;
+            $("#myModal").modal("show");
+            /*init_jcrop();*/
+        }
+    }) ;
+    //建立一個可存取到該file的url
+    function getObjectURL(file) {
+        var url = null ;
+        if (window.createObjectURL!=undefined) { // basic
+            url = window.createObjectURL(file) ;
+        } else if (window.URL!=undefined) { // mozilla(firefox)
+            url = window.URL.createObjectURL(file) ;
+        } else if (window.webkitURL!=undefined) { // webkit or chrome
+            url = window.webkitURL.createObjectURL(file) ;
+        }
+        return url ;
+    }
+</script>

@@ -2,7 +2,7 @@
 angular.module('mainPage', []).
     config(['$routeProvider','$locationProvider', function ($routeProvider,$locationProvider) {
         $routeProvider.
-            when('/home', {templateUrl: 'templete/homePage/userDetail.html', controller: userDetail}).
+            /*when('/home', {templateUrl: 'templete/homePage/userDetail.html', controller: userDetail}).
             when('/home/userDetail', {templateUrl: 'templete/homePage/userDetail.html', controller: userDetail}).
             when('/home/vpsDetail', {templateUrl: 'templete/homePage/vpsList.html', controller: vpsDetail}).
             when('/home/setting', {templateUrl: 'templete/homePage/setting.html', controller: setting}).
@@ -13,8 +13,18 @@ angular.module('mainPage', []).
             when('/vps', {redirectTo:'/'}).
             when('/index', {redirectTo:'/'}).
             when('/blog', {redirectTo:'/'}).
-            otherwise({redirectTo: '/home/'});
-        $locationProvider.html5Mode(true);
+            otherwise({redirectTo: '/'});*/
+
+            when('/', {templateUrl: 'templete/homePage/userDetail.html', controller: userDetail}).
+            when('/userDetail', {templateUrl: 'templete/homePage/userDetail.html', controller: userDetail}).
+            when('/vpsDetail', {templateUrl: 'templete/homePage/vpsList.html', controller: vpsDetail}).
+            when('/setting', {templateUrl: 'templete/homePage/setting.html', controller: setting}).
+            when('/resources', {templateUrl: 'templete/homePage/resources.html', controller: resources}).
+            when('/myFriends', {templateUrl: 'templete/homePage/myFriends.html', controller: myFriends}).
+            when('/myBlog', {templateUrl: 'templete/homePage/myBlog.html', controller: myBlog}).
+            when('/friendDynamic', {templateUrl: 'templete/homePage/friendDynamic.html', controller: friendDynamic}).
+            otherwise({redirectTo: '/'});
+        /*$locationProvider.html5Mode(true);*/
     }]).controller("pageUrl",
     function ($scope) {
         $scope.userName = "noahli";
