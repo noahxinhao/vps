@@ -5,10 +5,7 @@ import org.apache.log4j.Logger;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
@@ -30,6 +27,8 @@ public class Configuration {
     public static final Map<String, String> dm_mobile_map = new HashMap<>();
     public static final Properties global_config = new Properties();
     public static String ARTICLES = "ARTICLES";
+    public static transient String verify_email_templete = "";
+    public static transient String signup_success_templete = "";
     // 初始化
     public static void init_config() {
         logger.info("#init_serverconfig");
@@ -39,6 +38,8 @@ public class Configuration {
             logger.info("#初始化 hibernate 配置文件");
             Tool_Hibernate.init_session_factory();
             Tool_Mongo.init_mongodb_pool();
+            /*加载邮件模板*/
+            load_email_templete();
         } catch (Exception e) {
             e.printStackTrace();
             logger.error("#读取配置文件错误");
@@ -77,6 +78,42 @@ public class Configuration {
             global_config.load(resourceAsStream);
         }catch (Exception e){
             e.printStackTrace();
+        }
+    }
+
+    /*email模板*/
+    public static void load_email_templete() {
+        /*邮箱验证模板*/
+        try {
+            File db_conf = new File(Configuration.class.getClassLoader().getResource("email_templete/verify_email_templete.html").getPath());
+            FileInputStream fis = new FileInputStream(db_conf);
+            byte[] buffer = new byte[1024];
+            StringBuffer stringbuffer = new StringBuffer();
+            while ((fis.read(buffer)) != -1) {
+                stringbuffer.append(new String(buffer, "utf-8"));
+                buffer = new byte[1024];
+            }
+            verify_email_templete = stringbuffer.toString();
+            fis.close();
+        } catch (Exception e) {
+            logger.error("解析邀请邮件模板错误",e);
+            System.exit(1);
+        }
+        /*注册成功模板*/
+        try {
+            File db_conf = new File(Configuration.class.getClassLoader().getResource("email_templete/signup_success_templete.html").getPath());
+            FileInputStream fis = new FileInputStream(db_conf);
+            byte[] buffer = new byte[1024];
+            StringBuffer stringbuffer = new StringBuffer();
+            while ((fis.read(buffer)) != -1) {
+                stringbuffer.append(new String(buffer, "utf-8"));
+                buffer = new byte[1024];
+            }
+            signup_success_templete = stringbuffer.toString();
+            fis.close();
+        } catch (Exception e) {
+            logger.error("解析邀请邮件模板错误",e);
+            System.exit(1);
         }
     }
 }

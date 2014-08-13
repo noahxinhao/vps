@@ -38,8 +38,6 @@ public class Tool_Hibernate {
 				cfg = autoScanAnnotatedEntityClass("com.vps.model", cfg);
 				ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder().applySettings(cfg.getProperties()).build();
 				sessionFactory = cfg.buildSessionFactory(serviceRegistry);
-
-
             } catch (Throwable e) {
 				throw new ExceptionInInitializerError(e);
 			}

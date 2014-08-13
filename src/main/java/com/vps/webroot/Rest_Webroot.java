@@ -69,7 +69,7 @@ public class Rest_Webroot {
         DBCollection collection = Tool_Mongo.get_mongo_collection();
         BasicDBObject basicDBObject = new BasicDBObject(ARTICLES);
         collection.save(basicDBObject);
-        response.getWriter().write(Return.SUCCESS(""));
+        response.getWriter().write(Return.SUCCESS("发布完成"));
     }
 
     /*生成验证码*/

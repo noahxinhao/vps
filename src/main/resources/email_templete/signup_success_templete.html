@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+</head>
+<body>
+<style>
+    .mmsgLetter {
+        width: 580px;
+        margin: 0 auto;
+        padding: 10px;
+        color: #333;
+        background: #fff;
+        border: 0px solid #aaa;
+        border: 1px solid #aaa\9;
+        border-radius: 5px;
+        -webkit-box-shadow: 3px 3px 10px #999;
+        -moz-box-shadow: 3px 3px 10px #999;
+        box-shadow: 3px 3px 10px #999;
+        font-family: Verdana, sans-serif;
+    }
+
+    .mmsgLetter a:link,
+    .mmsgLetter a:visited {
+        color: #407700;
+    }
+
+    .mmsgLetterContent {
+        text-align: left;
+        padding: 30px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .mmsgLetterContent h3 {
+        color: #000;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20px 0 20px;
+        border-top: 2px solid #eee;
+        padding: 20px 0 0 0;
+        font-family: "微软雅黑", "黑体", "Lucida Grande", Verdana, sans-serif;
+    }
+
+    .mmsgLetterContent p {
+        margin: 20px 0;
+        padding: 0;
+    }
+
+    .mmsgLetterContent .salutation {
+        font-weight: bold;
+    }
+
+    .mmsgLetterContent .mmsgMoreInfo {
+    }
+
+    .mmsgLetterContent a.mmsgButton {
+        display: block;
+        float: left;
+        height: 40px;
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .mmsgLetterContent a.mmsgButton span {
+        display: block;
+        float: left;
+        padding: 0 25px;
+        height: 40px;
+        line-height: 36px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #fff;
+        text-shadow: 1px 0 0 #235e00;
+    }
+
+    .mmsgLetterContent a.mmsgButton:link,
+    .mmsgLetterContent a.mmsgButton:visited {
+        background: #338702 url(imdou8_host/img/letter_2_btn.png) no-repeat right -40px;
+    }
+
+    .mmsgLetterContent a.mmsgButton:link span,
+    .mmsgLetterContent a.mmsgButton:visited span {
+        background: url(imdou8_host/img/letter_2_btn.png) no-repeat 0 0;
+    }
+
+    .mmsgLetterContent a.mmsgButton:hover,
+    .mmsgLetterContent a.mmsgButton:active {
+        background: #338702 url(imdou8_host/img/letter_2_btn.png) no-repeat right -120px;
+    }
+
+    .mmsgLetterContent a.mmsgButton:hover span,
+    .mmsgLetterContent a.mmsgButton:active span {
+        background: url(imdou8_host/img/letter_2_btn.png) no-repeat 0 -80px;
+    }
+
+    .mmsgLetterInscribe {
+        padding: 40px 0 0;
+    }
+
+    .mmsgLetterInscribe .mmsgAvatar {
+        float: left;
+    }
+
+    .mmsgLetterInscribe .mmsgName {
+        margin: 0 0 10px;
+    }
+
+    .mmsgLetterInscribe .mmsgSender {
+        margin: 0 0 0 54px;
+    }
+
+    .mmsgLetterInscribe .mmsgInfo {
+        font-size: 12px;
+        margin: 0;
+        line-height: 1.2;
+    }
+
+    .mmsgLetterHeader {
+        height: 23px;
+        background: url(imdou8_host/img/letter_2_bg_topline.png) repeat-x 0 0;
+    }
+
+    .mmsgLetterFooter {
+        margin: 16px;
+        text-align: center;
+        font-size: 12px;
+        color: #888;
+        text-shadow: 1px 0px 0px #eee;
+    }
+
+    .mmsgLetterClr {
+        clear: both;
+        overflow: hidden;
+        height: 1px;
+    }
+
+    .mmsgLetterUser {
+        padding: 10px 0;
+    }
+
+    .mmsgLetterUserItem {
+        padding: 0 0 20px 0;
+    }
+
+    .mmsgLetterUserAvatar {
+        height: 40px;
+        border: 1px solid #ccc;
+        padding: 2px;
+        display: block;
+        float: left;
+    }
+
+    .mmsgLetterUserAvatar img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .mmsgLetterInfo {
+        margin-left: 48px;
+    }
+
+    .mmsgLetterName {
+        display: block;
+        color: #5fa207;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+
+    .mmsgLetterDesc {
+        font-size: 12px;
+        float: left;
+        height: 43px;
+        background: url(imdou8_host/img/letter_chat_right.gif) no-repeat right top;
+    }
+
+    .mmsgLetterDesc div {
+        white-space: nowrap;
+        float: left;
+        height: 43px;
+        padding: 0 20px;
+        line-height: 40px;
+        background: url(imdou8_host/img/letter_chat_left.gif) no-repeat left top;
+    }
+
+    .mmsgLetterUser {
+    }
+
+    .mmsgLetterAvatar {
+        float: left;
+    }
+
+    .mmsgLetterInfo {
+        margin: 0 0 0 60px;
+    }
+
+    .mmsgLetterNickName {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .mmsgLetterUin {
+        font-size: 12px;
+        color: #666;
+    }
+</style>
+<div style="background-color:#d0d0d0;background-image:url(imdou8_host/img/letter_2_bg.png);text-align:center;padding:40px;">
+    <div class="mmsgLetter"
+         style="width:580px;margin:0 auto;padding:10px;color:#333;background-color:#fff;border:0px solid #aaa;border-radius:5px;-webkit-box-shadow:3px 3px 10px #999;-moz-box-shadow:3px 3px 10px #999;box-shadow:3px 3px 10px #999;font-family:Verdana, sans-serif; ">
+        <div class="mmsgLetterHeader"
+             style="height:23px;background:url(imdou8_host/img/letter_2_bg_topline.png) repeat-x 0 0;">
+        </div>
+        <div class="mmsgLetterContent"
+             style="text-align:left;padding:30px;font-size:14px;line-height:1.5;">
+            <div>
+                <p class="salutation" style="font-weight:bold;">
+                    Hi,<span id="mailUserName">signup_user_name</span>：
+                </p>
+                <p>恭喜您注册成功！您将在账户激活之后享有imdou8网站提供的免费vps服务，请点击如下链接以激活您的账户。（此邮件有效期至2014年8月12日13时45分23秒）<br><br>
+                    <a target="_blank"
+                       href="activation_url">activation_url</a><br><br>如果这不是您的邮件请忽略，很抱歉打扰您，请原谅。
+                </p>
+            </div>
+            <div class="mmsgLetterInscribe" style="padding:40px 0 0;">
+                <img class="mmsgAvatar"
+                     src="http://weixin.qq.com/zh_CN/htmledition/images/weixin/letter/mmsgletter_2_avatar_01.png"
+                     style="float:left;">
+
+                <div class="mmsgSender" style="margin:0 0 0 54px;">
+                    <p class="mmsgName" style="margin:0 0 10px;">Claire Wang</p>
+
+                    <p class="mmsgInfo" style="font-size:12px;margin:0;line-height:1.2;">
+                        微信产品经理<br>
+                        <a target="_blank" href="mailto:mailto_address" style="color:#407700;">mailto_address</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="mmsgLetterFooter"
+             style="margin:16px;text-align:center;font-size:12px;color:#888;text-shadow:1px 0px 0px #eee;">
+        </div>
+    </div>
+</div>
+<style>
+    #mailContentContainer .txt {
+        height: auto;
+    }
+</style>
+</body>
+</html>

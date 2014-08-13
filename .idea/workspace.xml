@@ -2,15 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97a22a5b-b9a1-4335-bdd0-cd4b4dfe9045" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js_control/jcropPic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/jcrop/jquery.Jcrop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/jcrop/jquery.Jcrop.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/jcrop/Jcrop.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/letter_2_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/letter_2_bg_topline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/letter_2_btn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/letter_chat_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/vps/filter/Filter_Args.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/demo/demo03.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/jcrop/jquery.Jcrop.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/jcrop/jquery.Jcrop.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/email_templete/signup_success_templete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/email_templete/verify_email_templete.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/email_template_certification_notification.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/email_template_invitation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/email_template_verfication.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/spring_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/demo.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vps/configuraction/Configuration.java" afterPath="$PROJECT_DIR$/src/main/java/com/vps/configuraction/Configuration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vps/tools/Global_Tools.java" afterPath="$PROJECT_DIR$/src/main/java/com/vps/tools/Global_Tools.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_UserControl.java" afterPath="$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_UserControl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Webroot.java" afterPath="$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Webroot.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vps/tools/Tool_Hibernate.java" afterPath="$PROJECT_DIR$/src/main/java/com/vps/tools/Tool_Hibernate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/properties/develop.properties" afterPath="$PROJECT_DIR$/src/main/resources/properties/develop.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/global_configuration.properties" afterPath="$PROJECT_DIR$/src/main/resources/global_configuration.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/home.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js_control/mainPage.js" afterPath="$PROJECT_DIR$/src/main/webapp/js_control/mainPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js_control/jcropPic.js" afterPath="$PROJECT_DIR$/src/main/webapp/js_control/jcropPic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/plugin/jcrop/jquery.Jcrop.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/jcrop/jquery.Jcrop.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/master.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/master.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mongodb.properties" afterPath="$PROJECT_DIR$/src/main/resources/mongodb.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/properties/production.properties" afterPath="$PROJECT_DIR$/src/main/resources/properties/production.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templete/homePage/setting.html" afterPath="$PROJECT_DIR$/src/main/webapp/templete/homePage/setting.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/vps.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/vps.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vps.iml" afterPath="$PROJECT_DIR$/vps.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vps.iws" />
@@ -22,6 +47,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/vps$Test.coverage" NAME="Test Coverage Results" MODIFIED="1407501354420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.springapp.mvc.*</FILTER>
+    </SUITE>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -75,75 +110,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="resources.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/resources.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="179" selection-end="859" vertical-scroll-proportion="-0.0" vertical-offset="95" max-vertical-offset="532">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="friendDynamic.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/friendDynamic.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="71" selection-start="495" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="532">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setting.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="setting.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/setting.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="48" selection-start="2379" selection-end="2379" vertical-scroll-proportion="0.29411766" vertical-offset="760" max-vertical-offset="1843">
+            <state line="12" column="18" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="2356">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rest_UserControl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_UserControl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="97" selection-start="3562" selection-end="3562" vertical-scroll-proportion="0.0" vertical-offset="1444" max-vertical-offset="1634">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup_success_templete.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/email_templete/signup_success_templete.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="223" column="20" selection-start="5620" selection-end="5620" vertical-scroll-proportion="0.0" vertical-offset="4112" max-vertical-offset="4883">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="verify_email_templete.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/email_templete/verify_email_templete.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="220" column="23" selection-start="5379" selection-end="5379" vertical-scroll-proportion="0.21933086" vertical-offset="4062" max-vertical-offset="4940">
               <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jcropPic.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/js_control/jcropPic.js">
+      <file leaf-file-name="Rest_Webroot.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Webroot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="27" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0" vertical-offset="581" max-vertical-offset="931">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/demo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="5" selection-start="374" selection-end="1056" vertical-scroll-proportion="-15.481482" vertical-offset="171" max-vertical-offset="760">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vpsList.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/vpsList.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="47" selection-start="277" selection-end="288" vertical-scroll-proportion="13.259259" vertical-offset="491" max-vertical-offset="817">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/home.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="70" selection-start="4767" selection-end="4767" vertical-scroll-proportion="-6.6666665" vertical-offset="808" max-vertical-offset="1159">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="angular-router.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/plugin/angular/angular-router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3209" column="15" selection-start="137844" selection-end="137844" vertical-scroll-proportion="0.0" vertical-offset="59890" max-vertical-offset="61332">
+            <state line="79" column="49" selection-start="3329" selection-end="3329" vertical-scroll-proportion="0.0" vertical-offset="1501" max-vertical-offset="1729">
               <folding />
             </state>
           </provider>
@@ -162,25 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/vps/util/ValidateCode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Webroot.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/signup.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/signin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js_control/signin.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/angularDemo.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js_control/angulardemo01.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vps/tools/Global_Tools.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/model.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vps/model/SysUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_UserControl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js_control/signup.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js_control/angulardemo.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/head.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/3_form.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/partials.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/partials/phone-list.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/demo02.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/partials/phone-detail.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/demo/partials/phone-detail.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/phones.json" />
         <option value="$PROJECT_DIR$/src/main/webapp/demo/js/demo02.js" />
@@ -188,7 +188,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/demo/phones.json" />
         <option value="$PROJECT_DIR$/src/main/webapp/demo/demo02.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/templete/homePage/user.json" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/templete/homePage/vps.json" />
         <option value="$PROJECT_DIR$/src/main/webapp/templete/homePage/myFriends.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/templete/homePage/userDetail.html" />
@@ -196,17 +195,43 @@
         <option value="$PROJECT_DIR$/src/main/webapp/templete/homePage/blogs.json" />
         <option value="$PROJECT_DIR$/src/main/webapp/templete/homePage/myBlog.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/templete/homePage/resources.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/templete/homePage/res.json" />
         <option value="$PROJECT_DIR$/src/main/webapp/templete/homePage/friendDynamic.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/plugin/angular/angular-router.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/footer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js_control/mainPage.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/demo.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/home.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/vps.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/demo/demo03.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/master.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/plugin/jcrop/jquery.Jcrop.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js_control/img_tools.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templete/verify_email.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templete/signup_success_templete.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vps/configuraction/Configuration.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templete/verify_email_templete.html" />
+        <option value="$PROJECT_DIR$/src/test/java/com/springapp/mvc/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mongodb.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate_credit.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vps/tools/Tool_Hibernate.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/global_configuration.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vps/tools/Global_Tools.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js_control/mainPage.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/properties/develop.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/properties/production.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Webroot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vps/filter/Filter_Args.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/springapp/mvc/ImagePreProcess3.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/templete/homePage/dyn.json" />
+        <option value="$PROJECT_DIR$/src/main/webapp/templete/homePage/res.json" />
+        <option value="$PROJECT_DIR$/src/main/webapp/demo.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js_control/img_tools1.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/meta.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/js_control/jcropPic.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/home.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/templete/homePage/setting.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_UserControl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/email_templete/signup_success_templete.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/email_templete/verify_email_templete.html" />
       </list>
     </option>
   </component>
@@ -226,8 +251,18 @@
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="68" />
+    <option name="x" value="1434" />
     <option name="y" value="-4" />
     <option name="width" value="1299" />
     <option name="height" value="773" />
@@ -260,6 +295,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -291,26 +327,16 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vps" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="mvc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -329,40 +355,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -384,15 +376,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jcrop" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -414,11 +398,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js_control" />
+              <option name="myItemId" value="email_templete" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -440,11 +458,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vps" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -463,13 +485,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -486,29 +515,30 @@
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJSP" value="false" />
     <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
-    <property name="LayoutCode.rearrangeEntriesJSON" value="false" />
-    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.vps.filter" />
       <recent name="com.vps.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/plugin/jcrop" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/templete/homePage" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/demo/js" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/img/phoneImg" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/js_control" />
       <recent name="$PROJECT_DIR$/src/main/webapp/img" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/plugin/jcrop" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/plugin/jcrop/css" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/templete/homePage" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/properties/img" />
       <recent name="$PROJECT_DIR$/src/main/webapp/demo" />
       <recent name="$PROJECT_DIR$/src/main/webapp/demo/img" />
     </key>
@@ -859,11 +889,27 @@
       <workItem from="1407042184909" duration="26336000" />
       <workItem from="1407117060422" duration="1232000" />
       <workItem from="1407162928531" duration="10781000" />
+      <workItem from="1407203597412" duration="1263000" />
+      <workItem from="1407213136116" duration="6993000" />
+      <workItem from="1407248906915" duration="7841000" />
+      <workItem from="1407289905559" duration="5664000" />
+      <workItem from="1407425927610" duration="4090000" />
+      <workItem from="1407463832556" duration="646000" />
+      <workItem from="1407489760361" duration="181000" />
+      <workItem from="1407494467541" duration="4809000" />
+      <workItem from="1407500272694" duration="1606000" />
+      <workItem from="1407506973483" duration="3285000" />
+      <workItem from="1407510302297" duration="6470000" />
+      <workItem from="1407756281298" duration="564000" />
+      <workItem from="1407839458525" duration="1417000" />
+      <workItem from="1407849636762" duration="4000" />
+      <workItem from="1407849659147" duration="12014000" />
+      <workItem from="1407896142315" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89062000" />
+    <option name="totallyTimeSpent" value="145914000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -886,38 +932,40 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="68" y="-4" width="1299" height="773" extended-state="6" />
-    <editor active="false" />
+    <frame x="1434" y="-4" width="1299" height="773" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36363637" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35566187" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840237" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45773524" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840237" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16972111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2621514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41307816" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36044657" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -942,297 +990,307 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Webroot.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/email_templete/signup_success_templete.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+        <state line="223" column="20" selection-start="5620" selection-end="5620" vertical-scroll-proportion="0.0" vertical-offset="4112" max-vertical-offset="4883">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/signup.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/email_templete/verify_email_templete.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/signin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js_control/signin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js_control/signup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vps.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/util/ValidateCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/signin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/plugin/angular/ng-grid.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/plugin/angular/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/signup.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/model.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/model/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/tools/Global_Tools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+        <state line="220" column="23" selection-start="5379" selection-end="5379" vertical-scroll-proportion="0.0" vertical-offset="4062" max-vertical-offset="4940">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Webroot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js_control/signin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js_control/signup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/head.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/demo/js/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/user.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="79" selection-end="79" vertical-scroll-proportion="-2.1111112" vertical-offset="0" max-vertical-offset="190" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="22" selection-start="1370" selection-end="1370" vertical-scroll-proportion="0.0" vertical-offset="707" max-vertical-offset="2603" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/vps.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="25" selection-end="25" vertical-scroll-proportion="-1.4074074" vertical-offset="0" max-vertical-offset="304" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/blog.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="27" selection-start="765" selection-end="1087" vertical-scroll-proportion="-7.740741" vertical-offset="342" max-vertical-offset="2907" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/userDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="60" selection-start="60" selection-end="60" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="532" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/demo/demo01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="129" selection-start="3141" selection-end="3204" vertical-scroll-proportion="0.4648318" vertical-offset="1311" max-vertical-offset="1805" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/demo/demo02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="47" selection-start="403" selection-end="403" vertical-scroll-proportion="-5.6296296" vertical-offset="0" max-vertical-offset="418" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/demo/js/demo02.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="23" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1311" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/meta.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="20" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.6647059" vertical-offset="382" max-vertical-offset="722" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/myBlog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="49" selection-start="828" selection-end="853" vertical-scroll-proportion="-6.111111" vertical-offset="234" max-vertical-offset="779" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/demo/partials/phone-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="44" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="665">
+        <state line="79" column="49" selection-start="3329" selection-end="3329" vertical-scroll-proportion="0.0" vertical-offset="1501" max-vertical-offset="1729">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/blogs.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="40" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="589">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/demo/phones.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="42" selection-start="2412" selection-end="2436" vertical-scroll-proportion="0.0974359" vertical-offset="1311" max-vertical-offset="2375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/demo/partials/phone-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="40" selection-start="1865" selection-end="1865" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="1083">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/res.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="1" selection-start="1493" selection-end="1493" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/dyn.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/resources.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="179" selection-end="859" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="532">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/friendDynamic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="71" selection-start="495" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="532">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/plugin/angular/angular-router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3209" column="15" selection-start="137844" selection-end="137844" vertical-scroll-proportion="0.0" vertical-offset="60916" max-vertical-offset="61332">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="77" selection-start="1048" selection-end="1048" vertical-scroll-proportion="-10.185185" vertical-offset="143" max-vertical-offset="551" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/myFriends.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="39" selection-start="131" selection-end="131" vertical-scroll-proportion="0.37037036" vertical-offset="48" max-vertical-offset="532">
-          <folding />
-        </state>
+        <state line="2" column="39" selection-start="131" selection-end="131" vertical-scroll-proportion="0.37037036" vertical-offset="48" max-vertical-offset="532" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/vpsList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="47" selection-start="277" selection-end="288" vertical-scroll-proportion="13.259259" vertical-offset="491" max-vertical-offset="817">
-          <folding />
-        </state>
+        <state line="7" column="47" selection-start="277" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="491" max-vertical-offset="817" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/demo.html">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/vps.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="5" selection-start="374" selection-end="1056" vertical-scroll-proportion="-15.481482" vertical-offset="171" max-vertical-offset="760">
-          <folding />
-        </state>
+        <state line="81" column="0" selection-start="1461" selection-end="1461" vertical-scroll-proportion="0.6742857" vertical-offset="1303" max-vertical-offset="1653" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/home.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/plugin/angular/angular-router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="70" selection-start="4767" selection-end="4767" vertical-scroll-proportion="-6.6666665" vertical-offset="808" max-vertical-offset="1159">
-          <folding />
-        </state>
+        <state line="3209" column="15" selection-start="137844" selection-end="137844" vertical-scroll-proportion="0.0" vertical-offset="60916" max-vertical-offset="61332" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/demo/demo02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="3" selection-start="51" selection-end="73" vertical-scroll-proportion="-2.1111112" vertical-offset="0" max-vertical-offset="418" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/master.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="179" column="0" selection-start="3246" selection-end="3246" vertical-scroll-proportion="0.0" vertical-offset="3154" max-vertical-offset="3515" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/demo/demo03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="37" selection-start="1597" selection-end="1597" vertical-scroll-proportion="-0.53271025" vertical-offset="969" max-vertical-offset="2831" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/plugin/jcrop/jquery.Jcrop.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="4" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.33144477" vertical-offset="510" max-vertical-offset="32300">
+        <state line="1226" column="39" selection-start="30868" selection-end="30868" vertical-scroll-proportion="0.78116345" vertical-offset="23012" max-vertical-offset="32300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="207" selection-end="276" vertical-scroll-proportion="0.17657992" vertical-offset="0" max-vertical-offset="1102" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_DownLoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="90" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="1235" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/tools/Tool_Mongo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="68" selection-start="1191" selection-end="1194" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="1843" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring_mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="52" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/tools/Tool_Hibernate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="1444" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mongodb.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="46" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="266" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/tools/Global_Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="627" max-vertical-offset="2831" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="27" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="3572" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/ie8-responsive-file-warning.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="42" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring_datasource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="70" selection-start="2822" selection-end="2826" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="1539">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/util/ValidateCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="36" selection-start="238" selection-end="238" vertical-scroll-proportion="0.33084577" vertical-offset="0" max-vertical-offset="1083" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate_credit.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="25" selection-start="285" selection-end="285" vertical-scroll-proportion="0.13381995" vertical-offset="40" max-vertical-offset="1463">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js_control/mainPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="33" selection-start="1199" selection-end="1209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1729">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="5" column="73" selection-start="339" selection-end="339" vertical-scroll-proportion="0.22093023" vertical-offset="0" max-vertical-offset="1729" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/master.css">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/develop.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="180" column="0" selection-start="3247" selection-end="3247" vertical-scroll-proportion="0.0" vertical-offset="3108" max-vertical-offset="3534">
+        <state line="22" column="29" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0" vertical-offset="177" max-vertical-offset="665" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/AppTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1239" selection-end="1239" vertical-scroll-proportion="0.0" vertical-offset="214" max-vertical-offset="608" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" vertical-offset="740" max-vertical-offset="1254" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/global_configuration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/production.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="37" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="665" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/FilterConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="21" selection-start="290" selection-end="290" vertical-scroll-proportion="0.52597404" vertical-offset="28" max-vertical-offset="361" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../install/jdk1.7.0_17/jre/lib/resources.jar!/com/sun/org/apache/xml/internal/serializer/output_xml.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="76" selection-end="76" vertical-scroll-proportion="0.2852853" vertical-offset="456" max-vertical-offset="1026" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/configuraction/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="26" selection-start="693" selection-end="693" vertical-scroll-proportion="0.33221477" vertical-offset="110" max-vertical-offset="2128" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/filter/Filter_Args.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="56" selection-start="1114" selection-end="1122" vertical-scroll-proportion="0.59375" vertical-offset="494" max-vertical-offset="1577" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="22" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="2508">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/vps.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/filter/Page_Encoding_Filter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="0" selection-start="1461" selection-end="1461" vertical-scroll-proportion="0.6742857" vertical-offset="1303" max-vertical-offset="1653">
-          <folding />
-        </state>
+        <state line="18" column="35" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="288" column="23" selection-start="10213" selection-end="10213" vertical-scroll-proportion="0.0" vertical-offset="5415" max-vertical-offset="7752" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/user.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="368" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/blogs.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="47" selection-start="55" selection-end="55" vertical-scroll-proportion="0.1046832" vertical-offset="0" max-vertical-offset="589" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/vps.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="368" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/res.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="23" selection-start="655" selection-end="655" vertical-scroll-proportion="-10.555555" vertical-offset="0" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/dyn.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="29" selection-start="661" selection-end="661" vertical-scroll-proportion="-10.555555" vertical-offset="0" max-vertical-offset="646" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js_control/jcropPic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="27" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0" vertical-offset="581" max-vertical-offset="931">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" vertical-offset="2280" max-vertical-offset="2850" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="-8.444445" vertical-offset="0" max-vertical-offset="969" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/meta.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="483" selection-end="483" vertical-scroll-proportion="-3.5185184" vertical-offset="171" max-vertical-offset="722" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/setting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="48" selection-start="2379" selection-end="2379" vertical-scroll-proportion="0.29411766" vertical-offset="760" max-vertical-offset="1843">
+        <state line="12" column="18" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="2356">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Webroot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="49" selection-start="3329" selection-end="3329" vertical-scroll-proportion="0.0" vertical-offset="515" max-vertical-offset="1330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_UserControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="97" selection-start="3562" selection-end="3562" vertical-scroll-proportion="0.0" vertical-offset="898" max-vertical-offset="1349">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/email_templete/signup_success_templete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="223" column="20" selection-start="5620" selection-end="5620" vertical-scroll-proportion="0.0" vertical-offset="4112" max-vertical-offset="4883">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/email_templete/verify_email_templete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="220" column="23" selection-start="5379" selection-end="5379" vertical-scroll-proportion="0.21933086" vertical-offset="4062" max-vertical-offset="4940">
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1256,7 +1314,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Hibernate</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

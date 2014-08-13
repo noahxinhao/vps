@@ -1224,7 +1224,7 @@
         position: 'fixed',
         left: '-120px',
         width: '12px'
-      }).addClass('jcrop-keymgr'),
+      }).addClass('jcrop-keymgr fade'),
 
         $keywrap = $('<div />').css({
           position: 'absolute',

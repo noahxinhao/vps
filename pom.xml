@@ -93,12 +93,6 @@
             <version>3.1</version>
         </dependency>
 
-        <!--<dependency>-->
-        <!--<groupId>net.sf.ehcache</groupId>-->
-        <!--<artifactId>ehcache</artifactId>-->
-        <!--<version>2.7.0</version>-->
-        <!--</dependency>-->
-
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-jdk14</artifactId>
@@ -227,7 +221,7 @@
         <profile>
             <id>develop</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <properties>
                 <filter.property.path></filter.property.path>
@@ -262,7 +256,7 @@
         <profile>
             <id>production</id>
             <activation>
-                <activeByDefault>false</activeByDefault>
+                <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
                 <filter.property.path></filter.property.path>
@@ -290,6 +284,7 @@
                     <include>*.xml</include>
                     <include>*.html</include>
                     <include>*.properties</include>
+                    <include>email_templete/*</include>
                 </includes>
             </resource>
         </resources>
@@ -333,7 +328,6 @@
                     </execution>
                 </executions>
             </plugin>
-
             <plugin>
                 <artifactId>maven-antrun-plugin</artifactId>
                 <dependencies>
