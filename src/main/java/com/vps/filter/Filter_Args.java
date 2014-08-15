@@ -37,11 +37,10 @@ public class Filter_Args implements Filter {
 		HttpServletResponse response = (HttpServletResponse) sresponse;
 		// 设置编码
 		String encoding = Configuration.charset.toString();
-
-		request.setCharacterEncoding(encoding);
 		// 跨域
 		response.setHeader("Access-Control-Allow-Origin", allow);
-
+        request.setCharacterEncoding(encoding);
+        response.setCharacterEncoding(encoding);
 		try {
 			filterChain.doFilter(srequset, sresponse);
 		} catch (Exception e) {

@@ -11,11 +11,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.hibernate.Session;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.mail.MessagingException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+
+import static com.vps._return.Return.*;
 
 /**
  * Created by noah on 14-7-29.
@@ -24,20 +27,29 @@ import java.io.IOException;
 @RequestMapping("/ruc")
 public class Rest_UserControl {
     Md5PasswordEncoder md5 = new Md5PasswordEncoder();
-    @RequestMapping(method = RequestMethod.POST, value = "/signup")
+    @RequestMapping(method = RequestMethod.GET, value = "/verifyAccount")
+    @ResponseBody
+    public void verifyAccount(HttpServletRequest request, HttpServletResponse response, String account) throws IOException, MessagingException {
+        if(account.equals("18721988563")){
+            response.getWriter().write(SUCCESS("用户名已使用"));
+        }else{
+            response.getWriter().write(SUCCESS("用户名可用"));
+        }
+    }
+        @RequestMapping(method = RequestMethod.POST, value = "/signup")
     public void signup(HttpServletRequest request, HttpServletResponse response, String account, String password, String validate_code) throws IOException, MessagingException {
         if (account == "" || password == "" || validate_code == "") {
-            response.getWriter().write(Return.SUCCESS("注册信息不完整"));
+            response.getWriter().write(SUCCESS("注册信息不完整"));
             return;
         }
         if (!validate_code.equals(request.getSession().getAttribute(request.getSession().getId()))) {
-            response.getWriter().write(Return.SUCCESS("验证码错误"));
+            response.getWriter().write(SUCCESS("验证码错误"));
             return;
         }
 
         String verify = Global_Tools.verifyAccount(account);
         if (verify.equals(null)) {
-            response.getWriter().write(Return.SUCCESS("用户名格式错误"));
+            response.getWriter().write(SUCCESS("用户名格式错误"));
             return;
         }
         /*创建用户*/
@@ -57,7 +69,7 @@ public class Rest_UserControl {
             Global_Tools.sendEmail(account, "感谢您注册imdou8", "注册成功【imdou8】", null);
         }
 
-        response.getWriter().write(Return.SUCCESS("注册成功"));
+        response.getWriter().write(SUCCESS("注册成功"));
     }
 
     @RequestMapping(method = RequestMethod.GET, value = "/sendEmail")
@@ -75,6 +87,6 @@ public class Rest_UserControl {
         templete1 = templete1.replaceAll("verify_url","http://vps.imdou8.com/active/email?e=870708429@qq.com");
         templete1 = templete1.replaceAll("mailto_address","870708429@qq.com");
         Global_Tools.sendEmail(Configuration.global_config.getProperty("mail.to"),templete1,"邮箱验证",null);
-        response.getWriter().write(Return.SUCCESS("发送成功"));
+        response.getWriter().write(SUCCESS("发送成功"));
     }
 }

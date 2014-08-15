@@ -5,6 +5,7 @@ angular.module('phonecat', ['phonecatFilters']).
             when('/details/:phoneId', {templateUrl: 'partials/phone-detail.html', controller: PhoneDetailCtrl}).
             otherwise({redirectTo: '/all'});
     }]);
+
 /*过滤器*/
 angular.module('phonecatFilters', []).filter('checkmark',function () {
     return function (input) {
