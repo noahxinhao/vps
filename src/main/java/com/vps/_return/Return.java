@@ -56,6 +56,30 @@ public class Return {
 		return gson.toJson(jo);
 	}
 
+    /*public static String SUCCESS(Map<String, Object> jo, String note) {
+        try {
+            jo.put(SUCCESS, STATUS_SUCCESS);
+            jo.put(NOTE, note);
+        } catch (Exception e) {
+            return FAIL("返回值转换失败:" + e.getMessage());
+        }
+        return gson.toJson(jo);
+    }*/
+
+    public static String FAIL(KV[] map_return,String note) {
+        Map<String, Object> jo = new HashMap<String, Object>();
+        try {
+            jo.put(STATUS, STATUS_FAIL);
+            jo.put(NOTE, note);
+            for (KV entry : map_return){
+                jo.put(entry.getName(), entry.getValue());
+            }
+        } catch (Exception e) {
+            FAIL.put(NOTE, "返回值转换失败:" + e.getMessage());
+            return gson.toJson(FAIL);
+        }
+        return gson.toJson(jo);
+    }
 
 	public static String FAIL(String note) {
 		Map<String, String> jo = new HashMap<String, String>();
@@ -68,6 +92,7 @@ public class Return {
 		}
 		return gson.toJson(jo);
 	}
+
 /*
 
 

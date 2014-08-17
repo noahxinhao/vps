@@ -1,5 +1,6 @@
 package com.vps.util;
 
+import com.vps.configuraction.Configuration;
 import org.apache.log4j.Logger;
 
 import javax.imageio.ImageIO;
@@ -40,51 +41,51 @@ public class ImageUtil {
             is.close();
         }
     }
-    
+
     //剪切图片工具方法
-   	/*public static void cutImage(String suffix, String filename,
+   	public static void cutImage(String suffix, String filename,
                int x1, int y1, int x2, int y2) {
-           try {  
-               Image img;  
-               ImageFilter cropFilter;  
-               File sourceImgFile = new File(Configuration.header_sculpture_absolute_path + "/"+filename);
-               BufferedImage bi = ImageIO.read(sourceImgFile);  
-               int srcWidth = bi.getWidth();  
+           try {
+               Image img;
+               ImageFilter cropFilter;
+               File sourceImgFile = new File(Configuration.global_config.getProperty("header.sculpture.path") + "/"+filename);
+               BufferedImage bi = ImageIO.read(sourceImgFile);
+               int srcWidth = bi.getWidth();
                int srcHeight = bi.getHeight();
-               int destWidth = x2 - x1;  
-               int destHeight = y2 - y1;  
+               int destWidth = x2 - x1;
+               int destHeight = y2 - y1;
                BigDecimal widthBigDecimal = new BigDecimal(srcWidth);
-               BigDecimal processBigDecimal = widthBigDecimal.divide(new BigDecimal(300),6,BigDecimal.ROUND_DOWN);
+               BigDecimal processBigDecimal = widthBigDecimal.divide(new BigDecimal(400),6,BigDecimal.ROUND_DOWN);
                double process = processBigDecimal.doubleValue();
                if(destWidth==0||destHeight==0){
             	  return;
                }
-               
-               if (srcWidth >= destWidth && srcHeight >= destHeight) {  
-                   Image image = bi.getScaledInstance(srcWidth, srcHeight,  
-                           Image.SCALE_DEFAULT);  
+
+               if (srcWidth >= destWidth && srcHeight >= destHeight) {
+                   Image image = bi.getScaledInstance(srcWidth, srcHeight,
+                           Image.SCALE_DEFAULT);
                    cropFilter = new CropImageFilter((int)(Math.round(x1*process)), (int)(Math.round(y1*process)), (int)Math.round(destWidth*process), (int)Math.round(destHeight*process));
-                   img = Toolkit.getDefaultToolkit().createImage(  
-                           new FilteredImageSource(image.getSource(), cropFilter));  
-                   BufferedImage tag = new BufferedImage(120, 120,  
-                           BufferedImage.TYPE_INT_RGB);  
+                   img = Toolkit.getDefaultToolkit().createImage(
+                           new FilteredImageSource(image.getSource(), cropFilter));
+                   BufferedImage tag = new BufferedImage(120, 120,
+                           BufferedImage.TYPE_INT_RGB);
                    Graphics g = tag.getGraphics();
-                   g.drawImage(img, 0, 0, 120,120,null);  
+                   g.drawImage(img, 0, 0, 120,120,null);
                    g.dispose();
-                   ImageIO.write(tag, suffix, new File(Global_Configuration.header_sculpture_absolute_path + "/"+filename));
+                   ImageIO.write(tag, suffix, new File(Configuration.global_config.getProperty("header.sculpture.path") + "/"+filename));
                    ByteArrayOutputStream out = new ByteArrayOutputStream();
                    ImageIO.write(tag,suffix, out);
                }
-           } catch (Exception e) {  
-               e.printStackTrace();  
-           }  
-       }  */
-   	
-   /* public static String saveImageAndGetFileName(String userId,byte[] imageContent,String suffix) throws Exception {
+           } catch (Exception e) {
+               e.printStackTrace();
+           }
+       }
+
+    public static String saveImageAndGetFileName(String userId,byte[] imageContent,String suffix) throws Exception {
         String fileName = userId + "." + suffix;
         OutputStream out = null;
         try {
-            File imageFile = new File(Global_Configuration.header_sculpture_absolute_path + "/" + fileName);
+            File imageFile = new File(Configuration.global_config.getProperty("header.sculpture.path") + "/" + fileName);
             if (imageFile.exists()) {
                 imageFile.delete();
             }
@@ -100,5 +101,5 @@ public class ImageUtil {
             out.flush();
             out.close();
         }
-    }*/
+    }
 }

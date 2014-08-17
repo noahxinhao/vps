@@ -29,5 +29,7 @@
 <script src="/js/html5shiv.min.js"></script>
 <script src="/js/respond.min.js"></script>
 <![endif]-->
-
 <link href="/css/master.css" rel="stylesheet">
+<script src="${pageContext.request.contextPath}/js/jquery-1.9.1.min.js"></script>
+<script src="${pageContext.request.contextPath}/js/bootstrap.js"></script>
+<script src="${pageContext.request.contextPath}/plugin/angular/angular.js"></script>

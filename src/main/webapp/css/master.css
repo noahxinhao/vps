@@ -180,3 +180,6 @@ body {
 .im-title label{
     font-size: 14px !important;
 }
+.im-editor small{
+    color: rgb(135, 0, 0);
+}

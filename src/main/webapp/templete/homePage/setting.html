@@ -18,7 +18,8 @@
         overflow: hidden;
         width: 130px;
     }
-    #change_user_info input{
+
+    #change_user_info input {
         border-radius: 0px;
         box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075)
     }
@@ -36,7 +37,14 @@
                     <a class="btn btn-sm btn-info" id="changeImg">更换图像</a>
 
                     <form name="form0" id="form0" class="hidden">
-                        <input type="file" name="file0" id="file0" multiple="multiple"/><br><img src="" id="img0">
+                        <input type="file" name="file0" id="file0" multiple="multiple"/>
+                        <!--<br><img src="" id="img0">-->
+                        <div class="hidden">
+                            <input type="hidden" value="0" name="x1" path="x1" id="img_x1"/>
+                            <input type="hidden" value="0" name="y1" path="y1" id="img_y1"/>
+                            <input type="hidden" value="0" name="x2" path="x2" id="img_x2"/>
+                            <input type="hidden" value="0" name="y2" path="y2" id="img_y2"/>
+                        </div>
                     </form>
                 </div>
                 <div class="col-md-5">
@@ -80,39 +88,15 @@
                         <img id="previewImg" style="max-width: none;height:130px;width: 130px;" alt="Preview"
                              src=""/>
                     </div>
-
-                </div>
-                <div>
-                    <input type="hidden" value="0" name="x1" path="x1" id="img_x1"/>
-                    <input type="hidden" value="0" name="y1" path="y1" id="img_y1"/>
-                    <input type="hidden" value="0" name="x2" path="x2" id="img_x2"/>
-                    <input type="hidden" value="0" name="y2" path="y2" id="img_y2"/>
                 </div>
             </div>
             <div class="modal-footer">
                 <a class="btn btn-sm btn-default" href="javascript:void(0)" id="change"><span
                         class="glyphicon glyphicon-adjust"></span> 圆图预览</a>
-                <button type="button" class="btn btn-primary">保存图片</button>
+                <button type="button" class="btn btn-primary" id="upload">保存图片</button>
             </div>
         </div>
     </div>
 </div>
+<script src="js_control/setting.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('#myModal').on('shown.bs.modal', function (e) {
-            displayImageForPreview();
-        });
-        $("#change").bind("click", function () {
-            $("#previewPane").css("border-radius", "77px");
-        });
-    });
-
-    $("#changeImg").bind("click", function () {
-        $("#file0").click();
-    });
-
-    $("#file0").change(function () {
-        upload_ico();
-    });
-</script>

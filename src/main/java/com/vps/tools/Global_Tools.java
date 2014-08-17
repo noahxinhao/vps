@@ -12,6 +12,8 @@ import javax.mail.internet.MimeMultipart;
 import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
 import java.util.concurrent.Executor;
@@ -27,7 +29,6 @@ public class Global_Tools {
     private static URL url;
     private static HttpURLConnection con;
     private static int state = -1;
-
     public static Executor pool = Executors.newFixedThreadPool(2, new ThreadFactory() {// 使用守护进程创建进程池
         public Thread newThread(Runnable r) {
             Thread s = Executors.defaultThreadFactory().newThread(r);
@@ -117,7 +118,8 @@ public class Global_Tools {
         boolean flag = false;
         /*邮箱验证*/
         try {
-            String checkEmail = "^（[a-z0-9A-Z]+[-|\\.]?）+[a-z0-9A-Z]@（[a-z0-9A-Z]+（-[a-z0-9A-Z]+）？\\.）+[a-zA-Z]{2,}$";
+            //String checkEmail = "^([a-z0-9A-Z]+[-|\\.]?)+[a-z0-9A-Z]@([a-z0-9A-Z]+(-[a-z0-9A-Z]+)？\\.)+[a-zA-Z]{2,}$";
+            String checkEmail = "^([a-zA-Z0-9_\\-\\.]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\\]?)$";
             Pattern regexEmail = Pattern.compile(checkEmail);
             Matcher matcher = regexEmail.matcher(account);
             flag = matcher.matches();
@@ -130,7 +132,7 @@ public class Global_Tools {
 
         /*手机号码验证*/
         try {
-            String checkPhone = "^（[a-z0-9A-Z]+[-|\\.]?）+[a-z0-9A-Z]@（[a-z0-9A-Z]+（-[a-z0-9A-Z]+）？\\.）+[a-zA-Z]{2,}$";
+            String checkPhone = "^[1][3,4,5,8][0-9]{9}$";
             Pattern regexPhone = Pattern.compile(checkPhone);
             Matcher matcher = regexPhone.matcher(account);
             flag = matcher.matches();

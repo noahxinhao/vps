@@ -8,6 +8,8 @@ import javax.xml.parsers.ParserConfigurationException;
 import java.io.*;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
@@ -22,6 +24,7 @@ public class Configuration {
     public static Logger logger = Logger.getLogger(Configuration.class.getName());
     //
     public static TimeZone timezone = TimeZone.getTimeZone("GMT+8");
+    public static DateFormat df = new SimpleDateFormat("yyyy年MM月dd日 HH时mm分ss秒");
     public static Charset charset = StandardCharsets.UTF_8;
     // //////////////////////////////////读取配置文件////////////////////////////////////
     public static final Map<String, String> dm_mobile_map = new HashMap<>();

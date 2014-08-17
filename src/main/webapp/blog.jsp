@@ -40,7 +40,7 @@
                                  <span>[angular] <a href="javascript:void(0)">怎么样快速学习AngularJS？</a></span>
                          </div>
                          <div class="panel-body">
-                             <a href="javascrit:void(0)">###怎么样快速学习AngularJS？ >相信很多初学者都有过或者类似的疑问，其实这个问题没有标准的答案，每个人的技术背景、工作经验等等都不经相同，所以学习AngularJS的切入点肯定也就不同，我...</a>
+                             <a href="javascript:void(0)">###怎么样快速学习AngularJS？ >相信很多初学者都有过或者类似的疑问，其实这个问题没有标准的答案，每个人的技术背景、工作经验等等都不经相同，所以学习AngularJS的切入点肯定也就不同，我...</a>
                          </div>
                          <div class="im-panel-footer">
                              <div class="col-md-8">
@@ -65,7 +65,7 @@
                              <span>[angular] <a href="javascript:void(0)">怎么样快速学习AngularJS？</a></span>
                          </div>
                          <div class="panel-body">
-                             <a href="javascrit:void(0)">
+                             <a href="javascript:void(0)">
                                  怎么样快速学习AngularJS？ >相信很多初学者都有过或者类似的疑问，其实这个问题没有标准的答案，每个人的技术背景、工作经验等等都不经相同，所以学习AngularJS的切入点肯定也就不同，我...
                                  怎么样快速学习AngularJS？ >相信很多初学者都有过或者类似的疑问，其实这个问题没有标准的答案，每个人的技术背景、工作经验等等都不经相同，所以学习AngularJS的切入点肯定也就不同，我...
                                  怎么样快速学习AngularJS？ >相信很多初学者都有过或者类似的疑问，其实这个问题没有标准的答案，每个人的技术背景、工作经验等等都不经相同，所以学习AngularJS的切入点肯定也就不同，我...
@@ -95,7 +95,7 @@
                              <span>[angular] <a href="javascript:void(0)">怎么样快速学习AngularJS？</a></span>
                          </div>
                          <div class="panel-body">
-                             <a href="javascrit:void(0)">###怎么样快速学习AngularJS？ >相信很多初学者都有过或者类似的疑问，其实这个问题没有标准的答案，每个人的技术背景、工作经验等等都不经相同，所以学习AngularJS的切入点肯定也就不同，我...</a>
+                             <a href="javascript:void(0)">###怎么样快速学习AngularJS？ >相信很多初学者都有过或者类似的疑问，其实这个问题没有标准的答案，每个人的技术背景、工作经验等等都不经相同，所以学习AngularJS的切入点肯定也就不同，我...</a>
                          </div>
                          <div class="im-panel-footer">
                              <div class="col-md-8">

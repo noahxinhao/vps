@@ -41,5 +41,6 @@
 <script src="${pageContext.request.contextPath}/js_control/mainPage.js"></script>
 <script src="${pageContext.request.contextPath}/plugin/jcrop/jquery.Jcrop.js"></script>
 <script src="${pageContext.request.contextPath}/js_control/jcropPic.js"></script>
+<script src="${pageContext.request.contextPath}/plugin/uploadFile/ajaxfileupload.js"></script>
 </body>
 </html>

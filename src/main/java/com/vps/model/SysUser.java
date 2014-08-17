@@ -23,16 +23,22 @@ public class SysUser {
     private String user_id;
     @Column(length = 30, nullable = false)
     private String real_name;
-    @Column(length = 30, nullable = false)
+    @Column(length = 30, unique = true,nullable = false)
     private String account;
     @Column(length = 64, nullable = false)
     private String password;
     @Column(length = 200)
     private String info;
-    @Column(length = 13, nullable = false)
+    @Column(length = 13, nullable = true)
     private String phone;
+    @Column(length = 45, nullable = true)
+    private String accountVerify;
+    @Column(length = 11)
+    private int status;
     @Column(length = 60)
     private String email;
+    @Column(length = 45)
+    private String verifyToken;
     @Column(nullable = false)
     private Calendar create_time = Calendar.getInstance(Configuration.timezone);
     @Column(nullable = false)
@@ -118,5 +124,29 @@ public class SysUser {
     public void setId(String id) {
         this.id = id;
 
+    }
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
+    }
+
+    public String getAccountVerify() {
+        return accountVerify;
+    }
+
+    public void setAccountVerify(String accountVerify) {
+        this.accountVerify = accountVerify;
+    }
+
+    public String getVerifyToken() {
+        return verifyToken;
+    }
+
+    public void setVerifyToken(String verifyToken) {
+        this.verifyToken = verifyToken;
     }
 }
