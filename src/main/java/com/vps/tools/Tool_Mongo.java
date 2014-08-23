@@ -1,9 +1,6 @@
 package com.vps.tools;
 
-import com.mongodb.BasicDBObject;
-import com.mongodb.DB;
-import com.mongodb.DBCollection;
-import com.mongodb.MongoClient;
+import com.mongodb.*;
 import org.apache.log4j.Logger;
 
 import java.io.IOException;
@@ -35,14 +32,31 @@ public class Tool_Mongo {
 	 * @throws java.net.UnknownHostException
 	 */
 	public static DB get_mongo_db() throws NumberFormatException, UnknownHostException {
-		String db = mongodb_properties.getProperty("mongo.db.vps.name");
+		/*String db = mongodb_properties.getProperty("mongo.db.vps.name");
 		if (db_conn_apply == null) {
 			String ip = mongodb_properties.getProperty("mongo.db.vps.ip");
 			String port = mongodb_properties.getProperty("mongo.db.vps.port");
+			String uname = mongodb_properties.getProperty("mongo.db.vps.username");
+			String pwd = mongodb_properties.getProperty("mongo.db.vps.passwd");
+
 			logger.info("#创建 mongodb 连接池");
 			db_conn_apply = new MongoClient(ip, Integer.valueOf(port));
 		}
-		return db_conn_apply.getDB(db);
+		return db_conn_apply.getDB(db);*/
+        String dbname = mongodb_properties.getProperty("mongo.db.vps.name");
+        String ip = mongodb_properties.getProperty("mongo.db.vps.ip");
+        String port = mongodb_properties.getProperty("mongo.db.vps.port");
+        String uname = mongodb_properties.getProperty("mongo.db.vps.username");
+        String pwd = mongodb_properties.getProperty("mongo.db.vps.passwd");
+        Mongo mg = new Mongo(ip,Integer.parseInt(port));
+        //DB db = mg.getDB(dbname);
+        DB db = mg.getDB("admin");
+        boolean ok = db.authenticate(uname,pwd.toCharArray());
+        if(ok){
+            return mg.getDB(dbname);
+        }
+        return null;
+        //return db;
 	}
 
 	/**

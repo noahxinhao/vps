@@ -5,12 +5,14 @@ import com.mongodb.DB;
 import com.mongodb.DBCollection;
 import com.vps._return.Return;
 import com.vps.configuraction.Configuration;
+import com.vps.model.SysUser;
 import com.vps.tools.Global_Tools;
 import com.vps.tools.Tool_Mongo;
 import com.vps.util.ValidateCode;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.imageio.ImageIO;
 import javax.mail.MessagingException;
@@ -46,7 +48,20 @@ public class Rest_Webroot {
     }
 
     @RequestMapping(method = RequestMethod.POST,value = "/articles_publish")
-    public void  articles_publish(HttpServletRequest request, HttpServletResponse response,String title,String tag,String elm1) throws Exception {
+    public ModelAndView articles_publish(HttpServletRequest request, HttpServletResponse response,String title,String tag,String elm1) throws Exception {
+        Map model = new HashMap();
+        if(title==""&&elm1==""){
+            model.put("status", "fail");
+            return new ModelAndView("article_publish",model);
+        }
+        /*获取用户信息*/
+        Object sysUser = request.getSession().getAttribute("sysUser");
+        if(sysUser==null){
+            model.put("status", "fail");
+            return new ModelAndView("article_publish",model);
+        }
+        SysUser user = (SysUser) sysUser;
+
         /*基本信息*/
         Map basic = new HashMap();
         basic.put("title",title);
@@ -57,7 +72,7 @@ public class Rest_Webroot {
         basic.put("status",1);
         /*作者信息*/
         Map authorInfo = new HashMap();
-        authorInfo.put("userId","100001");
+        authorInfo.put("userId",user.getId());
         /*评论信息*/
         Map reviewInfo = new HashMap();
 
@@ -69,7 +84,9 @@ public class Rest_Webroot {
         DBCollection collection = Tool_Mongo.get_mongo_collection();
         BasicDBObject basicDBObject = new BasicDBObject(ARTICLES);
         collection.save(basicDBObject);
-        response.getWriter().write(Return.SUCCESS("发布完成"));
+        //response.getWriter().write(Return.SUCCESS("发布完成"));
+        model.put("status", "success");
+        return new ModelAndView("article_publish",model);
     }
 
     /*生成验证码*/

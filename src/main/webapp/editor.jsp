@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/plugin/xheditor/common.css" type="text/css" media="screen" />
     <script type="text/javascript" src="/plugin/xheditor/jquery/jquery-1.4.4.min.js"></script>
     <script type="text/javascript" src="/plugin/xheditor/xheditor-1.2.1.min.js"></script>
+
     <script type="text/javascript" src="/plugin/xheditor/xheditor_lang/zh-cn.js"></script>
     <style>
         #editor {overflow:scroll; max-height:300px}
@@ -23,7 +24,15 @@
         function pageInit()
         {
             $.extend(XHEDITOR.settings,{shortcuts:{'ctrl+enter':submitForm}});//修改默认设置
-            $('#elm1').xheditor({modalWidth:400,modalHeight:300,upBtnText:'浏览',upLinkUrl:"upload",upImgUrl:"upload?type=Images",upFlashUrl:"upload?type=Flash",upMediaUrl:"upload"});
+            $('#elm1').xheditor({
+                tools:"Cut,Copy,Paste,Pastetext,|,Blocktag,Fontface,FontSize,Bold,Italic,Underline,Strikethrough,|,FontColor,BackColor,|,SelectAll,Removeformat,Align,List,Outdent,Indent,Link,Unlink,Anchor,Img,Hr,Emot,Table,Source,Preview,Print,Fullscreen,About",
+                modalWidth: 400,
+                modalHeight: 300,
+                upBtnText: '浏览',
+                upLinkUrl: "upload",
+                upImgUrl: "upload?type=Images",
+                Flash:false
+            });
         }
         function submitForm(){$('#frmDemo').submit();}
     </script>
@@ -77,18 +86,6 @@
         </div>
     </div>
 </div>
-<div class="footer">
-    <div class="container">
-        <p class="text-muted">Copyright © 2014 IMDOU8</p>
-    </div>
-</div>
-<input type="hidden" value="${pageContext.request.contextPath}" id="PageContextPath">
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<input type="hidden" id="applicationContextPath" value="${request.contextPath}"/>
-<a style="display: none" id="loadpdf" href="javascript:void(0)"></a>
-
-
+<jsp:include page="footer.jsp"/>
 </body>
 </html>

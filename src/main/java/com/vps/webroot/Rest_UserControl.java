@@ -20,9 +20,7 @@ import javax.mail.MessagingException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.UUID;
+import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 
 import static com.vps._return.Return.*;
@@ -80,9 +78,11 @@ public class Rest_UserControl {
                 request.getSession().setAttribute("signinAttemp",attemp+1);
                 if((attemp+1)>3){
                     request.getSession().setAttribute("requiredCode", true);
-                    KV[] kv = new KV[1];
-                    kv[0] = new KV("requiredCode", true);
-                    response.getWriter().write(FAIL(kv,"密码错误"));
+                    Map map = new HashMap();
+                    map.put("requiredCode",true);
+                    /*KV[] kv = new KV[1];
+                    kv[0] = new KV("requiredCode", true);*/
+                    response.getWriter().write(FAIL(map,"密码错误"));
                     return;
                 }
                 response.getWriter().write(FAIL("密码错误"));

@@ -12,6 +12,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 import java.security.NoSuchAlgorithmException;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created by noah on 14-6-19.
@@ -37,10 +39,12 @@ public class Rest_DownLoad {
             }
             String result = sb.toString();
             System.out.print(result);
-            KV[] kv = new KV[1];
-            kv[0] = new KV("downloadUrl", url.split("\\.")[1] + ".pdf");
+            Map map = new HashMap<>();
+            map.put("downloadUrl",url.split("\\.")[1] + ".pdf");
+            /*KV[] kv = new KV[1];
+            kv[0] = new KV("downloadUrl", url.split("\\.")[1] + ".pdf");*/
             response.setHeader("Access-Control-Allow-Origin", "*");       //解决跨域
-            response.getWriter().write(Return.SUCCESS(kv, "").toString());
+            response.getWriter().write(Return.SUCCESS(map, "").toString());
         } catch (Exception e) {
             response.setHeader("Access-Control-Allow-Origin", "*");       //解决跨域
             response.getWriter().write(Return.FAIL("fail").toString());

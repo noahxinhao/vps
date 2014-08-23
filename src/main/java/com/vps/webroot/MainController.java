@@ -1,5 +1,6 @@
 package com.vps.webroot;
 
+import com.vps._return.KV;
 import com.vps._return.Return;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -44,9 +45,10 @@ public class MainController {
     }
     @RequestMapping(method = RequestMethod.POST,value = "/upload")
     public void upload(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        Map model = new HashMap();
-        model.put("target", "upload");
-        response.getWriter().write(Return.SUCCESS(""));
+        Map map = new HashMap();
+        map.put("err","");
+        map.put("msg","http://a1.jikexueyuan.com/home/201406/17/5840/539f1c06dd1ee.jpg");
+        response.getWriter().write(Return.SUCCESS(map,""));
     }
     @RequestMapping(method = RequestMethod.GET,value = "/signin")
     public ModelAndView signin(HttpServletRequest request, HttpServletResponse response) {

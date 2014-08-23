@@ -22,7 +22,7 @@
 <body>
 <jsp:include page="head.jsp"/>
 <div class="container">
-    <div class="row"  ng-app="userSignin">
+    <div class="row">
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-12" style="height: 120px"></div>
