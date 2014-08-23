@@ -1,4 +1,6 @@
 /*路由配置*/
+var applicationContextPath = $("#applicationContextPath").val();
+var userInfoUrl = applicationContextPath+"/ruc/userInfo"
 angular.module('mainPage', []).
     config(['$routeProvider','$locationProvider', function ($routeProvider,$locationProvider) {
         $routeProvider.
@@ -36,8 +38,15 @@ angular.module('mainPage', []).
 
 /*控制器*/
 var userDetail = ['$scope', '$http', function ($scope, $http) {
-    $http.get('../templete/homePage/user.json').success(function (data) {
-        $scope.user = data;
+    $http.get(userInfoUrl).success(function (data) {
+        if(data.success=="true"){
+            var u = data.user;
+            $scope.user = {
+                "name": u.real_name,
+                "email": u.email,
+                "phone": u.phone
+            };
+        }
     });
     $scope.title = "基本信息"
 }];
@@ -50,10 +59,36 @@ var vpsDetail = ['$scope', '$http', function ($scope, $http) {
 }];
 
 var setting = ['$scope', '$http', function ($scope, $http) {
-    $http.get('../templete/homePage/vps.json').success(function (data) {
-        $scope.user = data;
+    $http.get(userInfoUrl).success(function (data) {
+        if(data.success=="true"){
+            var u = data.user;
+            $scope.user = {
+                "name": u.real_name,
+                "email": u.email,
+                "phone": u.phone
+            };
+        }
     });
     $scope.title = "用户设置"
+    //$scope.user = {};
+    $scope.submitted = false;
+    $scope.saveChange = function(){
+        $("#savebtn").button("loading");
+        if ($scope.settingForm.$valid) {
+            var user = $scope.user;
+            var settingUrl = applicationContextPath+"/set/saveUserInfo?name="+user.name+"&email="+user.email+"&phone="+user.phone;
+            $http.post(settingUrl).success(function(data){
+                if(data.success=="true"){
+                    window.location.href = applicationContextPath+"/home";
+                }else{
+                    $("#savebtn").button("reset");
+                }
+            })
+        }else{
+            $("#savebtn").button("reset");
+            $scope.submitted = true;
+        }
+    }
 }];
 
 var resources = ['$scope', '$http', function ($scope, $http) {

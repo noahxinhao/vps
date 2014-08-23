@@ -3,7 +3,10 @@ package com.vps.webroot;
 import com.vps.configuraction.Configuration;
 import com.vps.dao.SysUserDao;
 import com.vps.model.SysUser;
+import com.vps.tools.Tool_Hibernate;
 import com.vps.util.ImageUtil;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -72,5 +75,28 @@ public class Rest_Setting {
                 return;
             }
         }
+    }
+
+    @RequestMapping(method = RequestMethod.POST, value = "/saveUserInfo")
+    @ResponseBody
+    public void saveUserInfo(HttpServletRequest request, HttpServletResponse response, String name,String email,String phone) throws IOException, MessagingException {
+        Object obj = request.getSession().getAttribute("sysUser");
+        if (obj==null) {
+            response.getWriter().write(FAIL("未登录"));
+            return;
+        }
+        SysUser sysUser = (SysUser)obj;
+        sysUser.setEmail(email);
+        sysUser.setReal_name(name);
+        sysUser.setPhone(phone);
+
+        Session session = Tool_Hibernate.createSession();
+        Transaction transaction = session.beginTransaction();
+        session.saveOrUpdate(sysUser);
+        transaction.commit();
+
+        request.getSession().setAttribute("sysUser",sysUser);
+        response.getWriter().write(SUCCESS("更改成功"));
+        return;
     }
 }

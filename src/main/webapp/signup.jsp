@@ -114,7 +114,7 @@
                                              ng-click="refresh_validate_code()"/>
                                     </div>
                                 </div>
-                                <button type="submit" class="btn btn-default pull-right">&nbsp;&nbsp;注&nbsp;&nbsp;&nbsp;&nbsp;册&nbsp;&nbsp;</button>
+                                <button type="submit" id="signupbtn" class="btn btn-default pull-right" data-loading-text="正在提交">&nbsp;&nbsp;注&nbsp;&nbsp;&nbsp;&nbsp;册&nbsp;&nbsp;</button>
                             </form>
                         </div>
                     </div>

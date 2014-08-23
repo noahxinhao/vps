@@ -27,7 +27,7 @@
             <div class="row">
                 <div class="col-md-12" style="height: 70px"></div>
                 <div class="col-md-8">
-                    <img src="${pageContext.request.contextPath}/img/signinbg2.jpg" style="width: 100%"/>
+                    <%--<img src="${pageContext.request.contextPath}/img/signinbg2.jpg" style="width: 100%"/>--%>
                 </div>
                 <div class="col-md-4">
                     <div class="panel panel-default">
@@ -110,7 +110,7 @@
                                         <input type="checkbox"> 记住我
                                     </label>
                                </div>
-                                <button type="submit" class="btn btn-default pull-right">&nbsp;&nbsp;登&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录&nbsp;&nbsp;</button>
+                                <button type="submit" id="signinbtn" data-loading-text="正在登录" class="btn btn-default pull-right">&nbsp;&nbsp;登&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录&nbsp;&nbsp;</button>
                             </form>
                             <%--登录form--%>
                             <form action="j_spring_security_check" method="post" class="hidden" id="loginForm">

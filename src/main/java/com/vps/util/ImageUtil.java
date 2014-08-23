@@ -1,6 +1,7 @@
 package com.vps.util;
 
 import com.vps.configuraction.Configuration;
+import com.vps.tools.Global_Tools;
 import org.apache.log4j.Logger;
 
 import javax.imageio.ImageIO;
@@ -11,7 +12,6 @@ import java.awt.image.FilteredImageSource;
 import java.awt.image.ImageFilter;
 import java.io.*;
 import java.math.BigDecimal;
-
 
 public class ImageUtil {
 
@@ -85,6 +85,7 @@ public class ImageUtil {
         String fileName = userId + "." + suffix;
         OutputStream out = null;
         try {
+            //Global_Tools.isExist(Configuration.global_config.getProperty("header.sculpture.path"));
             File imageFile = new File(Configuration.global_config.getProperty("header.sculpture.path") + "/" + fileName);
             if (imageFile.exists()) {
                 imageFile.delete();
@@ -101,5 +102,11 @@ public class ImageUtil {
             out.flush();
             out.close();
         }
+    }
+
+    public static BufferedImage getImgByPathAndName(String path,String name){
+        BufferedImage image;
+        //image = new BufferedImage(path);
+        return null;
     }
 }

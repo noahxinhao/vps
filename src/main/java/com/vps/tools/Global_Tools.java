@@ -1,6 +1,7 @@
 package com.vps.tools;
 
 import com.vps.configuraction.Configuration;
+
 import javax.activation.DataHandler;
 import javax.activation.DataSource;
 import javax.activation.FileDataSource;
@@ -9,6 +10,7 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
+import java.io.File;
 import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -48,10 +50,10 @@ public class Global_Tools {
                 con = (HttpURLConnection) url.openConnection();
                 con.setConnectTimeout(5000);
                 state = con.getResponseCode();
-                if (state == 200 || state==301 ||state==302) {
+                if (state == 200 || state == 301 || state == 302) {
                     return true;
                 }
-            }catch (Exception ex) {
+            } catch (Exception ex) {
                 counts++;
                 continue;
             }
@@ -87,9 +89,9 @@ public class Global_Tools {
                     mailMessage.setSubject(title + Configuration.global_config.getProperty("email.subject"), "UTF-8");
                     mailMessage.setSentDate(new Date());
                     BodyPart html = new MimeBodyPart();
-                    if(content!=null){
+                    if (content != null) {
                         html.setContent(content.trim(), "text/html; charset=UTF-8");
-                    }else{
+                    } else {
                         html.setContent("空的邮件", "text/html; charset=UTF-8");
                     }
                     Multipart mainPart = new MimeMultipart();
@@ -113,20 +115,20 @@ public class Global_Tools {
         };
         Global_Tools.pool.execute(r);
     }
+
     /*判断是邮箱还是手机号码*/
-    public static String verifyAccount(String account){
+    public static String verifyAccount(String account) {
         boolean flag = false;
         /*邮箱验证*/
         try {
-            //String checkEmail = "^([a-z0-9A-Z]+[-|\\.]?)+[a-z0-9A-Z]@([a-z0-9A-Z]+(-[a-z0-9A-Z]+)？\\.)+[a-zA-Z]{2,}$";
             String checkEmail = "^([a-zA-Z0-9_\\-\\.]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\\]?)$";
             Pattern regexEmail = Pattern.compile(checkEmail);
             Matcher matcher = regexEmail.matcher(account);
             flag = matcher.matches();
-        }catch (Exception e){
+        } catch (Exception e) {
             flag = false;
         }
-        if(flag){
+        if (flag) {
             return "Email";
         }
 
@@ -136,14 +138,22 @@ public class Global_Tools {
             Pattern regexPhone = Pattern.compile(checkPhone);
             Matcher matcher = regexPhone.matcher(account);
             flag = matcher.matches();
-        }catch (Exception e){
+        } catch (Exception e) {
             flag = false;
         }
 
-        if(flag){
+        if (flag) {
             return "Phone";
         }
 
         return null;
+    }
+
+    public static void isExist(String path) {
+        File file = new File(path);
+        //判断文件夹是否存在,如果不存在则创建文件夹
+        if (!file.exists()) {
+            file.mkdir();
+        }
     }
 }

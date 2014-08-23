@@ -25,12 +25,12 @@
             }
         };
         $scope.submitForm = function () {
+            $("#signinbtn").button("loading");
             if ($scope.signinForm.$valid) {
                 var verifyUserUrl = applicationContextPath+"/ruc/verifyUserInfo?account="+$scope.user.account+"&password="+$scope.user.userpassword+"&verifyCode="+$scope.user.verificationCode;
                 $http.get(verifyUserUrl).success(function (data) {
+                    $("#signinbtn").button("reset");
                     if(data.note=="允许登录"){
-                        //alert("允许登录，执行登录操作.");
-                        /*var springLoginUrl = applicationContextPath+"/j_spring_security_check?"*/
                         document.getElementById("loginForm").submit();
                     }else{
                         $scope.validateCodeUrl = applicationContextPath+"/rs/create_validate_code?d"+new Date().getMilliseconds();
@@ -50,6 +50,7 @@
                     }
                 });
             }else{
+                $("#signinbtn").button("reset");
                 $scope.submitted = true;
             }
         }

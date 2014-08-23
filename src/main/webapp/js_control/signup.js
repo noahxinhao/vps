@@ -8,6 +8,7 @@
         $scope.wrongCode = false;
         $scope.validateCodeUrl = applicationContextPath+"/rs/create_validate_code";
         $scope.submitForm = function () {
+            $("#signupbtn").button("loading");
             if ($scope.signupForm.$valid) {
                 if($scope.user.confirmPassword==$scope.user.userpassword){
                     var user = $scope.user;
@@ -27,6 +28,7 @@
                                         return;
                                     }
                                 }else{
+                                    $("#signupbtn").button("reset");
                                     $scope.validateCodeUrl = applicationContextPath+"/rs/create_validate_code?d="+new Date().getMilliseconds();
                                     if(data.note=="验证码错误"){
                                         $scope.wrongCode = true;
@@ -45,11 +47,13 @@
                                         return
                                     }
                                 }
-                            })
+                            });
                         }
+                        $("#signupbtn").button("reset");
                     });
                 }
             } else {
+                $("#signupbtn").button("reset");
                 $scope.submitted = true;
             }
         };

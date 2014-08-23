@@ -47,6 +47,20 @@ public class Rest_UserControl {
             return;
         }
     }
+    /*获取登录用户基本信息*/
+    @RequestMapping(method = RequestMethod.GET, value = "/userInfo")
+    @ResponseBody
+    public void userInfo(HttpServletRequest request, HttpServletResponse response) throws IOException, MessagingException {
+        Object obj = request.getSession().getAttribute("sysUser");
+        if (obj==null) {
+            response.getWriter().write(FAIL("未登录"));
+            return;
+        }
+        SysUser sysUser = (SysUser)obj;
+        Map map = new HashMap();
+        map.put("user",sysUser);
+        response.getWriter().write(SUCCESS(map,""));
+    }
 
     @RequestMapping(method = RequestMethod.GET, value = "/verifyUserInfo")
     @ResponseBody
