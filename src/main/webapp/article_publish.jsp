@@ -9,7 +9,10 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <title>发表成功</title>
+    <title>
+         <c:if test="${status=='success'}">发表成功</c:if>
+         <c:if test="${status=='fail'}">发表失败</c:if>
+    </title>
     <link href="/css/bootstrap.css" rel="stylesheet">
     <jsp:include page="meta.jsp"/>
     <style>

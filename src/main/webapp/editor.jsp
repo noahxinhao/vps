@@ -1,3 +1,4 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%--
   Created by IntelliJ IDEA.
   User: noah
@@ -16,6 +17,7 @@
     <script type="text/javascript" src="/plugin/xheditor/xheditor-1.2.1.min.js"></script>
 
     <script type="text/javascript" src="/plugin/xheditor/xheditor_lang/zh-cn.js"></script>
+    <script src="${pageContext.request.contextPath}/plugin/angular/angular.js"></script>
     <style>
         #editor {overflow:scroll; max-height:300px}
     </style>
@@ -34,28 +36,66 @@
                 Flash:false
             });
         }
-        function submitForm(){$('#frmDemo').submit();}
+
+        function submitForm(){
+            $('#frmDemo').submit();
+        }
+
+        function getElementsByClassName(className, tagName) {
+            var ele = [], all = document.getElementsByTagName(tagName || "*");
+            for (var i = 0; i<all.length; i++) {
+                if (all[i].className == className) {
+                    ele[ele.length] = all[i];
+                }
+            }
+            return ele;
+        }
+
+        var articleApp = angular.module('articlePublish', []);
+        articleApp.controller('articleController', ['$scope','$http', function ($scope,$http) {
+            $scope.submitted = false;
+            $scope.saveArticle = function () {
+                $scope.submitted = true;
+                if ($scope.articleForm.$valid) {
+                    $("#content").val($("#elm1").val());
+                    $("#article").submit();
+                }
+            }
+        }]);
     </script>
 </head>
 <body>
 <!-- Fixed navbar -->
 <jsp:include page="head.jsp"/>
 <!-- Begin page content -->
-<div class="container">
-    <div class="row">
+<div class="container"  ng-app="articlePublish">
+    <div class="row" ng-controller="articleController">
         <div class="col-md-9">
-            <form method="post" action="/rs/articles_publish" class="form-horizontal im-editor">
-                <div class="form-group" class="im-title">
+            <form class="form-horizontal im-editor" name="articleForm" id="article_info" novalidate ng-submit="saveArticle()">
+                <div class="form-group im-title" ng-class="{true: 'form-group im-title has-error', false: 'form-group im-title'}[(articleForm.title.$invalid && submitted)]">
                     <label for="title" class="col-sm-1 control-label" style="text-align: left">标题:</label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="title" name="title" placeholder="文章标题">
+                        <%--<input type="text" class="form-control" id="title" name="title" placeholder="文章标题">--%>
+                            <input placeholder="请输入文章标题" id="title"
+                                   class="form-control"
+                                   name="title"
+                                   ng-minlength=6 ng-maxlength=20 required
+                                   ng-model="article.title"/>
                     </div>
-                    <label for="title" class="col-sm-5 control-label has-error" style="text-align: left">标题字数不得超过15个字符</label>
+                    <label for="title" class="col-sm-5 control-label" style="text-align: left" ng-show="articleForm.title.$error.required && submitted">
+                        请输入文章标题
+                    </label>
+                    <label for="title" class="col-sm-5 control-label" style="text-align: left" ng-show="articleForm.title.$error.minlength && submitted">
+                        标题字数不得少入6个字符
+                    </label>
+                    <label for="title" class="col-sm-5 control-label" style="text-align: left" ng-show="articleForm.title.$error.maxlength && submitted">
+                        标题字数不得超过20个字符
+                    </label>
                 </div>
-                <div class="form-group" class="im-title">
+                <div class="form-group im-title">
                     <label for="tag" class="col-sm-1 control-label" style="text-align: left">标签:</label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="tag" name="tag" placeholder="文章标签">
+                        <input type="text" class="form-control" id="tag" name="tag" ng-model="article.tag" placeholder="文章标签">
                     </div>
                     <label for="tag" class="col-sm-5 control-label has-error" style="text-align: left"></label>
                 </div>
@@ -64,6 +104,11 @@
                 <button type="submit" class="pull-right btn btn-info btn-sm" href="javascript:void(0)">&nbsp;提&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;交&nbsp;</button>
             </form>
         </div>
+        <form class="hidden" id="article"  method="post" action="/rs/articles_publish">
+            <input name="title" value="{{article.title}}"/>
+            <input name="tag" value="{{article.tag}}"/>
+            <textarea name="elm1" value="" id="content"/></textarea>
+        </form>
         <div class="col-md-3">
             <div class="panel panel-default">
                 <div class="panel-heading">

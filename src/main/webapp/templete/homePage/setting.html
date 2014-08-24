@@ -26,7 +26,8 @@
 </style>
 <div class="panel panel-default" ng-controller="setting" xmlns="http://www.w3.org/1999/html">
     <div class="panel-heading">
-        <h3 class="panel-title">{{title}}</h3>
+        <!--<h3 class="panel-title">{{title}}</h3>-->
+        <h3 class="panel-title">个人设置</h3>
     </div>
     <div class="panel-body">
         <div class="row">
@@ -49,7 +50,7 @@
                     <form role="form" class="im-editor" name="settingForm" id="change_user_info" novalidate ng-submit="saveChange()">
                         <div class="form-group" ng-class="{true: 'form-group has-error', false: 'form-group'}[(settingForm.name.$invalid && submitted)]">
                             <label for="userName">用户名:</label>
-                            <span class="pull-right"
+                            <span class="pull-right hidden" ng-class="{true:'pull-right',false:'pull-right hidden'}[settingForm.name.$dirty && settingForm.name.$invalid&& submitted]"
                                   ng-show="(settingForm.name.$dirty && settingForm.name.$invalid&& submitted)">
                                         <small ng-show="settingForm.name.$error.required">请输入昵称</small>
                                         <small ng-show="settingForm.name.$error.minlength">请输入6~15位字符</small>
@@ -63,7 +64,7 @@
                         </div>
                         <div class="form-group" ng-class="{true: 'form-group has-error', false: 'form-group'}[(settingForm.email.$invalid && submitted)]">
                             <label for="email">邮箱:</label>
-                            <span class="pull-right"
+                            <span class="pull-right hidden" ng-class="{true:'pull-right',false:'pull-right hidden'}[settingForm.email.$dirty && settingForm.email.$invalid&& submitted]"
                                   ng-show="(settingForm.email.$dirty && settingForm.email.$invalid&& submitted)">
                                         <small ng-show="settingForm.email.$error.required">请输入邮箱</small>
                                         <small ng-show="settingForm.email.$error.minlength">请输入6~20位字符</small>
@@ -80,7 +81,7 @@
                         </div>
                         <div class="form-group" ng-class="{true: 'form-group has-error', false: 'form-group'}[(settingForm.phone.$invalid && submitted)]">
                             <label for="phone">手机号码:</label>
-                            <span class="pull-right"
+                            <span class="pull-right hidden" class="pull-right hidden" ng-class="{true:'pull-right',false:'pull-right hidden'}[settingForm.phone.$dirty && settingForm.phone.$invalid&& submitted]"
                                   ng-show="(settingForm.phone.$dirty && settingForm.phone.$invalid&& submitted)">
                                         <small ng-show="settingForm.phone.$error.required">请输入手机号码</small>
                                         <small ng-show="settingForm.phone.$error.minlength">请输入6~20位字符</small>
