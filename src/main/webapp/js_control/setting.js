@@ -6,6 +6,10 @@ $(document).ready(function () {
         $("#previewPane").css("border-radius", "77px");
     });
 
+    $("#userImg").bind("click",function(){
+        $("#file0").click();
+    });
+
     $("#changeImg").bind("click", function () {
         $("#file0").click();
     });

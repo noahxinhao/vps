@@ -3,7 +3,10 @@
         <h3 class="panel-title">{{title}}</h3>
     </div>
     <div class="panel-body">
-        <div class="row">
+        <div class="col-md-12" style="text-align: center;" ng-class="{true:'col-md-12 hidden',false:'col-md-12'}[js_ready]">
+            <img src="/img/loadding.gif" style="height: 50px;width: 50px"/>
+        </div>
+        <div class="row hidden" ng-class="{true:'row',false:'row hidden'}[js_ready]">
             <div class="col-md-12">
                 <ul class="media-list">
                     <li class="media" ng-repeat="res in resources">

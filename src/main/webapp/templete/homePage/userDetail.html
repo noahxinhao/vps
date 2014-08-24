@@ -3,14 +3,17 @@
         <h3 class="panel-title">{{title}}</h3>
     </div>
     <div class="panel-body">
-        <div class="row">
+        <div class="col-md-12" style="text-align: center;" ng-class="{true:'col-md-12 hidden',false:'col-md-12'}[js_ready]">
+            <img src="/img/loadding.gif" style="height: 50px;width: 50px"/>
+        </div>
+        <div class="row hidden" ng-class="{true:'row',false:'row hidden'}[js_ready]">
             <div class="col-md-2 text-center">
-                <img class="img-circle " style="height:80px;width: 80px" alt="why520crazy" src="http://tp3.sinaimg.cn/2530282462/180/5669530341/1"/>
+                <img class="img-circle " style="height:80px;width: 80px"alt="{{user.name}}" ng-src="{{user.img}}"/>
             </div>
             <div class=" col-md-8">
                 <dl >
                     <dt>用户名:</dt>
-                    <dd>{{user.name||user.account}}</dd><br/>
+                    <dd>{{user.name}}</dd><br/>
                     <dt>邮箱:</dt>
                     <dd>{{user.email}}</dd><br/>
                     <dt>电话:</dt>

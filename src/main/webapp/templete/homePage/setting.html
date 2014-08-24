@@ -30,12 +30,14 @@
         <h3 class="panel-title">个人设置</h3>
     </div>
     <div class="panel-body">
-        <div class="row">
+        <div class="col-md-12" style="text-align: center;" ng-class="{true:'col-md-12 hidden',false:'col-md-12'}[js_ready]">
+            <img src="/img/loadding.gif" style="height: 50px;width: 50px"/>
+        </div>
+        <div class="row hidden" ng-class="{true:'row',false:'row hidden'}[js_ready]">
             <div class="col-md-12">
                 <div class="col-md-2 text-center">
-                    <img class="img-circle " style="height:100px;width: 100px" alt="why520crazy"
-                         src="http://tp3.sinaimg.cn/2530282462/180/5669530341/1"/>
-                    <a class="btn btn-sm btn-info" id="changeImg">更换图像</a>
+                    <img class="img-circle " style="cursor: pointer;height:100px;width: 100px" alt="{{user.name}}" ng-src="{{user.img}}" title="点击更换图像" id="userImg"/>
+                    <a class="btn btn-sm btn-info hidden" id="changeImg">更换图像</a>
                     <form name="form0" id="form0" class="hidden">
                         <input type="file" name="file0" id="file0" multiple="multiple"/>
                         <div class="hidden">
@@ -51,7 +53,7 @@
                         <div class="form-group" ng-class="{true: 'form-group has-error', false: 'form-group'}[(settingForm.name.$invalid && submitted)]">
                             <label for="userName">用户名:</label>
                             <span class="pull-right hidden" ng-class="{true:'pull-right',false:'pull-right hidden'}[settingForm.name.$dirty && settingForm.name.$invalid&& submitted]"
-                                  ng-show="(settingForm.name.$dirty && settingForm.name.$invalid&& submitted)">
+                                  ng-show="(settingForm.name.$dirty && settingForm.name.$invalid && submitted)">
                                         <small ng-show="settingForm.name.$error.required">请输入昵称</small>
                                         <small ng-show="settingForm.name.$error.minlength">请输入6~15位字符</small>
                                         <small ng-show="settingForm.name.$error.maxlength">请输入6~15位字符</small>
@@ -135,9 +137,4 @@
     </div>
 </div>
 <script src="js_control/setting.js" type="text/javascript"></script>
-<!--<script type="text/javascript">
-    var settingController = ['$scope', '$http', function ($scope, $http) {
-        $scope.user = {"name":"用户名"};
-    }];
-</script>-->
 

@@ -26,11 +26,11 @@
                         <ul class="dropdown-menu list-group" role="menu">
                             <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-comment"></span> 新消息 (12)</a></li>
                             <li><a href="/home"><span class="glyphicon glyphicon-home"></span> 个人中心</a></li>
-                            <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-hdd"></span> 我的主机</a></li>
+                            <li><a href="/home#/vpsDetail"><span class="glyphicon glyphicon-hdd"></span> 我的主机</a></li>
                             <li><a href="/editor" target="_blank"><span class="glyphicon glyphicon-pencil"></span> 发布帖子</a></li>
                             <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-zoom-in"></span> 审核新帖</a></li>
                             <li class="divider"></li>
-                            <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-cog"></span> 个人设置</a></li>
+                            <li><a href="/home#/setting"><span class="glyphicon glyphicon-cog"></span> 个人设置</a></li>
                             <li><a href="/j_spring_security_logout"><span class="glyphicon glyphicon-off"></span> 退出登录</a></li>
                             <li><a href="javascript:void(0)">帮助中心</a></li>
                         </ul>
@@ -72,7 +72,7 @@
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="/editor" target="_blank"><span class="glyphicon glyphicon-pencil"></span> 发布帖子</a></li>
                         <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-zoom-in"></span> 审核新帖</a></li>
-                        <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-send"></span> VPS申请</a></li>
+                        <li><a href="/home#/vpsDetail"><span class="glyphicon glyphicon-send"></span> VPS申请</a></li>
                         <li class="divider"></li>
                         <li class="dropdown-header">意见反馈</li>
                         <li><a href="javascript:void(0)">帮助中心</a></li>

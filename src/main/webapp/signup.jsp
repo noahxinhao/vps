@@ -33,7 +33,7 @@
                             <form role="form" class="im-editor" name="signupForm" novalidate ng-submit="submitForm()">
                                 <div class="form-group" ng-class="{true: 'form-group has-error', false: 'form-group'}[(signupForm.account.$invalid && submitted)||accountUsed]">
                                     <label for="Inputaccount1">邮箱/手机号码</label>
-                                    <span class="pull-right"
+                                    <span class="pull-right hidden" ng-class="{true:'pull-right',false:'pull-right hidden'}[(signupForm.account.$dirty && signupForm.account.$invalid&& submitted) || accountUsed]"
                                           ng-show="(signupForm.account.$dirty && signupForm.account.$invalid&& submitted) || accountUsed">
                                         <small ng-show="signupForm.account.$error.required">请输入邮箱或手机号码</small>
                                         <small ng-show="signupForm.account.$error.minlength">请输入6~20位字符</small>
@@ -52,7 +52,7 @@
                                 </div>
                                 <div class="form-group" ng-class="{true: 'form-group has-error', false: 'form-group'}[(signupForm.userpassword.$invalid && submitted)]">
                                     <label for="userPassword">密&nbsp;码</label>
-                                    <span class="pull-right"
+                                    <span class="pull-right hidden" ng-class="{true:'pull-right',false:'pull-right hidden'}[signupForm.userpassword.$dirty && signupForm.userpassword.$invalid && submitted]"
                                           ng-show="signupForm.userpassword.$dirty && signupForm.userpassword.$invalid && submitted">
                                         <small ng-show="signupForm.userpassword.$error.required">请输入密码</small>
                                         <small ng-show="signupForm.userpassword.$error.minlength">请输入6~15位密码字符</small>
@@ -69,7 +69,7 @@
                                 </div>
                                 <div class="form-group" ng-class="{true: 'form-group has-error', false: 'form-group'}[(signupForm.confirmPassword.$invalid&& submitted)||(user.confirmPassword!=''&&user.confirmPassword!=user.userpassword&&submitted)]">
                                     <label for="confirmPassword">确认密码</label>
-                                    <span class="pull-right"
+                                    <span class="pull-right hidden" ng-class="{true:'pull-right',false:'pull-right hidden'}[(signupForm.confirmPassword.$dirty && signupForm.confirmPassword.$invalid&& submitted)||(user.confirmPassword!=user.userpassword&&submitted)]"
                                           ng-show="(signupForm.confirmPassword.$dirty && signupForm.confirmPassword.$invalid&& submitted)||(user.confirmPassword!=user.userpassword&&submitted)">
                                         <small ng-show="signupForm.confirmPassword.$error.required">请输入确认密码</small>
                                         <small ng-show="signupForm.confirmPassword.$error.minlength">请输入6~15位密码字符</small>
@@ -89,7 +89,7 @@
                                 <div class="row clearfix" style="margin-bottom: 10px" ng-class="{true: 'row clearfix has-error', false: 'row clearfix'}[(signupForm.verificationCode.$invalid&& submitted)||wrongCode]">
                                     <div class="col-md-7">
                                         <label for="verificationCode">验证码</label>
-                                        <span class="pull-right"
+                                        <span class="pull-right hidden" ng-class="{true:'pull-right',false:'pull-right hidden'}[(signupForm.verificationCode.$dirty && signupForm.verificationCode.$invalid&& submitted)||wrongCode]"
                                               ng-show="(signupForm.verificationCode.$dirty && signupForm.verificationCode.$invalid&& submitted)||wrongCode">
                                         <small ng-show="signupForm.verificationCode.$error.required">请输入验证码</small>
                                         <small ng-show="signupForm.verificationCode.$error.minlength">请输入6验证码</small>

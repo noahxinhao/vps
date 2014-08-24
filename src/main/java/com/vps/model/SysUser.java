@@ -29,6 +29,8 @@ public class SysUser {
     private String password;
     @Column(length = 200)
     private String info;
+    @Column(length = 200)
+    private String user_img_path;
     @Column(length = 13, nullable = true)
     private String phone;
     @Column(length = 45, nullable = true)
@@ -42,8 +44,15 @@ public class SysUser {
     @Column(nullable = false)
     private Calendar create_time = Calendar.getInstance(Configuration.timezone);
     @Column(nullable = false)
-
     private Calendar update_time;
+
+    public String getUser_img_path() {
+        return user_img_path;
+    }
+
+    public void setUser_img_path(String user_img_path) {
+        this.user_img_path = user_img_path;
+    }
 
     public String getId() {
         return id;

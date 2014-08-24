@@ -41,7 +41,7 @@
                                 <div class="form-group"
                                      ng-class="{true: 'form-group has-error', false: 'form-group'}[(signinForm.account.$invalid && submitted)||wrongAccount]">
                                     <label for="Inputaccount1">邮箱/手机号码</label>
-                                         <span class="pull-right"
+                                         <span class="pull-right hidden" ng-class="{true:'pull-right',false:'pull-right hidden'}[(signinForm.account.$dirty && signinForm.account.$invalid&& submitted)||wrongAccount]"
                                                ng-show="(signinForm.account.$dirty && signinForm.account.$invalid&& submitted)||wrongAccount">
                                         <small ng-show="signinForm.account.$error.required">请输入邮箱或手机号码</small>
                                         <small ng-show="signinForm.account.$error.minlength">请输入6~15位字符</small>
@@ -62,7 +62,7 @@
                                 </div>
                                 <div class="form-group" ng-class="{true: 'form-group has-error', false: 'form-group'}[(signinForm.userpassword.$invalid && submitted)||wrongPassword]">
                                     <label for="userPassword">密&nbsp;码</label>
-                                    <span class="pull-right"
+                                    <span class="pull-right hidden" class="pull-right hidden" ng-class="{true:'pull-right',false:'pull-right hidden'}[(signinForm.userpassword.$dirty && signinForm.userpassword.$invalid && submitted)||wrongPassword]"
                                           ng-show="(signinForm.userpassword.$dirty && signinForm.userpassword.$invalid && submitted)||wrongPassword">
                                         <small ng-show="signinForm.userpassword.$error.required">请输入密码</small>
                                         <small ng-show="signinForm.userpassword.$error.minlength">请输入6~20位密码字符</small>
@@ -81,7 +81,7 @@
                                 <div class="row clearfix" ng-class="{true: 'row clearfix', false: 'row clearfix hidden'}[requiredCode]">
                                     <div class="col-md-12">
                                         <label for="verificationCode">验证码</label>
-                                        <span class="pull-right"
+                                        <span class="pull-right hidden" class="pull-right hidden" ng-class="{true:'pull-right',false:'pull-right hidden'}[(signinForm.verificationCode.$dirty && signinForm.verificationCode.$invalid&& submitted)||wrongVerifyCode]"
                                               ng-show="(signinForm.verificationCode.$dirty && signinForm.verificationCode.$invalid&& submitted)||wrongVerifyCode">
                                         <small ng-show="signinForm.verificationCode.$error.required">请输入验证码</small>
                                         <small ng-show="signinForm.verificationCode.$error.minlength">请输入6验证码</small>

@@ -41,15 +41,7 @@
             $('#frmDemo').submit();
         }
 
-        function getElementsByClassName(className, tagName) {
-            var ele = [], all = document.getElementsByTagName(tagName || "*");
-            for (var i = 0; i<all.length; i++) {
-                if (all[i].className == className) {
-                    ele[ele.length] = all[i];
-                }
-            }
-            return ele;
-        }
+
 
         var articleApp = angular.module('articlePublish', []);
         articleApp.controller('articleController', ['$scope','$http', function ($scope,$http) {
@@ -63,6 +55,11 @@
             }
         }]);
     </script>
+    <style>
+        .navbar{
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
 <!-- Fixed navbar -->
