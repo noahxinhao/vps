@@ -34,6 +34,7 @@ public class Rest_Setting {
 
     @RequestMapping(method = RequestMethod.POST, value = "/uploadImg")
     public void uploadImg(HttpServletRequest request, HttpServletResponse response, String x1, String y1, String x2, String y2, @RequestParam("file0") MultipartFile file0) throws IOException, MessagingException {
+        System.out.print("开始写入图片文件");
         Object su = request.getSession().getAttribute("sysUser");
         if (su == null) {
             response.getWriter().write(FAIL("不合发的操作,已退出登录"));

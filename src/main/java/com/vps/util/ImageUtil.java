@@ -48,6 +48,7 @@ public class ImageUtil {
            try {
                Image img;
                ImageFilter cropFilter;
+               System.out.print("图片写入路径:"+Configuration.global_config.getProperty("header.sculpture.path"));
                File sourceImgFile = new File(Configuration.global_config.getProperty("header.sculpture.path") + "/"+filename);
                BufferedImage bi = ImageIO.read(sourceImgFile);
                int srcWidth = bi.getWidth();
@@ -77,6 +78,7 @@ public class ImageUtil {
                    ImageIO.write(tag,suffix, out);
                }
            } catch (Exception e) {
+               System.out.print("上传图像写入异常"+e);
                e.printStackTrace();
            }
        }
