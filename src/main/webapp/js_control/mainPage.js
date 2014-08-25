@@ -33,7 +33,8 @@ angular.module('mainPage', []).
                     "name": u.real_name,
                     "email": u.email,
                     "phone": u.phone,
-                    "img": u.user_img_path
+                    "img": u.user_img_path,
+                    "account": u.account
                 };
                 if($scope.user.img==""||$scope.user.img==null||$scope.user.img==undefined){
                     $scope.user.img=applicationContextPath+"/img/default.png"
@@ -53,7 +54,8 @@ var userDetail = ['$scope', '$http', function ($scope, $http) {
                 "name": u.real_name,
                 "email": u.email,
                 "phone": u.phone,
-                "img": u.user_img_path
+                "img": u.user_img_path,
+                "account": u.account
             };
             if($scope.user.img==""||$scope.user.img==null||$scope.user.img==undefined){
                 $scope.user.img=applicationContextPath+"/img/default.png"
@@ -82,7 +84,8 @@ var setting = ['$scope', '$http', function ($scope, $http) {
                 "name": u.real_name,
                 "email": u.email,
                 "phone": u.phone,
-                "img": u.user_img_path
+                "img": u.user_img_path,
+                "account": u.account
             };
             if($scope.user.img==""||$scope.user.img==null||$scope.user.img==undefined){
                 $scope.user.img=applicationContextPath+"/img/default.png"
@@ -92,7 +95,6 @@ var setting = ['$scope', '$http', function ($scope, $http) {
     });
 
     $scope.title = "用户设置"
-    //$scope.user = {};
     $scope.submitted = false;
     $scope.saveChange = function(){
         $("#savebtn").button("loading");

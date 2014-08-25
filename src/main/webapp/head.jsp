@@ -22,7 +22,7 @@
             <c:if test="${sysUser!=null}">
                 <ul class="nav navbar-nav hidden-sm hidden-xs">
                     <li class="dropdown">
-                        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> &nbsp;${sysUser.account}&nbsp; <span class="caret"></span></a>
+                        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> &nbsp;${sysUser.real_name}&nbsp; <span class="caret"></span></a>
                         <ul class="dropdown-menu list-group" role="menu">
                             <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-comment"></span> 新消息 (12)</a></li>
                             <li><a href="/home"><span class="glyphicon glyphicon-home"></span> 个人中心</a></li>
