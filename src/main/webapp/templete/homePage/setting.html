@@ -50,7 +50,7 @@
                 </div>
                 <div class="col-md-5">
                     <form role="form" class="im-editor" name="settingForm" id="change_user_info" novalidate ng-submit="saveChange()">
-                        <div class="form-group" ng-class="{true: 'form-group has-error', false: 'form-group'}[(settingForm.name.$invalid && submitted)]">
+                        <div class="form-group">
                             <label for="userName">用户帐号:</label>
                             <input class="form-control" value="{{user.account}}" disabled/>
                         </div>
@@ -59,13 +59,13 @@
                             <span class="pull-right hidden" ng-class="{true:'pull-right',false:'pull-right hidden'}[settingForm.name.$dirty && settingForm.name.$invalid&& submitted]"
                                   ng-show="(settingForm.name.$dirty && settingForm.name.$invalid && submitted)">
                                         <small ng-show="settingForm.name.$error.required">请输入昵称</small>
-                                        <small ng-show="settingForm.name.$error.minlength">请输入2~15位字符</small>
-                                        <small ng-show="settingForm.name.$error.maxlength">请输入2~15位字符</small>
+                                        <small ng-show="settingForm.name.$error.minlength">请输入2~10位字符</small>
+                                        <small ng-show="settingForm.name.$error.maxlength">请输入2~10位字符</small>
                             </span>
                             <input placeholder="请输入昵称" id="userName"
                                    class="form-control"
                                    name="name"
-                                   ng-minlength=2 ng-maxlength=20 required
+                                   ng-minlength=2 ng-maxlength=10 required
                                    ng-model="user.name"/>
                         </div>
                         <div class="form-group" ng-class="{true: 'form-group has-error', false: 'form-group'}[(settingForm.email.$invalid && submitted)]">
