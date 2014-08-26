@@ -37,3 +37,6 @@ sudo cp -f ~/vps.war .
 sudo jar -xvf vps.war
 cd ../../bin
 sudo ./startup.sh
+
+#部署入口
+ssh ubuntu@54.64.18.35 "sudo /opt/script/deploy.sh"
