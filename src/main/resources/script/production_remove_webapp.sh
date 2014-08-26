@@ -9,3 +9,13 @@ expect "\\\[sudo\\\] password for ubuntu: "
 send "Kxs3UpPsJu62\n"
 expect "ubuntu@ubuntu:~$ "
 send "exit\n"
+
+#部署tomcat脚本
+cd /opt/apache-tomcat-8.0.9/bin/
+sudo ./shutdown.sh
+cd ../webapps/ROOT
+sudo rm -rf *
+sudo cp -f ~/vps.war .
+sudo jar -xvf vps.war
+cd ../../bin
+sudo ./startup.sh

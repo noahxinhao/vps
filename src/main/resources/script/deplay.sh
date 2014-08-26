@@ -24,5 +24,16 @@ for data in ${ipArray[@]}
 do
    echo "/opt/war/vps/target/vps.war ubuntu@${data}:~/"
    scp /opt/war/vps/target/vps.war ubuntu@${data}:~/;
+   ssh ubuntu@${data} "sudo /opt/script/start.sh"
    continue;
 done
+
+#部署tomcat脚本
+cd /opt/apache-tomcat-8.0.9/bin/
+sudo ./shutdown.sh
+cd ../webapps/ROOT
+sudo rm -rf *
+sudo cp -f ~/vps.war .
+sudo jar -xvf vps.war
+cd ../../bin
+sudo ./startup.sh
