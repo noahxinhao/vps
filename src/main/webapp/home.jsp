@@ -21,9 +21,9 @@
              <div class="col-md-3">
                  <div class="list-group" ng-controller="pageUrl">
                      <div href="#" class="list-group-item disabled clearfix">
-                         <img class="img-circle hidden"  ng-class="{true:'img-circle',false:'img-circle hidden'}[js_ready]" style="height:40px;width: 40px" alt="{{user.name}}" ng-src="{{user.img}}"/>
+                         <img class="img-circle hidden"  ng-class="{true:'img-circle im-img-shadow',false:'img-circle hidden'}[js_ready]" style="height:40px;width: 40px" alt="{{user.name}}" ng-src="{{user.img}}"/>
                          <span class="hidden" ng-class="{true:'',false:'hidden'}[js_ready]"><a href="javascript:void(0)">{{user.name}}</a></span>
-                         <img class="img-circle"  ng-class="{true:'img-circle',false:'img-circle hidden'}[!js_ready]" src="/img/loadding.gif" style="height: 40px;width: 40px"/>
+                         <img class="img-circle "  ng-class="{true:'img-circle ',false:'img-circle hidden'}[!js_ready]" src="/img/loadding.gif" style="height: 40px;width: 40px"/>
                      </div>
                      <a href="#/userDetail" class="list-group-item" ng-class="{true: 'list-group-item active', false: 'list-group-item'}[(pageTag=='userDetail')]" ng-click="changeTag('userDetail')"><span class="glyphicon glyphicon-user"></span> 基本信息</a>
                      <a href="#/vpsDetail" class="list-group-item" ng-class="{true: 'list-group-item active', false: 'list-group-item'}[(pageTag=='vpsDetail')]" ng-click="changeTag('vpsDetail')"><span class="glyphicon glyphicon-hdd"></span> VPS实例</a>

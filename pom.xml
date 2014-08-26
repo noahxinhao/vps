@@ -226,42 +226,7 @@
     <profiles>
         <!--本地测试-->
         <profile>
-            <id>develop</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <properties>
-                <filter.property.path></filter.property.path>
-                <shutdown.server.script></shutdown.server.script>
-                <remove.webapp.script></remove.webapp.script>
-                <startup.server.script></startup.server.script>
-                <local.nginx.script></local.nginx.script>
-                <remote.host></remote.host>
-                <remote.password></remote.password>
-                <filter.property.path>src/main/resources/properties/develop.properties</filter.property.path>
-            </properties>
-        </profile>
-        <!--uat测试环境-->
-        <profile>
-            <id>uat</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <properties>
-                <filter.property.path></filter.property.path>
-                <shutdown.server.script></shutdown.server.script>
-                <remove.webapp.script></remove.webapp.script>
-                <startup.server.script></startup.server.script>
-                <local.nginx.script></local.nginx.script>
-                <remote.host></remote.host>
-                <remote.password></remote.password>
-                <filter.property.path>src/main/resources/properties/development.properties</filter.property.path>
-            </properties>
-        </profile>
-
-        <!--生产环境-->
-        <profile>
-            <id>production</id>
+            <id>dev</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
@@ -273,7 +238,24 @@
                 <local.nginx.script></local.nginx.script>
                 <remote.host></remote.host>
                 <remote.password></remote.password>
-                <filter.property.path>src/main/resources/properties/production.properties</filter.property.path>
+                <filter.property.path>src/main/resources/properties/dev.properties</filter.property.path>
+            </properties>
+        </profile>
+        <!--生产环境-->
+        <profile>
+            <id>pro</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <properties>
+                <filter.property.path></filter.property.path>
+                <shutdown.server.script></shutdown.server.script>
+                <remove.webapp.script></remove.webapp.script>
+                <startup.server.script></startup.server.script>
+                <local.nginx.script></local.nginx.script>
+                <remote.host></remote.host>
+                <remote.password></remote.password>
+                <filter.property.path>src/main/resources/properties/pro.properties</filter.property.path>
             </properties>
         </profile>
     </profiles>
@@ -308,7 +290,6 @@
                     </compilerArguments>
                 </configuration>
             </plugin>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -335,7 +316,7 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
+            <!--<plugin>
                 <artifactId>maven-antrun-plugin</artifactId>
                 <dependencies>
                     <dependency>
@@ -366,7 +347,7 @@
                     </dependency>
                 </dependencies>
                 <executions>
-                    <!--执行test测试-->
+                    &lt;!&ndash;执行test测试&ndash;&gt;
                     <execution>
                         <phase>pre-integration-test</phase>
                         <goals>
@@ -381,8 +362,8 @@
                             </tasks>
                         </configuration>
                     </execution>
-                    <!--部署到远程服务器-->
-                    <!--<execution>
+                    &lt;!&ndash;部署到远程服务器&ndash;&gt;
+                    &lt;!&ndash;<execution>
                         <id>shutdown_server</id>
                         <phase>install</phase>
                         <goals>
@@ -401,9 +382,9 @@
                                 <exec executable="${startup.server.script}"></exec>
                             </tasks>
                         </configuration>
-                    </execution>-->
+                    </execution>&ndash;&gt;
                 </executions>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
 </project>

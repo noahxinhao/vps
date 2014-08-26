@@ -75,7 +75,6 @@ public class Rest_Setting {
                 Transaction transaction = session.beginTransaction();
                 session.saveOrUpdate(sysUser);
                 transaction.commit();
-
                 response.getWriter().write(SUCCESS("图片成功"));
             } catch (Exception e) {
                 response.getWriter().write(FAIL("图片上传失败"));

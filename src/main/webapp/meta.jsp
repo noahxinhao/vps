@@ -11,7 +11,7 @@
 <meta name="description" content="VPS,东京节点vps，史上最便宜的vps服务器">
 <meta name="keywords" content="VPS，史上最便宜的vps服务器，便宜的vps">
 <meta name="viewport" content="VPS,便宜的vps">
-<link rel="shortcut icon" href="http://csdnimg.cn/public/favicon.ico" />
+<link rel="shortcut icon" href="/img/favicon.ico" />
 <link href="/css/bootstrap.css" rel="stylesheet">
 <!-- Custom styles for this template -->
 <link href="/css/footer.css" rel="stylesheet">

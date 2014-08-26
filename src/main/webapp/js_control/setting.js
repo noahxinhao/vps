@@ -20,6 +20,7 @@ $(document).ready(function () {
 
     $("#upload").bind("click", function () {
         var url = $("#applicationContextPath").val()+"/set/uploadImg"
+        console.log("上传图片地址:"+url);
         $.ajaxFileUpload({
             type: "POST",
             url: url,
@@ -30,16 +31,17 @@ $(document).ready(function () {
                 x2:$("#img_x2").val(),
                 y2:$("#img_y2").val()
             },
-            //add by jiuxing for upload file
             //secureuri:false,
             fileElementId: 'file0',
             success: function (data) {
-                alert(JSON.stringify(data));
-                /*alert("上传成功");*/
+                console.log("上传图片成功");
+                window.location.href=$("#applicationContextPath").val()+"/home#/setting";
             },
             error: function (data, status, e) {
-                alert(e);
+                console.log("上传图片失败");
             }
-        })
+        });
+        window.location.href=$("#applicationContextPath").val()+"/home#/setting";
+        console.log("上传图片执行完成");
     });
 });
