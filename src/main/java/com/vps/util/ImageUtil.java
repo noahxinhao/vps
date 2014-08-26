@@ -77,6 +77,21 @@ public class ImageUtil {
                    ImageIO.write(tag, suffix, new File(Configuration.global_config.getProperty("header.sculpture.path") + "/"+filename));
                    ByteArrayOutputStream out = new ByteArrayOutputStream();
                    ImageIO.write(tag,suffix, out);
+
+                   /*同步文件到服务器*/
+                   try {
+                       String[] cmd = {"/bin/sh", "-c", Configuration.global_config.getProperty("sync.img.code")};
+                       Process ps = Runtime.getRuntime().exec(cmd);
+                       BufferedReader br = new BufferedReader(new InputStreamReader(ps.getInputStream()));
+                       StringBuffer sb = new StringBuffer();
+                       String line;
+                       while ((line = br.readLine()) != null) {
+                           sb.append(line).append("\\n");
+                       }
+                   }catch (Exception e){
+                       logger.error("执行同步图像到服务器出错",e);
+                       e.printStackTrace();
+                   }
                }
            } catch (Exception e) {
                System.out.print("上传图像写入异常"+e);
@@ -93,24 +108,9 @@ public class ImageUtil {
             if (imageFile.exists()) {
                 imageFile.delete();
             }
-            
+
             out = new FileOutputStream(imageFile);
             out.write(imageContent);
-            /*同步文件到服务器*/
-            try {
-                String[] cmd = {"/bin/sh", "-c", Configuration.global_config.getProperty("sync.img.code")};
-                Process ps = Runtime.getRuntime().exec(cmd);
-                BufferedReader br = new BufferedReader(new InputStreamReader(ps.getInputStream()));
-                StringBuffer sb = new StringBuffer();
-                String line;
-                while ((line = br.readLine()) != null) {
-                    sb.append(line).append("\\n");
-                }
-            }catch (Exception e){
-                logger.error("执行同步图像到服务器出错",e);
-                e.printStackTrace();
-            }
-
             return fileName;
         } catch (Exception e) {
             logger.error("保存头像时候异常",e);
