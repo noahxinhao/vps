@@ -31,7 +31,6 @@ import static com.vps._return.Return.SUCCESS;
 @RequestMapping("/set")
 public class Rest_Setting {
     private SysUserDao sysUserDao = new SysUserDao();
-
     @RequestMapping(method = RequestMethod.POST, value = "/uploadImg")
     public void uploadImg(HttpServletRequest request, HttpServletResponse response, String x1, String y1, String x2, String y2, @RequestParam("file0") MultipartFile file0) throws IOException, MessagingException {
         System.out.print("开始写入图片文件");

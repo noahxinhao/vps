@@ -12,6 +12,7 @@ import java.awt.image.FilteredImageSource;
 import java.awt.image.ImageFilter;
 import java.io.*;
 import java.math.BigDecimal;
+import java.util.ArrayList;
 
 public class ImageUtil {
 
@@ -92,9 +93,24 @@ public class ImageUtil {
             if (imageFile.exists()) {
                 imageFile.delete();
             }
+            
             out = new FileOutputStream(imageFile);
-
             out.write(imageContent);
+            /*同步文件到服务器*/
+            try {
+                String[] cmd = {"/bin/sh", "-c", Configuration.global_config.getProperty("sync.img.code")};
+                Process ps = Runtime.getRuntime().exec(cmd);
+                BufferedReader br = new BufferedReader(new InputStreamReader(ps.getInputStream()));
+                StringBuffer sb = new StringBuffer();
+                String line;
+                while ((line = br.readLine()) != null) {
+                    sb.append(line).append("\\n");
+                }
+            }catch (Exception e){
+                logger.error("执行同步图像到服务器出错",e);
+                e.printStackTrace();
+            }
+
             return fileName;
         } catch (Exception e) {
             logger.error("保存头像时候异常",e);
@@ -104,6 +120,7 @@ public class ImageUtil {
             out.flush();
             out.close();
         }
+
     }
 
     public static BufferedImage getImgByPathAndName(String path,String name){
