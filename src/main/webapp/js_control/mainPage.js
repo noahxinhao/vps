@@ -38,6 +38,8 @@ angular.module('mainPage', []).
                 };
                 if($scope.user.img==""||$scope.user.img==null||$scope.user.img==undefined){
                     $scope.user.img=applicationContextPath+"/img/default.png"
+                }else{
+                    $scope.user.img=applicationContextPath+"/images/u/"+$scope.user.img;
                 };
                 $scope.js_ready=true;
             }
@@ -59,6 +61,8 @@ var userDetail = ['$scope', '$http', function ($scope, $http) {
             };
             if($scope.user.img==""||$scope.user.img==null||$scope.user.img==undefined){
                 $scope.user.img=applicationContextPath+"/img/default.png"
+            }else{
+                $scope.user.img=applicationContextPath+"/images/u/"+$scope.user.img;
             };
             $scope.js_ready = true;
         }
@@ -89,7 +93,9 @@ var setting = ['$scope', '$http', function ($scope, $http) {
             };
             if($scope.user.img==""||$scope.user.img==null||$scope.user.img==undefined){
                 $scope.user.img=applicationContextPath+"/img/default.png"
-            }
+            }else{
+                $scope.user.img=applicationContextPath+"/images/u/"+$scope.user.img;
+            };
             $scope.js_ready = true;
         }
     });

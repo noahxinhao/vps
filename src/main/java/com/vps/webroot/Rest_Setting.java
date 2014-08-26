@@ -69,6 +69,13 @@ public class Rest_Setting {
                 systemFileName = ImageUtil.saveImageAndGetFileName(sysUser.getUser_id(), file0.getBytes(), suffix);
                 //剪切小图标
                 ImageUtil.cutImage(suffix, systemFileName, Integer.parseInt(x1), Integer.parseInt(y1), Integer.parseInt(x2), Integer.parseInt(y2));
+                /*保存用户图片信息*/
+                sysUser.setUser_img_path(sysUser.getUser_id()+"."+suffix);
+                Session session = Tool_Hibernate.createSession();
+                Transaction transaction = session.beginTransaction();
+                session.saveOrUpdate(sysUser);
+                transaction.commit();
+
                 response.getWriter().write(SUCCESS("图片成功"));
             } catch (Exception e) {
                 response.getWriter().write(FAIL("图片上传失败"));
