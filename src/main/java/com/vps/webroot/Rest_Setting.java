@@ -20,6 +20,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 import static com.vps._return.Return.FAIL;
 import static com.vps._return.Return.SUCCESS;
@@ -65,12 +66,13 @@ public class Rest_Setting {
             }
 
             try {
+                String token =  UUID.randomUUID().toString().replace("-", "").substring(6);
                 //根据上传图像的宽高剪切图像
-                systemFileName = ImageUtil.saveImageAndGetFileName(sysUser.getUser_id(), file0.getBytes(), suffix);
+                systemFileName = ImageUtil.saveImageAndGetFileName(sysUser.getUser_id()+"_"+token, file0.getBytes(), suffix);
                 //剪切小图标
                 ImageUtil.cutImage(suffix, systemFileName, Integer.parseInt(x1), Integer.parseInt(y1), Integer.parseInt(x2), Integer.parseInt(y2));
                 /*保存用户图片信息*/
-                sysUser.setUser_img_path(sysUser.getUser_id()+"."+suffix);
+                sysUser.setUser_img_path(systemFileName);
                 Session session = Tool_Hibernate.createSession();
                 Transaction transaction = session.beginTransaction();
                 session.saveOrUpdate(sysUser);
