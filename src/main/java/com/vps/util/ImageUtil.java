@@ -78,6 +78,19 @@ public class ImageUtil {
                    ByteArrayOutputStream out = new ByteArrayOutputStream();
                    ImageIO.write(tag,suffix, out);
 
+                   /*删掉以前的文件 TODO */
+                   /*File dir = new File(Configuration.global_config.getProperty("header.sculpture.path"));//文件目录
+                   File [] files = dir.listFiles();
+                   String fileName = "";
+                   for(File f: files){
+                       fileName = f.getName();
+                       if(fileName.endsWith(".txt")){
+                           if(f.delete()){
+                               System.out.println("已删除文件："+fileName);
+                           }
+                       }
+                   }*/
+
                    /*同步文件到服务器*/
                    try {
                        String[] cmd = {"/bin/sh", "-c", Configuration.global_config.getProperty("sync.img.code")};
@@ -105,6 +118,29 @@ public class ImageUtil {
         try {
             //Global_Tools.isExist(Configuration.global_config.getProperty("header.sculpture.path"));
             File imageFile = new File(Configuration.global_config.getProperty("header.sculpture.path") + "/" + fileName);
+            if (imageFile.exists()) {
+                imageFile.delete();
+            }
+
+            out = new FileOutputStream(imageFile);
+            out.write(imageContent);
+            return fileName;
+        } catch (Exception e) {
+            logger.error("保存头像时候异常",e);
+            throw new Exception("保存头像异常",e);
+        }
+        finally {
+            out.flush();
+            out.close();
+        }
+
+    }
+
+    public static String saveBlogImg(String filename,byte[] imageContent,String suffix) throws Exception {
+        String fileName = filename + "." + suffix;
+        OutputStream out = null;
+        try {
+            File imageFile = new File(Configuration.global_config.getProperty("blog.img.path") + "/" + fileName);
             if (imageFile.exists()) {
                 imageFile.delete();
             }

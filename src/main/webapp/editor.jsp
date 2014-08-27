@@ -32,7 +32,7 @@
                 modalHeight: 300,
                 upBtnText: '浏览',
                 upLinkUrl: "upload",
-                upImgUrl: "upload?type=Images",
+                upImgUrl: "rp/upload_blog_img?type=Images",
                 Flash:false
             });
         }

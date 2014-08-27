@@ -66,7 +66,7 @@ public class Rest_Setting {
             }
 
             try {
-                String token =  UUID.randomUUID().toString().replace("-", "").substring(6);
+                String token =  UUID.randomUUID().toString().replace("-", "").substring(4,10);
                 //根据上传图像的宽高剪切图像
                 systemFileName = ImageUtil.saveImageAndGetFileName(sysUser.getUser_id()+"_"+token, file0.getBytes(), suffix);
                 //剪切小图标
