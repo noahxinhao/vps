@@ -1,24 +1,24 @@
 #!/bin/bash
-echo -e "##########begin to deploy vps###########"
+echo -e "1 begin to deploy vps"
 cd /opt/war/vps
-echo -e "##########pull update from github##########"
+echo -e "2 pull update from github"
 sudo git pull origin
-echo -e "##########package this application#########"
+echo -e "3 package this application"
 sudo mvn package -Ppro
-echo -e "##########delete file from ROOT###########"
+echo -e "4 delete file from ROOT"
 cd /opt/apache-tomcat-8.0.9/webapps/ROOT
 sudo rm -rf *
-echo -e "############copy vps.war to ROOT###########"
+echo -e "5 copy vps.war to ROOT"
 sudo cp /opt/war/vps/target/vps.war .
-echo -e "#############unpackage war file############"
+echo -e "6 unpackage war file"
 sudo jar -xvf vps.war
-echo -e "#############restart server#############"
+echo -e "7 restart server"
 cd ../../bin
 sudo ./shutdown.sh
 sudo ./startup.sh
-echo -e "#############update nginx file #############"
+echo -e "update nginx file "
 sudo cp -rf /opt/apache-tomcat-8.0.9/webapps/ROOT /opt/nfs/
-echo -e "############begin deploy other application web[1,2,3,4]##############"
+echo -e "8 begin deploy other application web[1,2,3,4]"
 ipArray=(54.64.46.201 54.64.78.135 54.64.79.0 54.64.79.4);
 for data in ${ipArray[@]}
 do
@@ -39,5 +39,5 @@ cd ../../bin
 sudo ./startup.sh
 
 #部署入口
-ssh ubuntu@54.64.18.35 "sudo /opt/script/deploy.sh"
+ssh ubuntu@54.64.18.35 "/opt/script/deploy.sh"
 itlxh784533

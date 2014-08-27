@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97a22a5b-b9a1-4335-bdd0-cd4b4dfe9045" name="Default" comment="" />
+    <list default="true" id="97a22a5b-b9a1-4335-bdd0-cd4b4dfe9045" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/script/deplay.sh" afterPath="$PROJECT_DIR$/src/main/resources/script/deplay.sh" />
+    </list>
     <ignored path="vps.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -160,7 +162,7 @@
       <file leaf-file-name="deplay.sh" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/script/deplay.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="51" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.7251356" vertical-offset="378" max-vertical-offset="931">
+            <state line="41" column="24" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.7251356" vertical-offset="378" max-vertical-offset="931">
               <folding />
             </state>
           </provider>
@@ -266,7 +268,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/script/production_start_server.sh" />
         <option value="$PROJECT_DIR$/src/main/resources/script/production_remove_webapp.sh" />
         <option value="$PROJECT_DIR$/src/main/resources/script/vps.sh" />
-        <option value="$PROJECT_DIR$/src/main/resources/script/deplay.sh" />
         <option value="$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Setting.java" />
         <option value="$PROJECT_DIR$/src/main/resources/properties/pro.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/global_configuration.properties" />
@@ -275,6 +276,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/properties/dev.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/vps/util/ImageUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vps/webroot/Reset_publish.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/script/deplay.sh" />
       </list>
     </option>
   </component>
@@ -1037,12 +1039,12 @@
       <workItem from="1409017944590" duration="16171000" />
       <workItem from="1409058326421" duration="14126000" />
       <workItem from="1409104737899" duration="650000" />
-      <workItem from="1409129538920" duration="870000" />
+      <workItem from="1409129538920" duration="1496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="380775000" />
+    <option name="totallyTimeSpent" value="381401000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1411,7 +1413,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/script/deplay.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="51" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.7251356" vertical-offset="378" max-vertical-offset="931">
+        <state line="41" column="24" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.7251356" vertical-offset="378" max-vertical-offset="931">
           <folding />
         </state>
       </provider>
