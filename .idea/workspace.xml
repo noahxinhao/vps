@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="97a22a5b-b9a1-4335-bdd0-cd4b4dfe9045" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vps.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -126,25 +127,16 @@
       <file leaf-file-name="editor.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/editor.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="62" selection-start="717" selection-end="717" vertical-scroll-proportion="-2.8148148" vertical-offset="228" max-vertical-offset="2641">
+            <state line="16" column="62" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="2641">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deplay.sh" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="deplay.sh" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/script/deplay.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="56" selection-start="658" selection-end="668" vertical-scroll-proportion="0.41229656" vertical-offset="171" max-vertical-offset="931">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/AppTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
+            <state line="20" column="37" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="931">
               <folding />
             </state>
           </provider>
@@ -153,7 +145,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="204" column="0" selection-start="6797" selection-end="6797" vertical-scroll-proportion="0.0" vertical-offset="3841" max-vertical-offset="7524">
+            <state line="204" column="0" selection-start="6797" selection-end="6797" vertical-scroll-proportion="0.0" vertical-offset="3876" max-vertical-offset="7524">
               <folding />
             </state>
           </provider>
@@ -168,10 +160,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="20" selection-start="350" selection-end="350" vertical-scroll-proportion="-7.740741" vertical-offset="0" max-vertical-offset="3572">
+            <state line="11" column="54" selection-start="384" selection-end="384" vertical-scroll-proportion="0.38847584" vertical-offset="0" max-vertical-offset="3572">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signin.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/signin.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="112" column="141" selection-start="8906" selection-end="8918" vertical-scroll-proportion="-4.962963" vertical-offset="1994" max-vertical-offset="2622">
               <folding />
             </state>
           </provider>
@@ -298,7 +299,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1434" />
+    <option name="x" value="68" />
     <option name="y" value="-4" />
     <option name="width" value="1299" />
     <option name="height" value="773" />
@@ -336,8 +337,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -680,18 +681,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="LOCAL" value="false" />
-      <deployment />
-      <server-settings>
-        <data>
-          <option name="transportHostId" />
-        </data>
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -709,6 +698,18 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
       <method />
     </configuration>
     <configuration default="false" name="Tomcat7.0.47" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
@@ -859,12 +860,13 @@
       <workItem from="1409017944590" duration="16171000" />
       <workItem from="1409058326421" duration="14126000" />
       <workItem from="1409104737899" duration="650000" />
-      <workItem from="1409129538920" duration="4412000" />
+      <workItem from="1409129538920" duration="4736000" />
+      <workItem from="1409147540564" duration="264000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="384317000" />
+    <option name="totallyTimeSpent" value="384905000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -887,7 +889,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1434" y="-4" width="1299" height="773" extended-state="6" />
+    <frame x="68" y="-4" width="1299" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -987,11 +989,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/model/SysUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="28" selection-start="1453" selection-end="1466" vertical-scroll-proportion="-9.444445" vertical-offset="543" max-vertical-offset="2033" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/signin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="58" selection-start="1913" selection-end="1913" vertical-scroll-proportion="-7.0740743" vertical-offset="626" max-vertical-offset="2622" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/signup.jsp">
@@ -1127,9 +1124,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/properties/pro.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="461" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874">
-          <folding />
-        </state>
+        <state line="10" column="0" selection-start="461" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Webroot.java">
@@ -1148,9 +1143,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/properties/dev.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1441" selection-end="1456" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="893">
-          <folding />
-        </state>
+        <state line="39" column="0" selection-start="1441" selection-end="1456" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="893" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../../install/jdk1.7.0_17/src.zip!/java/io/File.java">
@@ -1160,9 +1153,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/global_configuration.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="372" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
-          <folding />
-        </state>
+        <state line="11" column="0" selection-start="372" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Setting.java">
@@ -1195,16 +1186,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/plugin/xheditor/xheditor-1.2.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="41" selection-start="64231" selection-end="64231" vertical-scroll-proportion="0.13451327" vertical-offset="0" max-vertical-offset="565">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="4" column="41" selection-start="64231" selection-end="64231" vertical-scroll-proportion="0.13451327" vertical-offset="0" max-vertical-offset="565" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/editor.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="62" selection-start="717" selection-end="717" vertical-scroll-proportion="-2.8148148" vertical-offset="228" max-vertical-offset="2641">
+        <state line="16" column="62" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="2641">
           <folding />
         </state>
       </provider>
@@ -1223,6 +1210,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/script/deplay.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="37" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="931">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/meta.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="58" selection-start="773" selection-end="773" vertical-scroll-proportion="-13.37037" vertical-offset="0" max-vertical-offset="741">
@@ -1230,16 +1224,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/signin.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="350" selection-end="350" vertical-scroll-proportion="-7.740741" vertical-offset="0" max-vertical-offset="3572">
+        <state line="112" column="141" selection-start="8906" selection-end="8918" vertical-scroll-proportion="-4.962963" vertical-offset="1994" max-vertical-offset="2622">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/script/deplay.sh">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="56" selection-start="658" selection-end="668" vertical-scroll-proportion="0.41229656" vertical-offset="171" max-vertical-offset="931">
+        <state line="11" column="54" selection-start="384" selection-end="384" vertical-scroll-proportion="0.38847584" vertical-offset="0" max-vertical-offset="3572">
           <folding />
         </state>
       </provider>
