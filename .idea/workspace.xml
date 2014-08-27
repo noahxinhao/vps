@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97a22a5b-b9a1-4335-bdd0-cd4b4dfe9045" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/vps/webroot/XhEditorUploadFileServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js_control/editor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vps/webroot/Reset_publish.java" afterPath="$PROJECT_DIR$/src/main/java/com/vps/webroot/Reset_publish.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/properties/dev.properties" afterPath="$PROJECT_DIR$/src/main/resources/properties/dev.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/editor.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/editor.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/global_configuration.properties" afterPath="$PROJECT_DIR$/src/main/resources/global_configuration.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/properties/pro.properties" afterPath="$PROJECT_DIR$/src/main/resources/properties/pro.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js_control/signin.js" afterPath="$PROJECT_DIR$/src/main/webapp/js_control/signin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vps.iml" afterPath="$PROJECT_DIR$/vps.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/vps_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/vps_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/plugin/xheditor/xheditor-1.2.1.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/xheditor/xheditor-1.2.1.min.js" />
     </list>
     <ignored path="vps.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,7 +111,52 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Reset_publish.java" line="31" class="com.vps.webroot.Reset_publish" package="com.vps.webroot">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Reset_publish.java" line="39" class="com.vps.webroot.Reset_publish" package="com.vps.webroot">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Reset_publish.java" line="34" class="com.vps.webroot.Reset_publish" package="com.vps.webroot">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Reset_publish.java" line="160" class="com.vps.webroot.Reset_publish" package="com.vps.webroot">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Reset_publish.java" line="190" class="com.vps.webroot.Reset_publish" package="com.vps.webroot">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -127,7 +184,7 @@
       <file leaf-file-name="editor.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/editor.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="62" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="2641">
+            <state line="138" column="62" selection-start="6708" selection-end="6713" vertical-scroll-proportion="-27.74074" vertical-offset="1873" max-vertical-offset="2850">
               <folding />
             </state>
           </provider>
@@ -136,44 +193,20 @@
       <file leaf-file-name="deplay.sh" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/script/deplay.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="37" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="931">
+            <state line="24" column="55" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="931">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="editor.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js_control/editor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="204" column="0" selection-start="6797" selection-end="6797" vertical-scroll-proportion="0.0" vertical-offset="3876" max-vertical-offset="7524">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="meta.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/meta.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="58" selection-start="773" selection-end="773" vertical-scroll-proportion="-13.37037" vertical-offset="0" max-vertical-offset="741">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="54" selection-start="384" selection-end="384" vertical-scroll-proportion="0.38847584" vertical-offset="0" max-vertical-offset="3572">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signin.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/signin.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="141" selection-start="8906" selection-end="8918" vertical-scroll-proportion="-4.962963" vertical-offset="1994" max-vertical-offset="2622">
-              <folding />
+            <state line="36" column="0" selection-start="1748" selection-end="1748" vertical-scroll-proportion="0.0" vertical-offset="430" max-vertical-offset="817">
+              <folding>
+                <marker date="1409156701463" expanded="true" signature="977:1002" placeholder="..." />
+                <marker date="1409156701463" expanded="true" signature="1048:1065" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -181,7 +214,35 @@
       <file leaf-file-name="Reset_publish.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Reset_publish.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="103" selection-start="1053" selection-end="1061" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="1900">
+            <state line="221" column="88" selection-start="8818" selection-end="8818" vertical-scroll-proportion="0.0" vertical-offset="2007" max-vertical-offset="3135">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#doPost4Html4#0;class#Reset_publish#0" expanded="false" />
+                <element signature="e#3006#3036#1" expanded="true" />
+                <element signature="e#3183#3205#0" expanded="true" />
+                <element signature="method#writeReturnJson#0;class#Reset_publish#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xheditor-1.2.1.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/plugin/xheditor/xheditor-1.2.1.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="102" column="42" selection-start="13484" selection-end="13488" vertical-scroll-proportion="-4.296296" vertical-offset="1822" max-vertical-offset="22287">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1409156418363" expanded="true" signature="2778:2803" placeholder="..." />
+                <marker date="1409156418363" expanded="true" signature="2825:2842" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rest_Webroot.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Webroot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="33" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.0" vertical-offset="412" max-vertical-offset="1615">
               <folding />
             </state>
           </provider>
@@ -190,25 +251,34 @@
       <file leaf-file-name="ImageUtil.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/util/ImageUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="138" column="36" selection-start="5679" selection-end="5690" vertical-scroll-proportion="0.0" vertical-offset="2622" max-vertical-offset="3287">
+            <state line="95" column="40" selection-start="3985" selection-end="3985" vertical-scroll-proportion="0.0" vertical-offset="1513" max-vertical-offset="3059">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rest_Setting.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Setting.java">
+      <file leaf-file-name="global_configuration.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/global_configuration.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="9" selection-start="1391" selection-end="3716" vertical-scroll-proportion="0.0" vertical-offset="1596" max-vertical-offset="2204">
+            <state line="13" column="30" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rest_UserControl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_UserControl.java">
+      <file leaf-file-name="dev.properties" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/properties/dev.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="165" column="37" selection-start="6336" selection-end="6336" vertical-scroll-proportion="0.0" vertical-offset="3135" max-vertical-offset="4256">
+            <state line="12" column="132" selection-start="795" selection-end="795" vertical-scroll-proportion="0.33333334" vertical-offset="99" max-vertical-offset="912">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pro.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/properties/pro.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="132" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="893">
               <folding />
             </state>
           </provider>
@@ -227,9 +297,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_DownLoad.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vps/_return/Return.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/plugin/beautyOfCode/demo.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/plugin/syntaxhighlighter/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/mongodb.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/vps/tools/Tool_Mongo.java" />
@@ -238,7 +305,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Webroot.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/js_control/signup.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js_control/signin.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/vps/tools/Global_Tools.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_UserControl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/article_publish.jsp" />
@@ -261,7 +327,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/templete/homePage/setting.html" />
         <option value="$PROJECT_DIR$/src/main/resources/properties/develop.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/properties/production.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/js_control/setting.js" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/script/production_shutdown_server.sh" />
@@ -269,15 +334,20 @@
         <option value="$PROJECT_DIR$/src/main/resources/script/production_remove_webapp.sh" />
         <option value="$PROJECT_DIR$/src/main/resources/script/vps.sh" />
         <option value="$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Setting.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/properties/pro.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/global_configuration.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/vps/webroot/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/editor.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/properties/dev.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/vps/util/ImageUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vps/webroot/Reset_publish.java" />
         <option value="$PROJECT_DIR$/src/main/resources/script/deplay.sh" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js_control/signin.js" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/editor.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/plugin/xheditor/xheditor-1.2.1.min.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js_control/editor.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vps/webroot/XhEditorUploadFileServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vps/webroot/Reset_publish.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/global_configuration.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/properties/pro.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/properties/dev.properties" />
       </list>
     </option>
   </component>
@@ -408,6 +478,212 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="properties" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -861,12 +1137,12 @@
       <workItem from="1409058326421" duration="14126000" />
       <workItem from="1409104737899" duration="650000" />
       <workItem from="1409129538920" duration="4736000" />
-      <workItem from="1409147540564" duration="264000" />
+      <workItem from="1409147540564" duration="11549000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="384905000" />
+    <option name="totallyTimeSpent" value="396190000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -899,30 +1175,30 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40031898" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24720894" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45773524" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28389156" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32695374" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24143426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16095617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2966507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3508772" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -949,33 +1225,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js_control/signup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="61" selection-start="2295" selection-end="2295" vertical-scroll-proportion="0.30265486" vertical-offset="513" max-vertical-offset="1482" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/tools/Global_Tools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="19" selection-start="6353" selection-end="6353" vertical-scroll-proportion="0.0" vertical-offset="2076" max-vertical-offset="2641" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Active.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="26" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="722">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/util/ValidateCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="24" selection-start="329" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1064" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/article_publish.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="54" selection-start="358" selection-end="358" vertical-scroll-proportion="-7.037037" vertical-offset="38" max-vertical-offset="1368" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/footer.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="6" selection-start="337" selection-end="337" vertical-scroll-proportion="0.41190475" vertical-offset="55" max-vertical-offset="475" />
@@ -989,16 +1238,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/model/SysUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="28" selection-start="1453" selection-end="1466" vertical-scroll-proportion="-9.444445" vertical-offset="543" max-vertical-offset="2033" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/signup.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="60" selection-start="9739" selection-end="9754" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2565" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js_control/signin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="53" selection-start="1953" selection-end="1953" vertical-scroll-proportion="0.83247423" vertical-offset="399" max-vertical-offset="1197" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/resources.html">
@@ -1122,18 +1361,6 @@
         <state line="5" column="26" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="494" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/pro.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="461" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Webroot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="33" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.0" vertical-offset="412" max-vertical-offset="1615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="0" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.0" vertical-offset="274" max-vertical-offset="1159">
@@ -1141,38 +1368,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1441" selection-end="1456" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="893" />
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../install/jdk1.7.0_17/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="195" column="31" selection-start="8102" selection-end="8102" vertical-scroll-proportion="0.33333334" vertical-offset="2925" max-vertical-offset="38855" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/global_configuration.properties">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/AppTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="372" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Setting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="9" selection-start="1391" selection-end="3716" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1767">
+        <state line="26" column="0" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/util/ImageUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/meta.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="36" selection-start="5679" selection-end="5690" vertical-scroll-proportion="0.0" vertical-offset="2336" max-vertical-offset="3059">
-          <folding />
+        <state line="19" column="58" selection-start="773" selection-end="773" vertical-scroll-proportion="-13.37037" vertical-offset="0" max-vertical-offset="741">
+          <folding>
+            <marker date="1409028216734" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409028216734" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Reset_publish.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="103" selection-start="1053" selection-end="1061" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="1900">
+        <state line="13" column="7" selection-start="429" selection-end="429" vertical-scroll-proportion="-9.148149" vertical-offset="0" max-vertical-offset="3572">
           <folding />
         </state>
       </provider>
@@ -1184,56 +1404,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/plugin/xheditor/xheditor-1.2.1.min.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Setting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="41" selection-start="64231" selection-end="64231" vertical-scroll-proportion="0.13451327" vertical-offset="0" max-vertical-offset="565" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="62" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="2641">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/AppTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="0" selection-start="6797" selection-end="6797" vertical-scroll-proportion="0.0" vertical-offset="3841" max-vertical-offset="7524">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/script/deplay.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="37" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="931">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/meta.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="58" selection-start="773" selection-end="773" vertical-scroll-proportion="-13.37037" vertical-offset="0" max-vertical-offset="741">
+        <state line="40" column="19" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.0" vertical-offset="62" max-vertical-offset="1767">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/signin.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="141" selection-start="8906" selection-end="8918" vertical-scroll-proportion="-4.962963" vertical-offset="1994" max-vertical-offset="2622">
+        <state line="129" column="63" selection-start="9763" selection-end="9763" vertical-scroll-proportion="-5.111111" vertical-offset="2313" max-vertical-offset="2622">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js_control/signin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="54" selection-start="384" selection-end="384" vertical-scroll-proportion="0.38847584" vertical-offset="0" max-vertical-offset="3572">
+        <state line="35" column="0" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="1197">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js_control/signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="68" selection-start="1879" selection-end="1879" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1482">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/signup.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="35" selection-start="10180" selection-end="10180" vertical-scroll-proportion="-4.2222223" vertical-offset="2109" max-vertical-offset="2565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="179" column="43" selection-start="6045" selection-end="6045" vertical-scroll-proportion="0.0" vertical-offset="3239" max-vertical-offset="7524">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/plugin/xheditor/xheditor_plugins/htmldomparser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1957">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/plugin/xheditor/xheditor_plugins/html2markdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="7410" max-vertical-offset="10887">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="62" selection-start="6708" selection-end="6713" vertical-scroll-proportion="-27.74074" vertical-offset="1873" max-vertical-offset="2850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/plugin/xheditor/xheditor-1.2.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="42" selection-start="13484" selection-end="13488" vertical-scroll-proportion="-4.296296" vertical-offset="1822" max-vertical-offset="22287">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1409156418363" expanded="true" signature="2778:2803" placeholder="..." />
+            <marker date="1409156418363" expanded="true" signature="2825:2842" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Webroot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="33" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.0" vertical-offset="412" max-vertical-offset="1615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/XhEditorUploadFileServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="329" column="35" selection-start="11742" selection-end="11742" vertical-scroll-proportion="-5.185185" vertical-offset="6111" max-vertical-offset="6555">
+          <folding>
+            <marker date="1409157982323" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1409157982323" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1409157982323" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1409157982323" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1409157982323" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1409157982323" expanded="true" signature="-1:-1" placeholder="/unchecked/" />
+            <marker date="1409157982323" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1409157982323" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1409157982323" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1409157982323" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js_control/editor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1748" selection-end="1748" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="817">
+          <folding>
+            <marker date="1409156701463" expanded="true" signature="977:1002" placeholder="..." />
+            <marker date="1409156701463" expanded="true" signature="1048:1065" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/util/ImageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="40" selection-start="3985" selection-end="3985" vertical-scroll-proportion="0.0" vertical-offset="1513" max-vertical-offset="3059">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/global_configuration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="30" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Reset_publish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="221" column="88" selection-start="8818" selection-end="8818" vertical-scroll-proportion="0.0" vertical-offset="2007" max-vertical-offset="3135">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#doPost4Html4#0;class#Reset_publish#0" expanded="false" />
+            <element signature="e#3006#3036#1" expanded="true" />
+            <element signature="e#3183#3205#0" expanded="true" />
+            <element signature="method#writeReturnJson#0;class#Reset_publish#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/script/deplay.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="55" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="931">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/pro.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="132" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="132" selection-start="795" selection-end="795" vertical-scroll-proportion="0.33333334" vertical-offset="99" max-vertical-offset="912">
           <folding />
         </state>
       </provider>

@@ -29,10 +29,10 @@
             if ($scope.signinForm.$valid) {
                 var verifyUserUrl = applicationContextPath+"/ruc/verifyUserInfo?account="+$scope.user.account+"&password="+$scope.user.userpassword+"&verifyCode="+$scope.user.verificationCode;
                 $http.get(verifyUserUrl).success(function (data) {
-                    $("#signinbtn").button("reset");
                     if(data.note=="允许登录"){
                         document.getElementById("loginForm").submit();
                     }else{
+                        $("#signinbtn").button("reset");
                         $scope.validateCodeUrl = applicationContextPath+"/rs/create_validate_code?d"+new Date().getMilliseconds();
                         //alert(data.note);
                         if(data.note=="密码错误"){

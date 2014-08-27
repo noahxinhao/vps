@@ -18,6 +18,7 @@
 
     <script type="text/javascript" src="/plugin/xheditor/xheditor_lang/zh-cn.js"></script>
     <script src="${pageContext.request.contextPath}/plugin/angular/angular.js"></script>
+    <script src="${pageContext.request.contextPath}/js_control/editor.js"></script>
     <style>
         #editor {overflow:scroll; max-height:300px}
     </style>
@@ -33,8 +34,12 @@
                 upBtnText: '浏览',
                 upLinkUrl: "upload",
                 upImgUrl: "rp/upload_blog_img?type=Images",
+                upFileUrl: "rp/upload_blog_img?type=Images",
                 Flash:false
             });
+            /*$('#elm1').xheditor({
+                plugins: plugins  //使用我们定义的插件
+            });*/
         }
 
         function submitForm(){
@@ -59,6 +64,7 @@
         .navbar{
             font-size: 14px;
         }
+        pre{margin-left:2em;border-left:3px solid #CCC;padding:0 1em;}
     </style>
 </head>
 <body>
@@ -127,6 +133,11 @@
             </div>
         </div>
     </div>
+</div>
+<div class="hidden">
+    <form action="" method="post" enctype="multipart/form-data" onsubmit="return chkForm();">
+          <input id="file1" name="file1" type="file" id="upimg">
+    </form>
 </div>
 <jsp:include page="footer.jsp"/>
 </body>

@@ -9,7 +9,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <title>IMDOU8&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;技术分享社区</title>
+    <title>IMDOU8&nbsp;&nbsp;-&nbsp;&nbsp;技术分享社区</title>
     <jsp:include page="meta.jsp"/>
 </head>
 <body>
