@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97a22a5b-b9a1-4335-bdd0-cd4b4dfe9045" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/vps/webroot/Reset_publish.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vps/util/ImageUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/vps/util/ImageUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vps/webroot/MainController.java" afterPath="$PROJECT_DIR$/src/main/java/com/vps/webroot/MainController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Setting.java" afterPath="$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Setting.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/script/deplay.sh" afterPath="$PROJECT_DIR$/src/main/resources/script/deplay.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/properties/dev.properties" afterPath="$PROJECT_DIR$/src/main/resources/properties/dev.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/editor.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/editor.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/global_configuration.properties" afterPath="$PROJECT_DIR$/src/main/resources/global_configuration.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/properties/pro.properties" afterPath="$PROJECT_DIR$/src/main/resources/properties/pro.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="97a22a5b-b9a1-4335-bdd0-cd4b4dfe9045" name="Default" comment="" />
     <ignored path="vps.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -1048,12 +1037,12 @@
       <workItem from="1409017944590" duration="16171000" />
       <workItem from="1409058326421" duration="14126000" />
       <workItem from="1409104737899" duration="650000" />
-      <workItem from="1409129538920" duration="550000" />
+      <workItem from="1409129538920" duration="870000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="380455000" />
+    <option name="totallyTimeSpent" value="380775000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
