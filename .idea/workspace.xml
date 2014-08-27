@@ -132,10 +132,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deplay.sh" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="deplay.sh" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/script/deplay.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="12" selection-start="429" selection-end="429" vertical-scroll-proportion="-11.4" vertical-offset="0" max-vertical-offset="931">
+            <state line="21" column="56" selection-start="658" selection-end="668" vertical-scroll-proportion="0.41229656" vertical-offset="171" max-vertical-offset="931">
               <folding />
             </state>
           </provider>
@@ -168,10 +168,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="24" selection-start="354" selection-end="354" vertical-scroll-proportion="0.38847584" vertical-offset="0" max-vertical-offset="3572">
+            <state line="11" column="20" selection-start="350" selection-end="350" vertical-scroll-proportion="-7.740741" vertical-offset="0" max-vertical-offset="3572">
               <folding />
             </state>
           </provider>
@@ -859,12 +859,12 @@
       <workItem from="1409017944590" duration="16171000" />
       <workItem from="1409058326421" duration="14126000" />
       <workItem from="1409104737899" duration="650000" />
-      <workItem from="1409129538920" duration="3914000" />
+      <workItem from="1409129538920" duration="4412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="383819000" />
+    <option name="totallyTimeSpent" value="384317000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1209,13 +1209,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/script/deplay.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="12" selection-start="429" selection-end="429" vertical-scroll-proportion="-11.4" vertical-offset="0" max-vertical-offset="931">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/AppTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="0" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
@@ -1239,7 +1232,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="354" selection-end="354" vertical-scroll-proportion="0.38847584" vertical-offset="0" max-vertical-offset="3572">
+        <state line="11" column="20" selection-start="350" selection-end="350" vertical-scroll-proportion="-7.740741" vertical-offset="0" max-vertical-offset="3572">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/script/deplay.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="56" selection-start="658" selection-end="668" vertical-scroll-proportion="0.41229656" vertical-offset="171" max-vertical-offset="931">
           <folding />
         </state>
       </provider>
