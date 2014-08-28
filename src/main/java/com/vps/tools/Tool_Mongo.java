@@ -49,7 +49,6 @@ public class Tool_Mongo {
         String uname = mongodb_properties.getProperty("mongo.db.vps.username");
         String pwd = mongodb_properties.getProperty("mongo.db.vps.passwd");
         Mongo mg = new Mongo(ip,Integer.parseInt(port));
-        //DB db = mg.getDB(dbname);
         DB db = mg.getDB("admin");
         boolean ok = db.authenticate(uname,pwd.toCharArray());
         if(ok){

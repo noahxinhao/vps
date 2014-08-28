@@ -1,8 +1,6 @@
 package com.vps.webroot;
 
-import com.mongodb.BasicDBObject;
-import com.mongodb.DB;
-import com.mongodb.DBCollection;
+import com.mongodb.*;
 import com.vps._return.Return;
 import com.vps.configuraction.Configuration;
 import com.vps.model.SysUser;
@@ -22,9 +20,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created by noah on 14-6-28.
@@ -75,6 +71,8 @@ public class Rest_Webroot {
         /*作者信息*/
         Map authorInfo = new HashMap();
         authorInfo.put("userId",user.getId());
+        authorInfo.put("userImg",user.getUser_img_path());
+        authorInfo.put("userName",user.getReal_name());
         /*评论信息*/
         Map reviewInfo = new HashMap();
 
@@ -86,7 +84,6 @@ public class Rest_Webroot {
         DBCollection collection = Tool_Mongo.get_mongo_collection();
         BasicDBObject basicDBObject = new BasicDBObject(ARTICLES);
         collection.save(basicDBObject);
-        //response.getWriter().write(Return.SUCCESS("发布完成"));
         model.put("status", "success");
         return new ModelAndView("article_publish",model);
     }
@@ -113,6 +110,22 @@ public class Rest_Webroot {
         }
         Map map = new HashMap();
         map.put("article",obj);
+        response.getWriter().write(Return.SUCCESS(map,""));
+    }
+
+    /*获取blog首页前十条发表的文章*/
+    @RequestMapping(method = RequestMethod.GET,value = "/getBlogs/{pageNum}")
+    public void getBlogs(HttpServletRequest request, HttpServletResponse response,@PathVariable("pageNum") String pageNum) throws Exception {
+        int PAGESIZE = 10;
+        DBCollection collection = Tool_Mongo.get_mongo_collection();
+        DBCursor cursor = collection.find(new BasicDBObject("basic.status",1)).skip((Integer.parseInt(pageNum) - 1) * PAGESIZE).sort(new BasicDBObject("basic.createTime", -1)).limit(PAGESIZE);//PAGESIZE=10
+        List objList = new ArrayList();
+        while( cursor.hasNext()){
+            DBObject obj = cursor.next();
+            objList.add(obj);
+        }
+        Map map = new HashMap();
+        map.put("articles",objList);
         response.getWriter().write(Return.SUCCESS(map,""));
     }
 }
