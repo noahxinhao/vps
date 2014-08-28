@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97a22a5b-b9a1-4335-bdd0-cd4b4dfe9045" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js_control/blog.js" afterPath="$PROJECT_DIR$/src/main/webapp/js_control/blog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/blog.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/blog.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/details.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/details.jsp" />
     </list>
     <ignored path="vps.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -169,10 +168,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="blog.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="blog.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/blog.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="148" selection-start="1946" selection-end="1946" vertical-scroll-proportion="0.6752137" vertical-offset="542" max-vertical-offset="1938">
+            <state line="39" column="27" selection-start="1635" selection-end="1635" vertical-scroll-proportion="-12.666667" vertical-offset="399" max-vertical-offset="1938">
               <folding />
             </state>
           </provider>
@@ -187,10 +186,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="details.jsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="details.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/details.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="102" selection-start="5279" selection-end="5303" vertical-scroll-proportion="-4.888889" vertical-offset="1407" max-vertical-offset="1919">
+            <state line="11" column="43" selection-start="391" selection-end="391" vertical-scroll-proportion="0.5954416" vertical-offset="0" max-vertical-offset="1919">
               <folding />
             </state>
           </provider>
@@ -256,7 +255,7 @@
       <file leaf-file-name="Rest_UserControl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_UserControl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="149" column="85" selection-start="5733" selection-end="5810" vertical-scroll-proportion="0.0" vertical-offset="917" max-vertical-offset="3819">
+            <state line="199" column="0" selection-start="7922" selection-end="7922" vertical-scroll-proportion="0.0" vertical-offset="2399" max-vertical-offset="3819">
               <folding />
             </state>
           </provider>
@@ -321,11 +320,11 @@
         <option value="$PROJECT_DIR$/src/main/webapp/plugin/syntaxhighlighter/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/spring_security.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/js_control/editor.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/details.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/vps/tools/Tool_Mongo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Webroot.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/js_control/blog.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/blog.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/details.jsp" />
       </list>
     </option>
   </component>
@@ -1081,12 +1080,12 @@
       <workItem from="1409147540564" duration="12761000" />
       <workItem from="1409190880644" duration="9923000" />
       <workItem from="1409232263099" duration="8201000" />
-      <workItem from="1409240534554" duration="5040000" />
+      <workItem from="1409240534554" duration="6208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="420566000" />
+    <option name="totallyTimeSpent" value="421734000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1437,20 +1436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/details.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="102" selection-start="5279" selection-end="5303" vertical-scroll-proportion="-4.888889" vertical-offset="1407" max-vertical-offset="1919">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_UserControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="85" selection-start="5733" selection-end="5810" vertical-scroll-proportion="0.0" vertical-offset="2206" max-vertical-offset="3819">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring_security.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="40" selection-start="1608" selection-end="1608" vertical-scroll-proportion="-7.6" vertical-offset="399" max-vertical-offset="1900">
@@ -1489,9 +1474,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_UserControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="199" column="0" selection-start="7922" selection-end="7922" vertical-scroll-proportion="0.0" vertical-offset="2399" max-vertical-offset="3819">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/blog.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="148" selection-start="1946" selection-end="1946" vertical-scroll-proportion="0.6752137" vertical-offset="542" max-vertical-offset="1938">
+        <state line="39" column="27" selection-start="1635" selection-end="1635" vertical-scroll-proportion="-12.666667" vertical-offset="399" max-vertical-offset="1938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/details.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="43" selection-start="391" selection-end="391" vertical-scroll-proportion="0.5954416" vertical-offset="0" max-vertical-offset="1919">
           <folding />
         </state>
       </provider>

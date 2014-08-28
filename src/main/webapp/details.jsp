@@ -9,7 +9,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html ng-app="articles">
 <head>
-    <title>文章</title>
+    <title>${article.basic.title}  - IMDOU8</title>
     <link href="/css/bootstrap.css" rel="stylesheet">
     <jsp:include page="meta.jsp"/>
 
