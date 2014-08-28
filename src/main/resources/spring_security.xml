@@ -26,6 +26,7 @@
 
 	<http auto-config="true" servlet-api-provision="false"
 		access-denied-page="/signin?m=access_denied" use-expressions="true">
+        <intercept-url pattern="/details/*" access="permitAll" />
         <intercept-url pattern="/home" access="hasRole('ROLE_USER')" />
         <intercept-url pattern="/editor" access="hasRole('ROLE_USER')" />
         <logout invalidate-session="true"

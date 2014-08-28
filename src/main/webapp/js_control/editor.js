@@ -20,7 +20,7 @@ var plugins = {
         var jCode = $(htmlCode), jType = $('#xheCodeType', jCode), jValue = $('#xheCodeValue', jCode), jSave = $('#xheSave', jCode);
         jSave.click(function () {
             _this.loadBookmark();
-            _this.pasteHTML('<pre class="brush: ' + jType.val() + '">' + _this.domEncode(jValue.val()) + '</pre>&nbsp;');
+            _this.pasteHTML('<pre class="brush: ' + jType.val() + '">' + _this.domEncode(jValue.val()) + '</pre>');
             _this.hidePanel();
             return false;
         });

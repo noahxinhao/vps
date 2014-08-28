@@ -40,9 +40,6 @@
                 Flash: false,
                 plugins: plugins
             });
-            /*$('#elm1').xheditor({
-             plugins: plugins  //使用我们定义的插件
-             });*/
         }
 
         function submitForm() {

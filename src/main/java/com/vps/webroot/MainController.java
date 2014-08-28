@@ -1,8 +1,12 @@
 package com.vps.webroot;
 
+import com.mongodb.BasicDBObject;
+import com.mongodb.DBCollection;
 import com.vps._return.KV;
 import com.vps._return.Return;
+import com.vps.tools.Tool_Mongo;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
@@ -42,6 +46,21 @@ public class MainController {
         Map model = new HashMap();
         model.put("target", "editor");
         return new ModelAndView("/editor",model);
+    }
+
+    @RequestMapping(method = RequestMethod.GET,value = "/details/{article_id}")
+    public ModelAndView details(HttpServletRequest request, HttpServletResponse response,@PathVariable("article_id") String article_id) throws Exception {
+        Map model = new HashMap();
+        model.put("target", "details");
+        model.put("article_id", "article_id");
+        DBCollection collection = Tool_Mongo.get_mongo_collection();
+        BasicDBObject basicDBObject = new BasicDBObject("basic.article_id",article_id);
+        Object obj = collection.findOne(basicDBObject);
+        if(obj.equals(null)){
+            return new ModelAndView("404");
+        }
+        model.put("article",obj);
+        return new ModelAndView("/details",model);
     }
 
     @RequestMapping(method = RequestMethod.GET,value = "/signin")

@@ -10,6 +10,7 @@ import com.vps.tools.Global_Tools;
 import com.vps.tools.Tool_Mongo;
 import com.vps.util.ValidateCode;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
@@ -61,7 +62,7 @@ public class Rest_Webroot {
             return new ModelAndView("article_publish",model);
         }
         SysUser user = (SysUser) sysUser;
-
+        String milliseconds = String.valueOf(new Date().getTime()).substring(7);// 6位
         /*基本信息*/
         Map basic = new HashMap();
         basic.put("title",title);
@@ -70,6 +71,7 @@ public class Rest_Webroot {
         basic.put("createTime",new Date().getTime());
         basic.put("updateTime",new Date().getTime());
         basic.put("status",1);
+        basic.put("article_id",milliseconds.concat(((SysUser) sysUser).getUser_id()));
         /*作者信息*/
         Map authorInfo = new HashMap();
         authorInfo.put("userId",user.getId());
@@ -98,5 +100,19 @@ public class Rest_Webroot {
         ServletOutputStream out = response.getOutputStream();
         BufferedImage img = ve.getImage();
         ImageIO.write(img, "png", out);
+    }
+    /*获取文章内容*/
+    @RequestMapping(method = RequestMethod.GET,value = "/article/{article_id}")
+    public void details(HttpServletRequest request, HttpServletResponse response,@PathVariable("article_id") String article_id) throws Exception {
+        DBCollection collection = Tool_Mongo.get_mongo_collection();
+        BasicDBObject basicDBObject = new BasicDBObject("basic.article_id",article_id);
+        Object obj = collection.findOne(basicDBObject);
+        if(obj.equals(null)){
+            response.getWriter().write(Return.FAIL("没有找到文章"));
+            return;
+        }
+        Map map = new HashMap();
+        map.put("article",obj);
+        response.getWriter().write(Return.SUCCESS(map,""));
     }
 }

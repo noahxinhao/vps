@@ -62,7 +62,7 @@
                     <li><a href="/vps" >VPS</a></li>
                     <li><a href="/blog" >技术交流</a></li>
                 </c:if>
-                <c:if test="${target == 'signin'||target == 'signup'||target == 'home'}">
+                <c:if test="${target == 'signin'||target == 'signup'||target == 'home'||target == 'details'}">
                     <li><a href="/index">首页</a></li>
                     <li><a href="/vps" >VPS</a></li>
                     <li><a href="/blog" >技术交流</a></li>
