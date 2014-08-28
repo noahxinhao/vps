@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97a22a5b-b9a1-4335-bdd0-cd4b4dfe9045" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/details.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/details.jsp" />
-    </list>
+    <list default="true" id="97a22a5b-b9a1-4335-bdd0-cd4b4dfe9045" name="Default" comment="" />
     <ignored path="vps.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -189,7 +187,7 @@
       <file leaf-file-name="details.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/details.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="43" selection-start="391" selection-end="391" vertical-scroll-proportion="0.5954416" vertical-offset="0" max-vertical-offset="1919">
+            <state line="11" column="43" selection-start="385" selection-end="391" vertical-scroll-proportion="-1.1908832" vertical-offset="627" max-vertical-offset="1919">
               <folding />
             </state>
           </provider>
@@ -1080,12 +1078,12 @@
       <workItem from="1409147540564" duration="12761000" />
       <workItem from="1409190880644" duration="9923000" />
       <workItem from="1409232263099" duration="8201000" />
-      <workItem from="1409240534554" duration="6208000" />
+      <workItem from="1409240534554" duration="6443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="421734000" />
+    <option name="totallyTimeSpent" value="421969000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1490,7 +1488,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/details.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="43" selection-start="391" selection-end="391" vertical-scroll-proportion="0.5954416" vertical-offset="0" max-vertical-offset="1919">
+        <state line="11" column="43" selection-start="385" selection-end="391" vertical-scroll-proportion="-1.1908832" vertical-offset="627" max-vertical-offset="1919">
           <folding />
         </state>
       </provider>
