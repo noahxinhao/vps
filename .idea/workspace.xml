@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97a22a5b-b9a1-4335-bdd0-cd4b4dfe9045" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js_control/blog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Webroot.java" afterPath="$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Webroot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vps/tools/Tool_Mongo.java" afterPath="$PROJECT_DIR$/src/main/java/com/vps/tools/Tool_Mongo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/blog.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/blog.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vps.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -175,7 +171,7 @@
       <file leaf-file-name="blog.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/blog.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="38" selection-start="1754" selection-end="1754" vertical-scroll-proportion="0.5209003" vertical-offset="598" max-vertical-offset="1938">
+            <state line="41" column="153" selection-start="1951" selection-end="1951" vertical-scroll-proportion="0.6752137" vertical-offset="542" max-vertical-offset="1938">
               <folding />
             </state>
           </provider>
@@ -202,7 +198,7 @@
       <file leaf-file-name="home.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="33" selection-start="3480" selection-end="3480" vertical-scroll-proportion="-8.0" vertical-offset="582" max-vertical-offset="1007">
+            <state line="42" column="33" selection-start="3480" selection-end="3480" vertical-scroll-proportion="-22.777779" vertical-offset="183" max-vertical-offset="1007">
               <folding />
             </state>
           </provider>
@@ -1084,12 +1080,12 @@
       <workItem from="1409147540564" duration="12761000" />
       <workItem from="1409190880644" duration="9923000" />
       <workItem from="1409232263099" duration="8201000" />
-      <workItem from="1409240534554" duration="3826000" />
+      <workItem from="1409240534554" duration="4719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="419352000" />
+    <option name="totallyTimeSpent" value="420245000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1126,7 +1122,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36204147" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2982456" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -1464,13 +1460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="33" selection-start="3480" selection-end="3480" vertical-scroll-proportion="-8.0" vertical-offset="582" max-vertical-offset="1007">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/setting.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="149" selection-start="1404" selection-end="1425" vertical-scroll-proportion="-7.6296296" vertical-offset="516" max-vertical-offset="2850">
@@ -1492,9 +1481,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="33" selection-start="3480" selection-end="3480" vertical-scroll-proportion="-22.777779" vertical-offset="183" max-vertical-offset="1007">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/blog.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="38" selection-start="1754" selection-end="1754" vertical-scroll-proportion="0.5209003" vertical-offset="598" max-vertical-offset="1938">
+        <state line="41" column="153" selection-start="1951" selection-end="1951" vertical-scroll-proportion="0.6752137" vertical-offset="542" max-vertical-offset="1938">
           <folding />
         </state>
       </provider>
