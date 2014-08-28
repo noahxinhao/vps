@@ -28,10 +28,3 @@ var plugins = {
         _this.showDialog(jCode);
     }}
 };
-
-/*
-$('#elm1').xheditor({
-    plugins: plugins,  //使用我们定义的插件
-    loadCSS: '<style>pre{margin-left:2em;border-left:3px solid #CCC;padding:0 1em;}</style>'
-});*/
-

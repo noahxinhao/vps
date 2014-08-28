@@ -57,3 +57,8 @@ form{
 #header-nav a:hover span{
 	background-position:100% -42px;
 }
+
+.btnCode {
+    background: transparent url(/img/code.png) no-repeat 0px 0px;
+    background-position: 3px -2px;
+}
