@@ -8,7 +8,7 @@ angular.module('blogApp', []).controller("blogsController",
                 for(var i=0;i<$scope.blogs.length;i++){
                     var temp = $scope.blogs[i];
                     temp.basic.content = temp.basic.content.replace(/<\/?.+?>/g,"");
-                    $scope.blogs[i].basic.content = temp.basic.content.length>700?temp.basic.content.substring(0,700)+"....":temp.basic.content;
+                    $scope.blogs[i].basic.content = temp.basic.content.length>500?temp.basic.content.substring(0,500)+"....":temp.basic.content;
                     $scope.blogs[i].basic.createTime = new Date($scope.blogs[i].basic.createTime).format(("yyyy年MM月dd日 hh:mm:ss"))
                 }
                 $scope.js_ready = true;

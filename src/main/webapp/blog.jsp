@@ -39,7 +39,7 @@
                  <div class="row hidden" ng-class="{true:'row',false:'row hidden'}[js_ready]">
                          <div class="panel panel-default im-panel  col-md-12" ng-repeat="article in blogs">
                              <div class="panel-heading im-panel-header clearfix">
-                                 <img class="img-circle " alt="{{article.authorInfo.userName}}" ng-src="href="${pageContext.request.contextPath}/images/u{{article.authorInfo.userImg}}"/>
+                                 <img class="img-circle " alt="{{article.authorInfo.userName}}" ng-src="${pageContext.request.contextPath}/images/u/{{article.authorInfo.userImg}}"/>
                                  <span><label class="label label-info" style="font-size: 14px">{{article.basic.tag}}</label>  <a target="_blank" href="${pageContext.request.contextPath}/details/{{article.basic.article_id}}">{{article.basic.title}}</a></span>
                              </div>
                              <div class="panel-body">
