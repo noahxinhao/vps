@@ -12,6 +12,7 @@
 <meta name="description" content="VPS，东京节点vps，服务器架设，服务器部署，web站点搭建">
 <meta name="keywords" content="imdou8">
 <meta name="viewport" content="VPS服务器架设，技术交流，服务器架设技术">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <link rel="shortcut icon" href="/img/favicon.ico" />
 <link href="/css/bootstrap.css" rel="stylesheet">
 <!-- Custom styles for this template -->

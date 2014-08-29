@@ -98,7 +98,7 @@
                                         <small ng-show="!signupForm.verificationCode.$error.required&&!signupForm.verificationCode.$invalid&&!signupForm.verificationCode.$error.maxlength&&!signupForm.verificationCode.$error.minlength&&wrongCode">验证码错误</small>
                                     </span>
                                     </div>
-                                    <div class="col-md-7">
+                                    <div class="col-md-7 col-xs-6">
                                         <input type="text"
                                                placeholder="请输入验证码"
                                                name="verificationCode"
@@ -108,7 +108,7 @@
                                                ng-pattern="/^\w{6}(,\w{6})*$/"
                                                class="form-control"/>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 col-xs-6">
                                         <img src="{{validateCodeUrl}}" id="verfity_code_img" alt="点击更新"
                                              title="点击更新验证码" style="cursor: pointer;height: 35px"
                                              ng-click="refresh_validate_code()"/>

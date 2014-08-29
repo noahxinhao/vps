@@ -25,7 +25,7 @@
     <div class="row"  ng-app="userSignin">
         <div class="col-md-12">
             <div class="row">
-                <div class="col-md-12" style="height: 70px"></div>
+                <div class="col-md-12 hidden-xs hidden-sm" style="height: 70px"></div>
                 <div class="col-md-8">
                     <%--<img src="${pageContext.request.contextPath}/img/signinbg2.jpg" style="width: 100%"/>--%>
                 </div>
@@ -90,7 +90,7 @@
                                         <small ng-show="!signinForm.verificationCode.$error.required&&!signinForm.verificationCode.$invalid&&!signinForm.verificationCode.$error.maxlength&&!signinForm.verificationCode.$error.minlength&&wrongVerifyCode">验证码错误</small>
                                     </span>
                                     </div>
-                                    <div class="col-md-7">
+                                    <div class="col-md-7 col-xs-6">
                                             <input type="text"
                                                    placeholder="请输入验证码"
                                                    name="verificationCode"
@@ -100,7 +100,7 @@
                                                    ng-pattern="/^\w{6}(,\w{6})*$/"
                                                    class="form-control"/>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 col-xs-6">
                                         <img src="{{validateCodeUrl}}" ng-click="verfity_code_img()" alt="点击更新"
                                              title="点击更新验证码" style="cursor: pointer;height: 35px"/>
                                     </div>

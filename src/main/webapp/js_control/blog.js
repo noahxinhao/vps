@@ -7,9 +7,10 @@ angular.module('blogApp', []).controller("blogsController",
                 $scope.blogs = data.articles;
                 for(var i=0;i<$scope.blogs.length;i++){
                     var temp = $scope.blogs[i];
+                    var count = document.body.clientWidth<500?60:185;
                     $scope.blogs[i].thumbnail_url = getimgsrc(temp.basic.content);
                     temp.basic.content = temp.basic.content.replace(/<\/?.+?>/g,"");
-                    $scope.blogs[i].basic.content = temp.basic.content.length>180?temp.basic.content.substring(0,180)+"....":temp.basic.content;
+                    $scope.blogs[i].basic.content = temp.basic.content.length>count?temp.basic.content.substring(0,count)+"....":temp.basic.content;
                     $scope.blogs[i].basic.createTime = new Date($scope.blogs[i].basic.createTime).format(("yyyy年MM月dd日 hh:mm:ss"))
                 }
                 $scope.js_ready = true;

@@ -87,13 +87,11 @@
                 <div class="form-group im-title"
                      ng-class="{true: 'form-group im-title has-error', false: 'form-group im-title'}[(articleForm.title.$invalid && submitted)]">
                     <label for="title" class="col-sm-1 control-label" style="text-align: left">标题:</label>
-
                     <div class="col-sm-6">
-                        <%--<input type="text" class="form-control" id="title" name="title" placeholder="文章标题">--%>
                         <input placeholder="请输入文章标题" id="title"
                                class="form-control"
                                name="title"
-                               ng-minlength=6 ng-maxlength=20 required
+                               ng-minlength=6 ng-maxlength=40 required
                                ng-model="article.title"/>
                     </div>
                     <label for="title" class="col-sm-5 control-label" style="text-align: left"
@@ -106,7 +104,7 @@
                     </label>
                     <label for="title" class="col-sm-5 control-label" style="text-align: left"
                            ng-show="articleForm.title.$error.maxlength && submitted">
-                        标题字数不得超过20个字符
+                        标题字数不得超过40个字符
                     </label>
                 </div>
                 <div class="form-group im-title">

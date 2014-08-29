@@ -44,7 +44,7 @@
 <jsp:include page="head.jsp"/>
      <div class="container">
          <div class="row">
-             <div class="col-md-3">
+             <div class="col-md-3 hidden-sm hidden-xs">
                  <div class="row" ng-controller="datail">
                      <div class="col-md-12">
                          <div class="panel panel-default">
@@ -82,11 +82,10 @@
                      </div>
                  </div>
              </div>
-             <div class="col-md-9">
-                 <div class="panel panel-default">
+             <div class="col-md-9 col-md-12 im-details-content ">
+                 <div class="panel panel-default ">
                      <div class="panel-heading" style="font-size: 16px"><span class="label label-info">${article.basic.tag}</span> ${article.basic.title}</div>
                      <div class="panel-body">
-                        <%-- <span class="pull-right">${article.basic.createTime}</span>--%>
                          ${article.basic.content}
                      </div>
                  </div>

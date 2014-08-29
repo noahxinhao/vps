@@ -190,3 +190,16 @@ body {
 .im-media a{
     text-decoration:none;
 }
+.im-media a{
+    cursor:pointer;
+    text-decoration:none;
+    hide-focus: expression(this.hideFocus=true);
+    outline:none;
+}
+.im-media a:link,a:visited,a:hover,a:active{
+    text-decoration:none;
+}
+
+.im-media a:focus{
+    outline:0;
+}

@@ -8,3 +8,9 @@ angular.module('articles', []).controller("datail", function ($scope, $http) {
         }
     });
 });
+
+$(document).ready(function(){
+    $("img").each(function(){
+        $(this).addClass("img-responsive");
+    });
+});

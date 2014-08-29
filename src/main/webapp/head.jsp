@@ -82,3 +82,7 @@
         </div><!--/.nav-collapse -->
     </div>
 </div>
+<%--为网站中所有的图片添加img-responsive--%>
+<script type="text/javascript">
+
+</script>
