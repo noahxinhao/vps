@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97a22a5b-b9a1-4335-bdd0-cd4b4dfe9045" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vps/webroot/MainController.java" afterPath="$PROJECT_DIR$/src/main/java/com/vps/webroot/MainController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Webroot.java" afterPath="$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Webroot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js_control/details.js" afterPath="$PROJECT_DIR$/src/main/webapp/js_control/details.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/details.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/details.jsp" />
     </list>
     <ignored path="vps.iws" />
@@ -192,7 +189,7 @@
       <file leaf-file-name="details.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/details.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="44" selection-start="4407" selection-end="4407" vertical-scroll-proportion="0.72761196" vertical-offset="907" max-vertical-offset="2033">
+            <state line="56" column="51" selection-start="4239" selection-end="4239" vertical-scroll-proportion="0.5858209" vertical-offset="907" max-vertical-offset="2033">
               <folding />
             </state>
           </provider>
@@ -1148,12 +1145,12 @@
       <workItem from="1409276265039" duration="305000" />
       <workItem from="1409283391947" duration="2671000" />
       <workItem from="1409295570501" duration="32000" />
-      <workItem from="1409315529544" duration="7569000" />
+      <workItem from="1409315529544" duration="8027000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="432977000" />
+    <option name="totallyTimeSpent" value="433435000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1527,7 +1524,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/details.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="44" selection-start="4407" selection-end="4407" vertical-scroll-proportion="0.72761196" vertical-offset="907" max-vertical-offset="2033">
+        <state line="56" column="51" selection-start="4239" selection-end="4239" vertical-scroll-proportion="0.5858209" vertical-offset="907" max-vertical-offset="2033">
           <folding />
         </state>
       </provider>

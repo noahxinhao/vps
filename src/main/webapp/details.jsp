@@ -51,10 +51,10 @@
                              <div class="panel-heading">博主资料</div>
                              <div class="panel-body">
                                  <div class="thumbnail" style="border: 0px">
-                                     <c:if test="author!=null&&author!=''">
+                                     <c:if test="${author!=null&&author!=''}">
                                          <img alt="${author.real_name}" src="/images/u/${author.user_img_path}" style="width: 85%;">
                                      </c:if>
-                                     <c:if test="author==null||author==''">
+                                     <c:if test="${author==null||author==''}">
                                          <img alt="" src="/images/u/default.png" style="width: 85%;">
                                      </c:if>
                                  </div>
