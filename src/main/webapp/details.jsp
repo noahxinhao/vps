@@ -42,19 +42,20 @@
 <body>
 <jsp:include page="head.jsp"/>
      <div class="container">
-         <div class="row" ng-controller="datail">
+         <div class="row">
              <div class="col-md-3">
-                 <div class="row">
+                 <div class="row" ng-controller="datail">
                      <div class="col-md-12">
                          <div class="panel panel-default">
                              <div class="panel-heading">博主资料</div>
                              <div class="panel-body">
                                  <div class="thumbnail" style="border: 0px">
-                                     <img alt="{{author.name}}" ng-src="{{author.img}}" style="width: 85%;">
+                                     <img class="img-circle " src="/img/loadding.gif" ng-class="{true:'hidden',false:''}[js_ready]" style="height: 60px;width: 60px"/>
+                                     <img alt="{{author.real_name}}" class="hidden" ng-class="{true:'',false:'hidden'}[js_ready]" ng-src="/images/u/{{author.user_img_path}}" style="width: 85%;">
+                                     <input type="hidden" value="${article.authorInfo.userId}" ng-model="author.id">
                                  </div>
-                                 <div class="caption" style="border-top: 1px dashed ">
-                                     <h3>{{author.name}}</h3>
-                                     <p>Linux AMI 2014.03.2</p>
+                                 <div class="caption hidden" style="border-top: 1px dashed" ng-class="{true:'caption',false:'caption hidden'}[js_ready]">
+                                     <h3>{{author.real_name}}</h3>
                                  </div>
                              </div>
                          </div>
@@ -90,6 +91,7 @@
      </div>
 <jsp:include page="footer.jsp"/>
 <input type="hidden" id="article_id" value="${article_id}">
+
 <script src="${pageContext.request.contextPath}/js_control/details.js"></script>
 </body>
 </html>

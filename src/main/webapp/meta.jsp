@@ -7,10 +7,11 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <meta charset="utf-8">
+<meta name="baidu-site-verification" content="McMg2Qh54j" />
 <meta name="robots" content="none">
-<meta name="description" content="VPS,东京节点vps，史上最便宜的vps服务器">
-<meta name="keywords" content="VPS，史上最便宜的vps服务器，便宜的vps">
-<meta name="viewport" content="VPS,便宜的vps">
+<meta name="description" content="VPS，东京节点vps，服务器架设，服务器部署，web站点搭建">
+<meta name="keywords" content="imdou8">
+<meta name="viewport" content="VPS服务器架设，技术交流，服务器架设技术">
 <link rel="shortcut icon" href="/img/favicon.ico" />
 <link href="/css/bootstrap.css" rel="stylesheet">
 <!-- Custom styles for this template -->

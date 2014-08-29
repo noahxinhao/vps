@@ -143,6 +143,7 @@ public class Rest_UserControl {
         SysUser user = new SysUser();
         user.setReal_name(account);
         user.setStatus(1);
+        user.setUser_img_path(Configuration.global_config.getProperty("header.default"));
         user.setAccount(account);
         user.setPassword(md5.encodePassword(password, account));
         user.setCreate_time(Calendar.getInstance(Configuration.timezone));

@@ -43,7 +43,7 @@
                                  <span><label class="label label-info" style="font-size: 14px">{{article.basic.tag}}</label>  <a target="_blank" href="${pageContext.request.contextPath}/details/{{article.basic.article_id}}">{{article.basic.title}}</a></span>
                              </div>
                              <div class="panel-body">
-                                 <a target="_blank" href="${pageContext.request.contextPath}/details/{{article.basic.article_id}}">{{article.basic.content}}</a>
+                                 <a target="_blank" href="${pageContext.request.contextPath}/details/{{article.basic.article_id}}" style="color:rgb(87, 87, 87)">{{article.basic.content}}</a>
                              </div>
                              <div class="im-panel-footer">
                                  <div class="col-md-8">
