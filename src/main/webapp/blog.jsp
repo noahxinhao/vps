@@ -37,7 +37,7 @@
                      <img class="img-circle " src="/img/loadding.gif" style="height: 60px;width: 60px"/>
                  </div>
                  <div class="row hidden" ng-class="{true:'row',false:'row hidden'}[js_ready]">
-                         <div class="panel panel-default im-panel  col-md-12" ng-repeat="article in blogs">
+                     <%--<div class="panel panel-default im-panel  col-md-12" ng-repeat="article in blogs">
                              <div class="panel-heading im-panel-header clearfix">
                                  <img class="img-circle " alt="{{article.authorInfo.userName}}" ng-src="${pageContext.request.contextPath}/images/u/{{article.authorInfo.userImg}}"/>
                                  <span><label class="label label-info" style="font-size: 14px">{{article.basic.tag}}</label>  <a target="_blank" href="${pageContext.request.contextPath}/details/{{article.basic.article_id}}">{{article.basic.title}}</a></span>
@@ -60,7 +60,31 @@
                                      </ul>
                                  </div>
                              </div>
+                         </div>--%>
+                     <div class="media im-media" ng-repeat="article in blogs" style="margin-bottom:5px">
+                         <a class="pull-left" href="#" ng-class="{true:'pull-left',false:'pull-left hidden'}[article.thumbnail_url!=null]">
+                             <img ng-src="{{article.thumbnail_url}}" style="width: 84px; height: 84px;" class="media-object" alt="{{article.basic.title}}">
+                         </a>
+                         <div class="media-body" style="padding: 0px">
+                             <h4 class="media-heading"><a target="_blank" href="${pageContext.request.contextPath}/details/{{article.basic.article_id}}">{{article.basic.title}}</a></h4>
+                             <a target="_blank" href="${pageContext.request.contextPath}/details/{{article.basic.article_id}}" style="color:rgb(87, 87, 87)">{{article.basic.content}}</a>
                          </div>
+                         <div class="col-md-12" style="padding-top: 10px;border-bottom: 1px dashed;padding-left: 0px">
+                             <div class="col-md-8" style="padding-left: 0px">
+                                 <ul class="list-inline">
+                                     <li>发布于:{{article.basic.createTime}}</li>
+                                     <li>作者:{{article.authorInfo.userName}}</li>
+                                     <li>阅读(1045)</li>
+                                 </ul>
+                             </div>
+                             <div class="col-md-4" style="padding-right: 0px">
+                                 <ul class="list-inline pull-right">
+                                     <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-thumbs-up"></span></a> (1034)</li>
+                                     <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-thumbs-down"></span></a> (90)</li>
+                                 </ul>
+                             </div>
+                         </div>
+                     </div>
                  </div>
              </div>
              <div class="col-md-3">

@@ -7,8 +7,9 @@ angular.module('blogApp', []).controller("blogsController",
                 $scope.blogs = data.articles;
                 for(var i=0;i<$scope.blogs.length;i++){
                     var temp = $scope.blogs[i];
+                    $scope.blogs[i].thumbnail_url = getimgsrc(temp.basic.content);
                     temp.basic.content = temp.basic.content.replace(/<\/?.+?>/g,"");
-                    $scope.blogs[i].basic.content = temp.basic.content.length>500?temp.basic.content.substring(0,500)+"....":temp.basic.content;
+                    $scope.blogs[i].basic.content = temp.basic.content.length>180?temp.basic.content.substring(0,180)+"....":temp.basic.content;
                     $scope.blogs[i].basic.createTime = new Date($scope.blogs[i].basic.createTime).format(("yyyy年MM月dd日 hh:mm:ss"))
                 }
                 $scope.js_ready = true;
@@ -35,4 +36,15 @@ Date.prototype.format = function(format) {
             format = format.replace(RegExp.$1, RegExp.$1.length == 1 ? o[k]
                 : ("00" + o[k]).substr(("" + o[k]).length));
     return format;
+}
+
+/*获取图片地址*/
+function getimgsrc(htmlstr)
+{
+    var reg=/<img.+?src=('|")?([^'"]+)('|")?(?:\s+|>)/gim;
+    var arr = []; while(tem=reg.exec(htmlstr)){ arr.push(tem[2]); }
+    if(arr.length!=0){
+        return arr[0];
+    }
+    return null;
 }
