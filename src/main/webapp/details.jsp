@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html ng-app="articles">
 <head>
@@ -50,12 +51,15 @@
                              <div class="panel-heading">博主资料</div>
                              <div class="panel-body">
                                  <div class="thumbnail" style="border: 0px">
-                                     <img class="img-circle " src="/img/loadding.gif" ng-class="{true:'hidden',false:''}[js_ready]" style="height: 60px;width: 60px"/>
-                                     <img alt="{{author.real_name}}" class="hidden" ng-class="{true:'',false:'hidden'}[js_ready]" ng-src="/images/u/{{author.user_img_path}}" style="width: 85%;">
-                                     <input type="hidden" value="${article.authorInfo.userId}" ng-model="author.id">
+                                     <c:if test="author!=null&&author!=''">
+                                         <img alt="${author.real_name}" src="/images/u/${author.user_img_path}" style="width: 85%;">
+                                     </c:if>
+                                     <c:if test="author==null||author==''">
+                                         <img alt="" src="/images/u/default.png" style="width: 85%;">
+                                     </c:if>
                                  </div>
-                                 <div class="caption hidden" style="border-top: 1px dashed" ng-class="{true:'caption',false:'caption hidden'}[js_ready]">
-                                     <h3>{{author.real_name}}</h3>
+                                 <div class="caption" style="border-top: 1px dashed">
+                                     <h3>${author.real_name}</h3>
                                  </div>
                              </div>
                          </div>

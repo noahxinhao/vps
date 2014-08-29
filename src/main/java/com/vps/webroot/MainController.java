@@ -1,9 +1,13 @@
 package com.vps.webroot;
 
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DBCollection;
 import com.vps._return.KV;
 import com.vps._return.Return;
+import com.vps.dao.SysUserDao;
+import com.vps.model.SysUser;
 import com.vps.tools.Tool_Mongo;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -23,6 +27,8 @@ import java.util.Map;
 @Controller
 @RequestMapping("/")
 public class MainController {
+    private SysUserDao sysUserDao = new SysUserDao();
+    public static JsonParser json_parser = new JsonParser();
     @RequestMapping(method = RequestMethod.GET,value = "/index")
     public ModelAndView printWelcome(HttpServletRequest request, HttpServletResponse response) {
         Map model = new HashMap();
@@ -58,6 +64,20 @@ public class MainController {
         Object obj = collection.findOne(basicDBObject);
         if(obj.equals(null)){
             return new ModelAndView("404");
+        }
+        /*获取用户信息*/
+        JsonObject result = null;
+        result = json_parser.parse(obj.toString()).getAsJsonObject();
+        String uid = null;
+        if(result!=null){
+            JsonObject user = result.get("authorInfo").getAsJsonObject();
+            uid = user.get("userId").getAsString();
+        }
+        if(uid!=null){
+            SysUser sysUser = sysUserDao.get_user_by_user_id(uid);
+            if(sysUser!=null){
+                model.put("author", sysUser);
+            }
         }
         model.put("article",obj);
         return new ModelAndView("/details",model);
