@@ -81,7 +81,7 @@
 <!-- Begin page content -->
 <div class="container" ng-app="articlePublish">
     <div class="row" ng-controller="articleController">
-        <div class="col-md-9">
+        <div class="col-md-9" style="padding-bottom: 100px">
             <form class="form-horizontal im-editor" name="articleForm" id="article_info" novalidate
                   ng-submit="saveArticle()">
                 <div class="form-group im-title"
@@ -126,7 +126,7 @@
             <input name="tag" value="{{article.tag}}"/>
             <textarea name="elm1" value="" id="content"/></textarea>
         </form>
-        <div class="col-md-3">
+        <div class="col-md-3 hidden-xs hidden-sm">
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">发帖规则</h3>
@@ -138,7 +138,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 hidden-xs hidden-sm">
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">最新发布</h3>

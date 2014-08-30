@@ -67,7 +67,7 @@
                     </div>--%>
                 <div class="col-md-12">
                     <div class="media im-media" ng-repeat="article in blogs" style="margin-bottom:5px">
-                        <a class="pull-left" href="#"
+                        <a class="pull-left" href="${pageContext.request.contextPath}/details/{{article.basic.article_id}}" target="_blank"
                            ng-class="{true:'pull-left',false:'pull-left hidden'}[article.thumbnail_url!=null]">
                             <img ng-src="{{article.thumbnail_url}}" style="width: 84px; height: 84px;"
                                  class="media-object img-responsive" alt="{{article.basic.title}}">
