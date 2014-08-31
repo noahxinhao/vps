@@ -34,3 +34,4 @@
 <script src="${pageContext.request.contextPath}/js/jquery-1.9.1.min.js"></script>
 <script src="${pageContext.request.contextPath}/js/bootstrap.js"></script>
 <script src="${pageContext.request.contextPath}/plugin/angular/angular.js"></script>
+<script src="${pageContext.request.contextPath}/js/jquery.pin.js"></script>

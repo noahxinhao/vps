@@ -113,10 +113,11 @@
         <div class="col-md-4">
             <div class="media">
                 <div class="row ">
-                    <div class="media-img  pull-left  col-sm-5  col-md-4 ">
+                    <%--<div class="media-img  pull-left  col-sm-5  col-md-4 ">
                         <div class="img-overlay "> <a class="btn  btn-primary  animated fadeInUp " href="/about/" rel="bookmark">Apri</a> </div>
-                        <img src="/img/links-about.jpg" alt="About" height="150" width="150"> </div>
-                    <div class="media-body   col-sm-7 col-md-8  ">
+                        <img src="/img/links-about.jpg" alt="About" height="150" width="150"> </div>--%>
+                    <div class="media-body   col-sm-7 col-md-12  ">
+                        <img src="/img/links-about.jpg" alt="About" height="150" width="150" style="align: justify">
                         <h4 class="media-heading"> <a href="/vps">廉价VPS出售</a></h4>
                         <p class="hidden-sm">为所有热爱计算机的中国青年提供入门级VPS服务,在这里，你可以用极低的价格获取一台配置想当出色的VPS服务器</p>
                     </div>

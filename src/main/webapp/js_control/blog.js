@@ -49,3 +49,14 @@ function getimgsrc(htmlstr)
     }
     return null;
 }
+
+$(document).ready(function(){
+    $(document).ready(function(){
+        $("#newArticle").pin({
+            top:60
+        });
+        /*$("#toolsbar").pin({
+            top:60
+        });*/
+    })
+})

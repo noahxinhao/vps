@@ -46,37 +46,39 @@
          <div class="row">
              <div class="col-md-3 hidden-sm hidden-xs">
                  <div class="row" ng-controller="datail">
-                     <div class="col-md-12">
-                         <div class="panel panel-default">
-                             <div class="panel-heading">博主资料</div>
-                             <div class="panel-body">
-                                 <div class="thumbnail" style="border: 0px">
-                                     <c:if test="${author!=null&&author!=''}">
-                                         <img alt="${author.real_name}" src="/images/u/${author.user_img_path}" style="width: 85%;">
-                                     </c:if>
-                                     <c:if test="${author==null||author==''}">
-                                         <img alt="" src="/images/u/default.png" style="width: 85%;">
-                                     </c:if>
-                                 </div>
-                                 <div class="caption" style="border-top: 1px dashed">
-                                     <h3>${author.real_name}</h3>
+                     <div id="leftPin">
+                         <div class="col-md-12" >
+                             <div class="panel panel-default">
+                                 <div class="panel-heading">博主资料</div>
+                                 <div class="panel-body">
+                                     <div class="thumbnail" style="border: 0px">
+                                         <c:if test="${author!=null&&author!=''}">
+                                             <img alt="${author.real_name}" src="/images/u/${author.user_img_path}" style="width: 85%;">
+                                         </c:if>
+                                         <c:if test="${author==null||author==''}">
+                                             <img alt="" src="/images/u/default.png" style="width: 85%;">
+                                         </c:if>
+                                     </div>
+                                     <div class="caption" style="border-top: 1px dashed">
+                                         <h3>${author.real_name}</h3>
+                                     </div>
                                  </div>
                              </div>
                          </div>
-                     </div>
-                     <div class="col-md-12">
-                         <div class="panel panel-default">
-                             <div class="panel-heading">最新发表</div>
-                             <div class="panel-body">
-                                 Panel content
+                         <div class="col-md-12">
+                             <div class="panel panel-default">
+                                 <div class="panel-heading">最新发表</div>
+                                 <div class="panel-body">
+                                     Panel content
+                                 </div>
                              </div>
                          </div>
-                     </div>
-                     <div class="col-md-12">
-                         <div class="panel panel-default">
-                             <div class="panel-heading">好友关注</div>
-                             <div class="panel-body">
-                                 Panel content
+                         <div class="col-md-12">
+                             <div class="panel panel-default">
+                                 <div class="panel-heading">好友关注</div>
+                                 <div class="panel-body">
+                                     Panel content
+                                 </div>
                              </div>
                          </div>
                      </div>
