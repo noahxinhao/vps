@@ -62,7 +62,7 @@
         </div>
     </div>
 </div>
-<div class="container hidden-md hidden-lg">
+<div class="container im-carousel-sm hidden-md hidden-lg" style="padding-left: 0px;padding-right: 0px">
     <div id="carousel-example-generic_sm" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -103,8 +103,8 @@
     </div>
 </div>
 
-<div class="container" style="padding-top: 10px">
-    <div class="section-title hidden-xs hidden-sm">
+<div class="container hidden-xs hidden-sm">
+    <div class="section-title">
         <span>
             WHAT WE DO
         </span>

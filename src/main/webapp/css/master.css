@@ -39,7 +39,10 @@ body {
 }
 
 .im-carousel{
-    padding: 40px 0px 0;
+    padding: 40px 0px 0px 0px;
+}
+.im-carousel{
+    padding: 35px 0px 0px 0px;
 }
 .im-logoimg{
     position: absolute;

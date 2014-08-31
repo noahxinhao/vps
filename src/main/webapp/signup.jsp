@@ -19,7 +19,7 @@
     <div class="row" ng-app="userSignup">
         <div class="col-md-12">
             <div class="row">
-                <div class="col-md-12" style="height: 50px"></div>
+                <div class="col-md-12 hidden-xs hidden-sm" style="height: 50px"></div>
                 <div class="col-md-8">
                 </div>
                 <div class="col-md-4">
