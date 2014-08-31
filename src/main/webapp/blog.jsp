@@ -90,6 +90,12 @@
                     </div>
                 </div>
             </div>
+            <div class="row text-center">
+                <ul class="pager">
+                    <li class="disabled" ng-class="{true:'disabled',false:''}[currentPage==1]"><a href="javascript:void(0)" ng-click="frontPage()">上一页</a></li>
+                    <li ng-class="{true:'',false:'disabled'}[hasMore]"><a href="javascript:void(0)" ng-click="nextPage()">下一页</a></li>
+                </ul>
+            </div>
         </div>
         <div class="col-md-3 hidden-sm hidden-xs">
             <div class="row">
