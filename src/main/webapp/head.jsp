@@ -74,6 +74,7 @@
                         <li><a href="/editor" target="_blank"><span class="glyphicon glyphicon-pencil"></span> 发布帖子</a></li>
                         <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-zoom-in"></span> 审核新帖</a></li>
                         <li><a href="/home#/vpsDetail"><span class="glyphicon glyphicon-send"></span> VPS申请</a></li>
+                        <li><a href="/home#/vpsDetail"><span class="glyphicon glyphicon-download"></span> 资源下载</a></li>
                         <li class="divider"></li>
                         <li class="dropdown-header">意见反馈</li>
                         <li><a href="javascript:void(0)">帮助中心</a></li>

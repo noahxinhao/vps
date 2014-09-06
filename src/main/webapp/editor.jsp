@@ -129,12 +129,12 @@
         <div class="col-md-3 hidden-xs hidden-sm">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3 class="panel-title">发帖规则</h3>
+                    <h3 class="panel-title">提示</h3>
                 </div>
                 <div class="panel-body">
-                    Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum
-                    nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
-                    vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                    <p>1、推荐到首页必需是高质量、对别人有帮助的文章</p>
+                    <p>2、发布到首页后，一旦被管理员撤下，3天内将不能再发布到首页</p>
+                    <p>3、请不要发布任何推广、广告（包括招聘）、政治、低俗等方面的内容，不要把博客当作SEO工具，否则可能会影响到您的使用</p>
                 </div>
             </div>
         </div>

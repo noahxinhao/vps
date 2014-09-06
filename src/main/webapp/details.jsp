@@ -91,12 +91,20 @@
                          ${article.basic.content}
                      </div>
                  </div>
+                 <div class="panel panel-success">
+                     <div class="panel-heading">评论</div>
+                     <div class="panel-body">
+                         <!-- UY BEGIN -->
+                         <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1962664"></script>
+                         <div id="uyan_frame"></div>
+                         <!-- UY END -->
+                     </div>
+                 </div>
              </div>
          </div>
      </div>
 <jsp:include page="footer.jsp"/>
 <input type="hidden" id="article_id" value="${article_id}">
-
 <script src="${pageContext.request.contextPath}/js_control/details.js"></script>
 </body>
 </html>
