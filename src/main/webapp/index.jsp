@@ -110,12 +110,12 @@
         </span>
     </div>
     <div class="row">
-        <div class="col-md-4">
+        <%--<div class="col-md-4">
             <div class="media">
                 <div class="row ">
-                    <%--<div class="media-img  pull-left  col-sm-5  col-md-4 ">
+                    &lt;%&ndash;<div class="media-img  pull-left  col-sm-5  col-md-4 ">
                         <div class="img-overlay "> <a class="btn  btn-primary  animated fadeInUp " href="/about/" rel="bookmark">Apri</a> </div>
-                        <img src="/img/links-about.jpg" alt="About" height="150" width="150"> </div>--%>
+                        <img src="/img/links-about.jpg" alt="About" height="150" width="150"> </div>&ndash;%&gt;
                     <div class="media-body   col-sm-7 col-md-12  ">
                         <img src="/img/links-about.jpg" alt="About" height="150" width="150" style="align: justify">
                         <h4 class="media-heading"> <a href="/vps">廉价VPS出售</a></h4>
@@ -123,8 +123,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-4">
+        </div>--%>
+        <div class="col-md-8">
             <div class="panel-body bs-callout bs-callout-info ">
                 <h4>站长亲测的vps经验</h4><br/>
                 <p>如大多数刚接触vps的同学们一样，我也在搜索引擎中不断的寻求最适合的vps用作学习之用，无奈便宜的不稳定，稳定的不便宜，稳定便宜的又需要信用卡，总之资源少之又少</p>

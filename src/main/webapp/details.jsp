@@ -65,17 +65,17 @@
                                  </div>
                              </div>
                          </div>
-                         <div class="col-md-12">
+                         <%--<div class="col-md-12">
                              <div class="panel panel-default">
                                  <div class="panel-heading">最新发表</div>
                                  <div class="panel-body">
                                      Panel content
                                  </div>
                              </div>
-                         </div>
+                         </div>--%>
                          <div class="col-md-12">
                              <div class="panel panel-default">
-                                 <div class="panel-heading">好友关注</div>
+                                 <div class="panel-heading">博主关系圈</div>
                                  <div class="panel-body">
                                      Panel content
                                  </div>
