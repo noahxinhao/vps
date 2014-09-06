@@ -14,8 +14,6 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
             </button>
             <c:if test="${sysUser==null}">
                 <a class="navbar-brand hidden-sm header-a" href="/signin">登录</a>
