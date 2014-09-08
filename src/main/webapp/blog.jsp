@@ -57,7 +57,6 @@
                             <h4 class="media-heading">
                                 <a target="_blank"
                                    href="${pageContext.request.contextPath}/details/{{article.basic.article_id}}">{{article.basic.title}}
-                                    <%--<label class="label label-info hidden-sm hidden-xs" style="font-size: 12px">{{article.basic.tag}}</label>--%>
                                 </a>
                                 <a class="pull-right hidden-xs hidden-sm"
                                    style="font-size: 13px;color:rgb(153, 153, 153)">{{article.basic.createTime}}</a>
@@ -66,22 +65,22 @@
                                href="${pageContext.request.contextPath}/details/{{article.basic.article_id}}"
                                style="color:rgb(87, 87, 87)">{{article.basic.content}}</a>
                         </div>
-                        <div class="col-md-12" style="padding-top: 10px;border-bottom: 1px dashed;padding-left: 5px">
+                        <div class="col-md-12" style="padding-top: 10px;border-bottom: 1px solid rgb(245, 245, 245);padding-left: 5px">
                             <div class="row">
                                 <div class="col-md-8 col-xs-12 col-sm-12" style="padding-left: 10px">
                                     <ul class="list-inline">
                                         <li>作者:{{article.authorInfo.userName}}</li>
-                                        <li>阅读(1045)</li>
+                                        <li>阅读(0)</li>
                                     </ul>
                                 </div>
                                 <div class="col-md-4 hidden-xs" style="padding-right: 0px">
                                     <ul class="list-inline pull-right">
                                         <li><a href="javascript:void(0)"><span
                                                 class="glyphicon glyphicon-thumbs-up"></span></a>
-                                            (1034)
+                                            (0)
                                         </li>
                                         <li><a href="javascript:void(0)"><span
-                                                class="glyphicon glyphicon-thumbs-down"></span></a> (90)
+                                                class="glyphicon glyphicon-thumbs-down"></span></a> (0)
                                         </li>
                                     </ul>
                                 </div>
