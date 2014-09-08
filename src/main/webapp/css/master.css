@@ -206,3 +206,6 @@ body {
 .im-media a:focus{
     outline:0;
 }
+.max_width{
+    max-width: 80%;
+}

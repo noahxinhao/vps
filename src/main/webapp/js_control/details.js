@@ -13,6 +13,7 @@ $(document).ready(function(){
     $("img").each(function(){
         $(this).addClass("img-responsive");
     });
+
     $("#leftPin").pin({
         top: 60
     })

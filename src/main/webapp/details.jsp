@@ -87,7 +87,7 @@
              <div class="col-md-9 col-md-12 im-details-content ">
                  <div class="panel panel-default ">
                      <div class="panel-heading" style="font-size: 16px"><span class="label label-info">${article.basic.tag}</span> ${article.basic.title}</div>
-                     <div class="panel-body">
+                     <div class="panel-body" id="content_body">
                          ${article.basic.content}
                      </div>
                  </div>
