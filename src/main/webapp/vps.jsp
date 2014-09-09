@@ -19,7 +19,7 @@
 <div class="container">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <div class="panel-body bs-callout bs-callout-info "><h4>LINUX内核VPS<a class="pull-right btn btn-info btn-sm" href="https://vps.imdou8.com:7810" target="_blank" style="font-size: 13px">Ubuntu公共测试（tourist）</a></h4></div>
+            <div class="panel-body bs-callout bs-callout-info "><h4>LINUX内核VPS<a class="pull-right btn btn-info btn-sm" href="https://54.64.112.193:7810/" target="_blank" style="font-size: 13px">试用（Tourist/imdou8）</a></h4></div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
             <div class="thumbnail">

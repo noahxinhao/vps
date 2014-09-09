@@ -7,14 +7,6 @@ angular.module('blogApp', []).controller("blogsController",
 
         getBlogs($scope.currentPage);
 
-        $("#toolsbar").pin({
-            top: 60
-        });
-
-        $("#newArticle").pin({
-            containerSelector: "body",
-            top: 100
-        });
         /*获取总博客页数*/
         /*$http.get(applicationContextPath + '/rs/getPages').success(function (data) {
             getBlogs(1);
@@ -42,6 +34,15 @@ angular.module('blogApp', []).controller("blogsController",
                         $scope.blogs[i].basic.createTime = new Date($scope.blogs[i].basic.createTime).format(("yyyy年MM月dd日 hh:mm:ss"))
                     }
                     $scope.js_ready = true;
+
+                    $("#toolsbar").pin({
+                        top: 60
+                    });
+
+                    $("#newArticle").pin({
+                        containerSelector: "body",
+                        top: 100
+                    });
                 }
 
                 if($scope.blogs.length<10){
@@ -60,7 +61,6 @@ Date.prototype.format = function (format) {
         "s+": this.getSeconds(), // second
         "q+": Math.floor((this.getMonth() + 3) / 3), // quarter
         "S": this.getMilliseconds()
-        // millisecond
     };
     if (/(y+)/.test(format))
         format = format.replace(RegExp.$1, (this.getFullYear() + "")

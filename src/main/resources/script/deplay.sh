@@ -41,3 +41,16 @@ sudo ./startup.sh
 #部署入口
 ssh ubuntu@54.64.18.35 "/opt/script/deploy.sh"
 itlxh784533
+
+#欢迎语
+echo ""
+echo ""
+echo "       ****************************************"
+echo "       *         Welcome to imdou8 vps        *"
+echo "       *                                      *"
+echo "       * this Provided by imdou8.com,Thank you*"
+echo "       *            for using imdou8          *"
+echo "       ****************************************"
+echo ""
+
+
