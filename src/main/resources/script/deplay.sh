@@ -53,4 +53,10 @@ echo "       *            for using imdou8          *"
 echo "       ****************************************"
 echo ""
 
+             ****************************************"
+             *         Welcome to imdou8 vps        *"
+             *                                      *"
+             * this Provided by imdou8.com,Thank you*"
+             *            for using imdou8          *"
+             ****************************************"
 

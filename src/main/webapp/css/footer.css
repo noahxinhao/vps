@@ -38,3 +38,10 @@ body > .container {
 code {
     font-size: 80%;
 }
+
+body >.im-carousel{
+    padding: 40px 0px 0px 0px;
+}
+body >.im-carousel-sm{
+    padding: 41px 0px 0px 0px;
+}

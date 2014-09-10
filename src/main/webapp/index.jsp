@@ -16,7 +16,7 @@
 <!-- Fixed navbar -->
 <jsp:include page="head.jsp"/>
 <!-- Begin page content -->
-<div class="container im-carousel hidden-xs hidden-sm" style="padding: 40px 0px 0;width: 100%;">
+<div class="container im-carousel hidden-xs hidden-sm" style="width: 100%;">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -62,7 +62,7 @@
         </div>
     </div>
 </div>
-<div class="container im-carousel-sm hidden-md hidden-lg" style="padding-left: 0px;padding-right: 0px">
+<div class="container im-carousel-sm hidden-md hidden-lg" style="">
     <div id="carousel-example-generic_sm" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -89,7 +89,6 @@
             <div class="item">
                 <img src="/img/team.jpg"  style="height: 120px;width: 100%;" alt="...">
                 <div class="carousel-caption">
-                    My Team
                 </div>
             </div>
         </div>
@@ -110,20 +109,6 @@
         </span>
     </div>
     <div class="row">
-        <%--<div class="col-md-4">
-            <div class="media">
-                <div class="row ">
-                    &lt;%&ndash;<div class="media-img  pull-left  col-sm-5  col-md-4 ">
-                        <div class="img-overlay "> <a class="btn  btn-primary  animated fadeInUp " href="/about/" rel="bookmark">Apri</a> </div>
-                        <img src="/img/links-about.jpg" alt="About" height="150" width="150"> </div>&ndash;%&gt;
-                    <div class="media-body   col-sm-7 col-md-12  ">
-                        <img src="/img/links-about.jpg" alt="About" height="150" width="150" style="align: justify">
-                        <h4 class="media-heading"> <a href="/vps">廉价VPS出售</a></h4>
-                        <p class="hidden-sm">为所有热爱计算机的中国青年提供入门级VPS服务,在这里，你可以用极低的价格获取一台配置想当出色的VPS服务器</p>
-                    </div>
-                </div>
-            </div>
-        </div>--%>
         <div class="col-md-8">
             <div class="panel-body bs-callout bs-callout-info ">
                 <h4>站长亲测的vps经验</h4><br/>
@@ -169,12 +154,16 @@
         </div>
         <div class="col-md-7">
             <div class="row">
-                <div class="col-md-10 col-md-offset-1"style="padding-top: 45px">
+                <div class="alert alert-warning alert-dismissible fade in col-md-12" role="alert">
+                    <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                    <strong>提示!</strong> 站点更新，暂停提供html转pdf服务，如需要，请联系<a href="mailto:870708429@qq.com">870708429@qq.com</a>.
+                </div>
+                <div class="col-md-10 col-md-offset-1">
                     <div class="input-group">
-                        <input type="text" class="form-control input-group-lg" id="url" style="border-radius: 0px"
+                        <input type="text" class="form-control input-group-lg disabled" id="url" style="border-radius: 0px"
                                placeholder="请输入有效网址,如http://www.baidu.com">
                         <div class="input-group-btn">
-                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                            <button type="button" class="btn btn-default dropdown-toggle disabled" data-toggle="dropdown"
                                     id="downLoad">开始转换 <span class="glyphicon glyphicon-cloud-download"></span></button>
                         </div>
                     </div>
@@ -189,6 +178,6 @@
     </div>
 </div>
 <jsp:include page="footer.jsp"/>
-<script src="${pageContext.request.contextPath}/js/download.js"></script>
+<%--<script src="${pageContext.request.contextPath}/js/download.js"></script>--%>
 </body>
 </html>

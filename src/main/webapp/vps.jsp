@@ -9,7 +9,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <title>VPS</title>
+    <title>VPS试用&nbsp;&nbsp;-&nbsp;&nbsp;资源分享</title>
     <jsp:include page="meta.jsp"/>
 </head>
 <body>
@@ -19,7 +19,10 @@
 <div class="container">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <div class="panel-body bs-callout bs-callout-info "><h4>LINUX内核VPS<a class="pull-right btn btn-info btn-sm" href="https://vps.imdou8.com/" target="_blank" style="font-size: 13px">试用（Tourist/imdou8）</a></h4></div>
+            <div class="panel-body bs-callout bs-callout-info ">
+                <h4>LINUX内核VPS<%--<a class="pull-right btn btn-info btn-sm" href="https://vps.imdou8.com/" target="_blank" style="font-size: 13px">试用（Tourist/imdou8）</a>--%>
+                </h4>
+            </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
             <div class="thumbnail">
@@ -27,7 +30,12 @@
                 <div class="caption">
                     <h3>Linux AMI</h3>
                     <p>Linux AMI 2014.03.2</p>
-                    <p><a href="javascript:void(0)" class="btn btn-primary" role="button" data-toggle="modal" data-target="#paymodel">￥183/YEAR <span class="glyphicon glyphicon-shopping-cart"></span></a> <a href="javascript:void(0)" class="btn btn-default" role="button" onclick="onModalShow()">申请试用</a></p>
+                    <p>帐号/密码:Tourist/imdou8</p>
+                    <p>
+                        <%--<a href="javascript:void(0)" class="btn btn-primary" role="button" data-toggle="modal" data-target="#paymodel">￥183/YEAR <span class="glyphicon glyphicon-shopping-cart"></span></a>--%>
+                        <a href="javascript:void(0)" class="btn btn-default" role="button" onclick="onModalShow()">申请私有VPS</a>
+                        <a href="https://ami.imdou8.com/" target="_blank" class="btn btn-default" role="button">试用</a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -37,7 +45,12 @@
                 <div class="caption">
                     <h3>Red Hat</h3>
                     <p>Red Hat Enterprise Linux 6.5</p>
-                    <p><a href="javascript:void(0)" class="btn btn-primary" role="button" data-toggle="modal" data-target="#paymodel">￥183/YEAR <span class="glyphicon glyphicon-shopping-cart"></span></a> <a href="javascript:void(0)" class="btn btn-default" role="button" onclick="onModalShow()">申请试用</a></p>
+                    <p>帐号/密码:Tourist/imdou8</p>
+                    <p>
+                        <%--<a href="javascript:void(0)" class="btn btn-primary" role="button" data-toggle="modal" data-target="#paymodel">￥183/YEAR <span class="glyphicon glyphicon-shopping-cart"></span></a>--%>
+                        <a href="javascript:void(0)" class="btn btn-default" role="button" onclick="onModalShow()">申请私有VPS</a>
+                        <a href="https://redhat.imdou8.com/" target="_blank" class="btn btn-default" role="button">试用</a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -47,7 +60,12 @@
                 <div class="caption">
                     <h3>SuSE Linux</h3>
                     <p>SuSE Linux Enterprise Server 11</p>
-                    <p><a href="javascript:void(0)" class="btn btn-primary" role="button" data-toggle="modal" data-target="#paymodel">￥183/YEAR <span class="glyphicon glyphicon-shopping-cart"></span></a> <a href="javascript:void(0)" class="btn btn-default" role="button" onclick="onModalShow()">申请试用</a></p>
+                    <p>帐号/密码:Tourist/imdou8</p>
+                    <p>
+                        <%--<a href="javascript:void(0)" class="btn btn-primary" role="button" data-toggle="modal" data-target="#paymodel">￥183/YEAR <span class="glyphicon glyphicon-shopping-cart"></span></a>--%>
+                            <a href="javascript:void(0)" class="btn btn-default" role="button" onclick="onModalShow()">申请私有VPS</a>
+                            <a href="https://suse.imdou8.com/" target="_blank" class="btn btn-default" role="button">试用</a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -57,7 +75,12 @@
                 <div class="caption">
                     <h3>Ubuntu Server</h3>
                     <p>Ubuntu Server 14.04 LTS (PV)</p>
-                    <p><a href="javascript:void(0)" class="btn btn-primary" role="button" data-toggle="modal" data-target="#paymodel">￥183/YEAR <span class="glyphicon glyphicon-shopping-cart"></span></a> <a href="javascript:void(0)" class="btn btn-default" role="button" onclick="onModalShow()">申请试用</a></p>
+                    <p>帐号/密码:Tourist/imdou8</p>
+                    <p>
+                        <%--<a href="javascript:void(0)" class="btn btn-primary" role="button" data-toggle="modal" data-target="#paymodel">￥183/YEAR <span class="glyphicon glyphicon-shopping-cart"></span></a>--%>
+                            <a href="javascript:void(0)" class="btn btn-default" role="button" onclick="onModalShow()">申请私有VPS</a>
+                            <a href="https://ubuntu.imdou8.com/" target="_blank" class="btn btn-default" role="button">试用</a>
+                    </p>
                 </div>
             </div>
         </div>
