@@ -105,12 +105,9 @@
                                 <h3 class="panel-title">站点公告</h3>
                             </div>
                             <div class="panel-body">
-                                Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean
-                                lacinia
-                                bibendum
-                                nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-                                venenatis
-                                vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                <ol>
+                                    <li>站点正在建设中</li>
+                                </ol>
                             </div>
                         </div>
                     </div>
@@ -120,14 +117,9 @@
                                 <h3 class="panel-title">最新文章</h3>
                             </div>
                             <div class="panel-body">
-                                <ul class="list-unstyled">
-                                    <li>Some default panel content here</li>
-                                    <li>Nulla vitae elit libero, a pharetra augue</li>
-                                    <li>Aenean lacinia bibendum nulla sed consectetur.</li>
-                                    <li>Aenean eu leo quam. Pellentesque ornare sem</li>
-                                    <li>lacinia quam venenatis vestibulum. Nullam id dolor</li>
-                                    <li>id nibh ultricies vehicula ut id elit.</li>
-                                </ul>
+                                <ol>
+                                    <li>...</li>
+                                </ol>
                             </div>
                         </div>
                     </div>

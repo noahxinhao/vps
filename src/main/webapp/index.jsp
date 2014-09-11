@@ -101,8 +101,16 @@
         </a>--%>
     </div>
 </div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-5">
 
-<div class="container hidden-xs hidden-sm">
+        </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-3"></div>
+    </div>
+</div>
+<div class="container hidden hidden-xs hidden-sm">
     <div class="section-title">
         <span>
             WHAT WE DO
@@ -135,7 +143,7 @@
     </div>
     <hr/>
     <div class="row">
-        <div class="col-md-5" style="border-right: 1px solid #000000;margin-bottom: 35px">
+        <div class="col-md-5" style="margin-bottom: 35px">
             <strong>本站点配置</strong>
             <ul class="text-left" style="font-size: 13px;line-height: 25px">
                 <li>750小时/月使用时间,按：换成天就是31.25天，足够一个月使用了。</li>

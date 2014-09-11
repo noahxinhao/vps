@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <meta charset="utf-8">
+<meta name="msvalidate.01" content="50F691AE3C177EB991C958102B21442E" />
 <meta name="baidu-site-verification" content="McMg2Qh54j" />
 <meta name="robots" content="none">
 <meta name="description" content="VPS，东京节点vps，服务器架设，服务器部署，web站点搭建">

@@ -95,7 +95,11 @@
                 <div class="caption">
                     <h3>Server 2012 R2 Base</h3>
                     <p>Microsoft Windows 2012 R2 Standard edition with 64-bit architecture. [English]</p>
-                    <p><a href="javascript:void(0)" class="btn btn-primary" role="button" data-toggle="modal" data-target="#paymodel">￥183/YEAR <span class="glyphicon glyphicon-shopping-cart"></span></a> <a href="javascript:void(0)" class="btn btn-default" role="button" onclick="onModalShow()">申请试用</a></p>
+                    <p>
+                        <%--<a href="javascript:void(0)" class="btn btn-primary" role="button" data-toggle="modal" data-target="#paymodel">￥183/YEAR <span class="glyphicon glyphicon-shopping-cart"></span></a> <a href="javascript:void(0)" class="btn btn-default" role="button" onclick="onModalShow()">申请试用</a>--%>
+                            <a href="javascript:void(0)" class="btn btn-default" role="button" onclick="onModalShow()">申请私有VPS</a>
+                            <a href="https://redhat.imdou8.com/" target="_blank" class="btn btn-default" role="button">试用</a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -105,7 +109,11 @@
                 <div class="caption">
                     <h4>Server 2012 R2 with SQL Server Express </h4>
                     <p>Microsoft Windows Server 2012 R2 Standard edition, 64-bit architecture...</p>
-                    <p><a href="javascript:void(0)" class="btn btn-primary" role="button" data-toggle="modal" data-target="#paymodel">￥183/YEAR <span class="glyphicon glyphicon-shopping-cart"></span></a> <a href="javascript:void(0)" class="btn btn-default" role="button" onclick="onModalShow()">申请试用</a></p>
+                    <p>
+                        <%--<a href="javascript:void(0)" class="btn btn-primary" role="button" data-toggle="modal" data-target="#paymodel">￥183/YEAR <span class="glyphicon glyphicon-shopping-cart"></span></a> <a href="javascript:void(0)" class="btn btn-default" role="button" onclick="onModalShow()">申请试用</a>--%>
+                            <a href="javascript:void(0)" class="btn btn-default" role="button" onclick="onModalShow()">申请私有VPS</a>
+                            <a href="https://redhat.imdou8.com/" target="_blank" class="btn btn-default" role="button">试用</a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -115,7 +123,10 @@
                 <div class="caption">
                     <h4>Server 2008 R2 with SQL Server Express and IIS</h4>
                     <p>Microsoft Windows Server 2008 R2 SP1 Datacenter edition, 64-bit architecture, Microsoft ...</p>
-                    <p><a href="javascript:void(0)" class="btn btn-primary" role="button" data-toggle="modal" data-target="#paymodel">￥183/YEAR <span class="glyphicon glyphicon-shopping-cart"></span></a> <a href="javascript:void(0)" class="btn btn-default" role="button"  onclick="onModalShow()">申请试用</a></p>
+                    <p>
+                        <a href="javascript:void(0)" class="btn btn-default" role="button" onclick="onModalShow()">申请私有VPS</a>
+                        <a href="https://redhat.imdou8.com/" target="_blank" class="btn btn-default" role="button">试用</a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -125,7 +136,10 @@
                 <div class="caption">
                     <h3>Server 2008 R2 Base</h3>
                     <p>Microsoft Windows 2008 R2 SP1 Datacenter edition and 64-bit architecture. [Japanese]</p>
-                    <p><a href="javascript:void(0)" class="btn btn-primary" role="button" data-toggle="modal" data-target="#paymodel">￥183/YEAR <span class="glyphicon glyphicon-shopping-cart"></span></a> <a href="javascript:void(0)" class="btn btn-default" role="button" onclick="onModalShow()">申请试用</a></p>
+                    <p>
+                        <a href="javascript:void(0)" class="btn btn-default" role="button" onclick="onModalShow()">申请私有VPS</a>
+                        <a href="https://redhat.imdou8.com/" target="_blank" class="btn btn-default" role="button">试用</a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -174,7 +188,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="applyModalLabel">试用申请</h4>
+                <h4 class="modal-title" id="applyModalLabel">申请</h4>
             </div>
             <div class="modal-body">
                 <form class="form-horizontal" role="form" onsubmit="{return false;}">
