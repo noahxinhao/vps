@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97a22a5b-b9a1-4335-bdd0-cd4b4dfe9045" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/ver-line.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js_control/blog.js" afterPath="$PROJECT_DIR$/src/main/webapp/js_control/blog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/blog.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/blog.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/master.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/master.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vps.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -168,10 +172,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="21" selection-start="4541" selection-end="4541" vertical-scroll-proportion="0.66358024" vertical-offset="1913" max-vertical-offset="2337">
+            <state line="103" column="27" selection-start="4354" selection-end="4354" vertical-scroll-proportion="-1.6296296" vertical-offset="1913" max-vertical-offset="2337">
               <folding>
                 <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
               </folding>
@@ -191,7 +195,27 @@
       <file leaf-file-name="blog.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/blog.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="37" selection-start="5309" selection-end="5309" vertical-scroll-proportion="-69.666664" vertical-offset="57" max-vertical-offset="2660">
+            <state line="120" column="32" selection-start="6309" selection-end="6309" vertical-scroll-proportion="-8.481482" vertical-offset="2051" max-vertical-offset="2831">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/master.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="248" column="25" selection-start="4544" selection-end="4544" vertical-scroll-proportion="0.06043956" vertical-offset="4690" max-vertical-offset="5054">
+              <folding>
+                <marker date="1410447387455" expanded="true" signature="3619:3638" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js_control/blog.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="0" selection-start="1788" selection-end="1788" vertical-scroll-proportion="0.0" vertical-offset="656" max-vertical-offset="2052">
               <folding />
             </state>
           </provider>
@@ -200,7 +224,7 @@
       <file leaf-file-name="vps.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/vps.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="190" column="61" selection-start="11254" selection-end="11254" vertical-scroll-proportion="-7.7777777" vertical-offset="3400" max-vertical-offset="4636">
+            <state line="190" column="63" selection-start="11254" selection-end="11256" vertical-scroll-proportion="-3.5555556" vertical-offset="3514" max-vertical-offset="4636">
               <folding />
             </state>
           </provider>
@@ -276,18 +300,18 @@
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/details.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/js_control/details.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js_control/blog.js" />
         <option value="$PROJECT_DIR$/src/main/resources/properties/dev.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/properties/pro.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/master.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/footer.css" />
         <option value="$PROJECT_DIR$/src/main/resources/script/deplay.sh" />
         <option value="$PROJECT_DIR$/src/main/webapp/meta.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/blog.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/head.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/vps.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js_control/blog.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/blog.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/master.css" />
       </list>
     </option>
   </component>
@@ -819,10 +843,10 @@
       <recent name="com.vps.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/img" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/webapp/js_control" />
       <recent name="$PROJECT_DIR$/src/main/webapp/plugin/syntaxhighlighter/scripts" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/img" />
       <recent name="$PROJECT_DIR$/src/main/webapp/plugin/xheditor/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -1241,12 +1265,12 @@
       <workItem from="1410400282976" duration="326000" />
       <workItem from="1410421647378" duration="1406000" />
       <workItem from="1410428537035" duration="679000" />
-      <workItem from="1410438469039" duration="3375000" />
+      <workItem from="1410438469039" duration="6086000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="508916000" />
+    <option name="totallyTimeSpent" value="511627000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1270,7 +1294,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="-4" width="1299" height="773" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1283,7 +1307,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37639552" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37639552" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -1512,11 +1536,6 @@
         <state line="6" column="35" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="494" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js_control/blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="26" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="2033" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/global_configuration.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="31" selection-start="249" selection-end="249" vertical-scroll-proportion="0.2301038" vertical-offset="0" max-vertical-offset="578" />
@@ -1554,11 +1573,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.58862877" vertical-offset="176" max-vertical-offset="475" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/master.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="718" selection-end="764" vertical-scroll-proportion="0.08588957" vertical-offset="732" max-vertical-offset="4085" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="6" selection-start="765" selection-end="765" vertical-scroll-proportion="0.5828221" vertical-offset="589" max-vertical-offset="988" />
@@ -1585,25 +1599,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/blog.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="37" selection-start="5309" selection-end="5309" vertical-scroll-proportion="-69.666664" vertical-offset="57" max-vertical-offset="2660">
+        <state line="103" column="27" selection-start="4354" selection-end="4354" vertical-scroll-proportion="-1.6296296" vertical-offset="1913" max-vertical-offset="2337">
+          <folding>
+            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js_control/blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1788" selection-end="1788" vertical-scroll-proportion="0.0" vertical-offset="656" max-vertical-offset="2052">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/vps.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="190" column="61" selection-start="11254" selection-end="11254" vertical-scroll-proportion="-7.7777777" vertical-offset="3400" max-vertical-offset="4636">
+        <state line="190" column="63" selection-start="11254" selection-end="11256" vertical-scroll-proportion="-3.5555556" vertical-offset="3514" max-vertical-offset="4636">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/blog.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="21" selection-start="4541" selection-end="4541" vertical-scroll-proportion="0.66358024" vertical-offset="1913" max-vertical-offset="2337">
+        <state line="120" column="32" selection-start="6309" selection-end="6309" vertical-scroll-proportion="-8.481482" vertical-offset="2051" max-vertical-offset="2831">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/master.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="248" column="25" selection-start="4544" selection-end="4544" vertical-scroll-proportion="0.06043956" vertical-offset="4690" max-vertical-offset="5054">
           <folding>
-            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <marker date="1410447387455" expanded="true" signature="3619:3638" placeholder="{...}" />
           </folding>
         </state>
       </provider>

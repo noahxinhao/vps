@@ -111,17 +111,26 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">最新文章</h3>
-                            </div>
-                            <div class="panel-body">
-                                <ol>
-                                    <li>...</li>
-                                </ol>
-                            </div>
-                        </div>
+                    <div class="col-md-12 im-box">
+                        <h3><strong>最新动态</strong></h3>
+                        <ul class="timestream show-pop-tag">
+                            <li>
+                                <h4><a href="http://segmentfault.com/q/1010000000664722/a-1020000000664760">Android QQ 5.1 可以2台手机无网络面对面高速发送文件,请问这是什么原理呢?</a></h4>
+                                <span><a class="trigger" href="http://segmentfault.com/u/hjin_me">HJin_me</a> 赞了该答案</span>
+                            </li>
+                            <li>
+                                <h4><a href="http://segmentfault.com/q/1010000000665190">extjs defer 传值问题</a></h4>
+                                <span><a class="trigger" href="http://segmentfault.com/u/mugbya">mugbya</a> 提出了该问题</span>
+                            </li>
+                            <li>
+                                <h4><a href="http://segmentfault.com/c/1050000000665189">同样的函数，同样的参数，不同的进程，结果不一样</a></h4>
+                                <span><a class="trigger" href="http://segmentfault.com/u/mikemike">米克</a> 评论了该答案</span>
+                            </li>
+                            <li>
+                                <h4><a href="http://segmentfault.com/c/1050000000665188">SegmentFault.php</a></h4>
+                                <span><a class="trigger" href="http://segmentfault.com/u/alswl">alswl</a> 评论了文章</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

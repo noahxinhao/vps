@@ -207,3 +207,55 @@ body {
 .max_width{
     max-width: 80%;
 }
+
+.im-box{
+    box-sizing: border-box;
+}
+.im-box h3 {
+    margin: 0px 0px 15px;
+    font-size: 15px;
+}
+.timestream {
+    word-wrap: break-word;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.timestream li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    background: url('../img/ver-line.png?eNG7qE') repeat-x scroll left bottom transparent;
+}
+.timestream {
+    word-wrap: break-word;
+    list-style-type: none;
+}
+
+.timestream h4 {
+    margin: 0px 0px 6px;
+    font-size: 13px;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.25;
+    color: inherit;
+}
+
+.timestream span a {
+    color: #93B9AB;
+}
+.timestream a:hover, a:focus {
+    color: #004E31;
+    text-decoration: none;
+}
+.timestream a:active, a:hover {
+    outline: 0px none;
+}
+.timestream a {
+    background: none repeat scroll 0% 0% transparent;
+}
+
+.timestream span {
+    color: #999;
+    font-size: 12px;
+}

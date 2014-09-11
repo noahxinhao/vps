@@ -35,14 +35,15 @@ angular.module('blogApp', []).controller("blogsController",
                     }
                     $scope.js_ready = true;
 
-                    $("#toolsbar").pin({
-                        top: 60
-                    });
+                    setTimeout(function(){
+                        $("#toolsbar").pin({
+                            top: 60
+                        });
 
-                    $("#newArticle").pin({
-                        containerSelector: "body",
-                        top: 100
-                    });
+                        $("#newArticle").pin({
+                            top: 96
+                        });
+                    },1000);
                 }
 
                 if($scope.blogs.length<10){
