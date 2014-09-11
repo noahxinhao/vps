@@ -101,7 +101,7 @@
         </a>--%>
     </div>
 </div>
-<div class="container">
+<%--<div class="container">
     <div class="row">
         <div class="col-md-5">
 
@@ -109,8 +109,8 @@
         <div class="col-md-4"></div>
         <div class="col-md-3"></div>
     </div>
-</div>
-<div class="container hidden hidden-xs hidden-sm">
+</div>--%>
+<div class="container hidden-xs hidden-sm">
     <div class="section-title">
         <span>
             WHAT WE DO
