@@ -173,12 +173,12 @@ function submint_pay() {
 }
 
 
-function bindMethod(){
+/*function bindMethod(){
     $(".win").each(function(){
         $(this).bind("click",function(){
             window.open ($("#PageContextPath").val()+'/win','newwindow','height=1200px,width=900px,top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no')
         })
     })
-}
+}*/
 
-bindMethod();
+/*bindMethod();*/

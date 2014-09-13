@@ -2,40 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97a22a5b-b9a1-4335-bdd0-cd4b4dfe9045" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/rdp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/winser.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/CFInstall.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/CFInstall.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/appcfg.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/appcfg.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/background.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/background.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/gateway.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/gateway.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/hi5.css" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/hi5.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/hi5_min.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/hi5_min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/join.page.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/join.page.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/login_min.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/login_min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/macro.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/macro.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/openrdp.css" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/openrdp.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/org_rdp.html" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/org_rdp.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/org_rdp.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/org_rdp.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/player.page.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/player.page.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/player_min.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/player_min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/rail.page.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/rail.page.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/rdp.css" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/rdp.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/rdp.ico" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/rdp.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/rdp.page.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/rdp.page.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/rdp.png" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/rdp.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/rdp32.png" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/rdp32.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/rdp48.png" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/rdp48.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/rdp_min.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/rdp_min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/rdpdirect.page.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/rdpdirect.page.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/resource.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/resource.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/strings-en.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/strings-en.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/strings-zh-CN.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/strings-zh-CN.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/rdp/surface_min.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/surface_min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vps/webroot/MainController.java" afterPath="$PROJECT_DIR$/src/main/java/com/vps/webroot/MainController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/ap.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/ap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/master.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/master.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/vps.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/vps.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vps.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -210,21 +178,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vps.jsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="vps.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/vps.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="121" selection-start="5986" selection-end="5986" vertical-scroll-proportion="-7.185185" vertical-offset="1706" max-vertical-offset="4636">
+            <state line="140" column="103" selection-start="8589" selection-end="8589" vertical-scroll-proportion="0.12938005" vertical-offset="2612" max-vertical-offset="4636">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ap.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ap.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/js/ap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="98" selection-start="5248" selection-end="5248" vertical-scroll-proportion="0.69849247" vertical-offset="3104" max-vertical-offset="3610">
+            <state line="175" column="2" selection-start="5055" selection-end="5360" vertical-scroll-proportion="0.0" vertical-offset="3212" max-vertical-offset="3610">
               <folding>
-                <marker date="1410620649710" expanded="false" signature="4909:4936" placeholder="..." />
+                <marker date="1410621846958" expanded="false" signature="4909:4936" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -354,9 +322,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/vps/webroot/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/plugin/rdp/rdp.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/winser.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/vps.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/plugin/rdp/org_rdp.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/ap.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/vps.jsp" />
       </list>
     </option>
   </component>
@@ -1063,12 +1031,12 @@
       <workItem from="1410428537035" duration="679000" />
       <workItem from="1410438469039" duration="6686000" />
       <workItem from="1410486892513" duration="342000" />
-      <workItem from="1410529482776" duration="5088000" />
+      <workItem from="1410529482776" duration="5726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="517657000" />
+    <option name="totallyTimeSpent" value="518295000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1427,13 +1395,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/vps.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="121" selection-start="5986" selection-end="5986" vertical-scroll-proportion="-7.185185" vertical-offset="1706" max-vertical-offset="4636">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/plugin/rdp/org_rdp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2261">
@@ -1443,10 +1404,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/ap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="98" selection-start="5248" selection-end="5248" vertical-scroll-proportion="0.69849247" vertical-offset="3104" max-vertical-offset="3610">
+        <state line="175" column="2" selection-start="5055" selection-end="5360" vertical-scroll-proportion="0.0" vertical-offset="3212" max-vertical-offset="3610">
           <folding>
-            <marker date="1410620649710" expanded="false" signature="4909:4936" placeholder="..." />
+            <marker date="1410621846958" expanded="false" signature="4909:4936" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/vps.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="140" column="103" selection-start="8589" selection-end="8589" vertical-scroll-proportion="0.12938005" vertical-offset="2612" max-vertical-offset="4636">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -98,7 +98,7 @@
                     <p>
                         <%--<a href="javascript:void(0)" class="btn btn-primary" role="button" data-toggle="modal" data-target="#paymodel">￥183/YEAR <span class="glyphicon glyphicon-shopping-cart"></span></a> <a href="javascript:void(0)" class="btn btn-default" role="button" onclick="onModalShow()">申请试用</a>--%>
                             <a href="javascript:void(0)" class="btn btn-default" role="button" onclick="onModalShow()">申请私有VPS</a>
-                            <a href="javascript:void(0)" target="_blank" class="btn btn-default win" role="button">试用</a>
+                            <a href="/win" target="_blank" class="btn btn-default win" role="button">试用</a>
                     </p>
                 </div>
             </div>
@@ -112,7 +112,7 @@
                     <p>
                         <%--<a href="javascript:void(0)" class="btn btn-primary" role="button" data-toggle="modal" data-target="#paymodel">￥183/YEAR <span class="glyphicon glyphicon-shopping-cart"></span></a> <a href="javascript:void(0)" class="btn btn-default" role="button" onclick="onModalShow()">申请试用</a>--%>
                             <a href="javascript:void(0)" class="btn btn-default" role="button" onclick="onModalShow()">申请私有VPS</a>
-                            <a href="javascript:void(0)" target="_blank" class="btn btn-default win" role="button">试用</a>
+                            <a href="/win" target="_blank" class="btn btn-default win" role="button">试用</a>
                     </p>
                 </div>
             </div>
@@ -125,7 +125,7 @@
                     <p>Microsoft Windows Server 2008 R2 SP1 Datacenter edition, 64-bit architecture, Microsoft ...</p>
                     <p>
                         <a href="javascript:void(0)" class="btn btn-default" role="button" onclick="onModalShow()">申请私有VPS</a>
-                        <a href="javascript:void(0)" target="_blank" class="btn btn-default win" role="button">试用</a>
+                        <a href="/win" target="_blank" class="btn btn-default win" role="button">试用</a>
                     </p>
                 </div>
             </div>
@@ -138,7 +138,7 @@
                     <p>Microsoft Windows 2008 R2 SP1 Datacenter edition and 64-bit architecture. [Japanese]</p>
                     <p>
                         <a href="javascript:void(0)" class="btn btn-default" role="button" onclick="onModalShow()">申请私有VPS</a>
-                        <a href="javascript:void(0)" target="_blank" class="btn btn-default win" role="button">试用</a>
+                        <a href="/win" target="_blank" class="btn btn-default win" role="button">试用</a>
                     </p>
                 </div>
             </div>
