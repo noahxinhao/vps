@@ -3,12 +3,11 @@ $(document).ready(function () {
     if (!checkBrowser()) {
         return false;
     }
-    //$("#connect").bind("click", connectRDP);
     connectRDP();
 });
 
 function connectRDP() {
-    var args = {"gateway": "www.remotespark.com:8080", "server": "54.250.188.69", "port": "3389", "user": "Administrator", "pwd": "h=x@WFYGL@4"};
+    var args = {"gateway": "winser.imdou8.com:8080", "server": "54.64.52.227", "port": "3389", "user": "Administrator", "pwd": "h=x@WFYGL@4"};
     var r = svManager.getInstance();
     if (r == null) {
         r = new Rdp2(args);
@@ -108,8 +107,7 @@ function checkBrowser() {
     return ready;
 };
 
-$(function () {
-    /*$("body").attr("onbeforeunload", "return '提示:当前程序未关闭';");*/
-})
+
+
 
 

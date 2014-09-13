@@ -102,4 +102,10 @@ public class MainController {
         model.put("target", "home");
         return new ModelAndView("/home",model);
     }
+    @RequestMapping(method = RequestMethod.GET,value = "/win")
+    public ModelAndView win(HttpServletRequest request, HttpServletResponse response) {
+        Map model = new HashMap();
+        model.put("target", "winser");
+        return new ModelAndView("/winser",model);
+    }
 }

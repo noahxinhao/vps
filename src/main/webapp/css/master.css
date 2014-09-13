@@ -245,7 +245,7 @@ body {
     color: #93B9AB;
 }
 .timestream a:hover, a:focus {
-    color: #004E31;
+    /*color: #004E31;*/
     text-decoration: none;
 }
 .timestream a:active, a:hover {
