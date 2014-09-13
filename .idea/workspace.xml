@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97a22a5b-b9a1-4335-bdd0-cd4b4dfe9045" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/ap.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/ap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/vps.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/vps.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/rdp.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/rdp/rdp.js" />
     </list>
     <ignored path="vps.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -178,10 +177,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vps.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="vps.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/vps.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="103" selection-start="8589" selection-end="8589" vertical-scroll-proportion="0.12938005" vertical-offset="2612" max-vertical-offset="4636">
+            <state line="144" column="14" selection-start="8671" selection-end="8671" vertical-scroll-proportion="-4.5925927" vertical-offset="2612" max-vertical-offset="4636">
               <folding />
             </state>
           </provider>
@@ -243,10 +242,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rdp.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="rdp.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/plugin/rdp/rdp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="5" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="1710" max-vertical-offset="2223">
+            <state line="12" column="27" selection-start="374" selection-end="374" vertical-scroll-proportion="0.76" vertical-offset="0" max-vertical-offset="2223">
               <folding />
             </state>
           </provider>
@@ -320,11 +319,11 @@
         <option value="$PROJECT_DIR$/src/main/webapp/blog.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/master.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/vps/webroot/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/plugin/rdp/rdp.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/winser.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/plugin/rdp/org_rdp.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/ap.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/vps.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/plugin/rdp/rdp.js" />
       </list>
     </option>
   </component>
@@ -1031,12 +1030,12 @@
       <workItem from="1410428537035" duration="679000" />
       <workItem from="1410438469039" duration="6686000" />
       <workItem from="1410486892513" duration="342000" />
-      <workItem from="1410529482776" duration="5726000" />
+      <workItem from="1410529482776" duration="7022000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="518295000" />
+    <option name="totallyTimeSpent" value="519591000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1060,7 +1059,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="-4" width="1299" height="773" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1073,7 +1072,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26634768" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42264754" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -1381,13 +1380,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/plugin/rdp/rdp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="5" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="1710" max-vertical-offset="2223">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/winser.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="50" selection-start="1430" selection-end="1430" vertical-scroll-proportion="-1.4074074" vertical-offset="437" max-vertical-offset="760">
@@ -1413,7 +1405,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/vps.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="103" selection-start="8589" selection-end="8589" vertical-scroll-proportion="0.12938005" vertical-offset="2612" max-vertical-offset="4636">
+        <state line="144" column="14" selection-start="8671" selection-end="8671" vertical-scroll-proportion="-4.5925927" vertical-offset="2612" max-vertical-offset="4636">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/plugin/rdp/rdp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="27" selection-start="374" selection-end="374" vertical-scroll-proportion="0.76" vertical-offset="0" max-vertical-offset="2223">
           <folding />
         </state>
       </provider>

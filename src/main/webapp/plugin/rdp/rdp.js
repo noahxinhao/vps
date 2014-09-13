@@ -7,7 +7,7 @@ $(document).ready(function () {
 });
 
 function connectRDP() {
-    var args = {"gateway": "winser.imdou8.com:8080", "server": "54.64.52.227", "port": "3389", "user": "Administrator", "pwd": "h=x@WFYGL@4"};
+    var args = {"gateway": "winser.imdou8.com:8080", "server": "54.64.86.49", "port": "3389", "user": "Administrator", "pwd": "V=;3xHDQhjY"};
     var r = svManager.getInstance();
     if (r == null) {
         r = new Rdp2(args);
