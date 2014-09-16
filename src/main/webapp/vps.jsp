@@ -138,7 +138,7 @@
                     <p>Microsoft Windows 2008 R2 SP1 Datacenter edition and 64-bit architecture. [Japanese]</p>
                     <p>
                         <a href="javascript:void(0)" class="btn btn-default" role="button" onclick="onModalShow()">申请私有VPS</a>
-                        <a href="/win" target="_blank" class="btn btn-default win" role="button">试用</a>
+                        <a href="javascript:void(0)" target="_blank" class="btn btn-default win" role="button" onclick="connectRDP()">试用</a>
                     </p>
                 </div>
             </div>
@@ -234,5 +234,9 @@
 </div>
 <script src="${pageContext.request.contextPath}/js/modal_common.js"></script>
 <script src="${pageContext.request.contextPath}/js/ap.js"></script>
+
+<script type="text/javascript" src="${pageContext.request.contextPath}/plugin/rdp/appcfg.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/plugin/rdp/hi5_min.js"></script>
+<script src="${pageContext.request.contextPath}/js_control/imrdp.page.js"></script>
 </body>
 </html>

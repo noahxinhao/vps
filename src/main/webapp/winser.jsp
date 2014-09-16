@@ -21,12 +21,14 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/plugin/rdp/hi5.css"/>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/plugin/rdp/rdp.css"/>
     <script src="${pageContext.request.contextPath}/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/plugin/rdp/appcfg.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/plugin/rdp/resource.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/plugin/rdp/strings-zh-CN.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/plugin/rdp/hi5_min.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/plugin/rdp/surface_min.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/plugin/rdp/rdp_min.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/plugin/rdp/rdp.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/plugin/rdp/rdpdirect.page.js"></script>
 </head>
 <body>
 <canvas id="remotectrl"></canvas>
