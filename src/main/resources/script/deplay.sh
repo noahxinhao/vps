@@ -39,6 +39,10 @@ cd ../../bin
 sudo ./startup.sh
 
 #部署入口
+cd /home/noahli/workspace/vps
+git add -A
+git commit -m "noah"
+git push origin develop
 ssh ubuntu@54.64.18.35 "/opt/script/deploy.sh"
 itlxh784533
 

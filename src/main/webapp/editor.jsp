@@ -138,16 +138,16 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 hidden-xs hidden-sm">
+        <%--<div class="col-md-3 hidden-xs hidden-sm">
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">最新发布</h3>
                 </div>
                 <div class="panel-body">
-                    发热个vtrbrt
+
                 </div>
             </div>
-        </div>
+        </div>--%>
     </div>
 </div>
 <div class="hidden">
