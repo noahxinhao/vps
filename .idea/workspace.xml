@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97a22a5b-b9a1-4335-bdd0-cd4b4dfe9045" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.9.1.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.9.1.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/signin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/signin.jsp" />
     </list>
     <ignored path="vps.iws" />
@@ -145,9 +144,9 @@
       <file leaf-file-name="signin.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/signin.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="153" selection-start="10069" selection-end="10069" vertical-scroll-proportion="0.74585634" vertical-offset="1515" max-vertical-offset="2023">
+            <state line="121" column="59" selection-start="9661" selection-end="9661" vertical-scroll-proportion="0.7044199" vertical-offset="408" max-vertical-offset="1071">
               <folding>
-                <element signature="tag#div#2;tag#form#0;tag#div#1;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#1;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -1010,12 +1009,12 @@
       <workItem from="1411010732026" duration="366000" />
       <workItem from="1411021637069" duration="14000" />
       <workItem from="1411030703777" duration="545000" />
-      <workItem from="1411050492804" duration="3747000" />
+      <workItem from="1411050492804" duration="4879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="539152000" />
+    <option name="totallyTimeSpent" value="540284000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1387,9 +1386,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/signin.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="153" selection-start="10069" selection-end="10069" vertical-scroll-proportion="0.74585634" vertical-offset="1515" max-vertical-offset="2023">
+        <state line="121" column="59" selection-start="9661" selection-end="9661" vertical-scroll-proportion="0.7044199" vertical-offset="408" max-vertical-offset="1071">
           <folding>
-            <element signature="tag#div#2;tag#form#0;tag#div#1;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>

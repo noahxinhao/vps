@@ -118,8 +118,8 @@
                                 <input id="j_password" name="j_password" type="password" value="{{user.userpassword}}"/>
                                 <input type="checkbox" name="_spring_security_remember_me" checked/>
                             </form>
-                            <div class="pull-right col-md-12"><span id="qqLoginBtn"></span></div>
                         </div>
+                        <div class="panel-footer text-right"><span id="qqLoginBtn"></span></div>
                     </div>
                 </div>
             </div>
