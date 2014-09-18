@@ -118,6 +118,7 @@
                                 <input id="j_password" name="j_password" type="password" value="{{user.userpassword}}"/>
                                 <input type="checkbox" name="_spring_security_remember_me" checked/>
                             </form>
+                            <div class="pull-right col-md-12"><span id="qqLoginBtn"></span></div>
                         </div>
                     </div>
                 </div>
@@ -128,5 +129,11 @@
 
 <jsp:include page="footer.jsp"/>
 <script src="${pageContext.request.contextPath}/js_control/signin.js"></script>
+<script type="text/javascript" src="http://qzonestyle.gtimg.cn/qzone/openapi/qc_loader.js" data-appid="101155638" data-redirecturi="http://www.imdou8.com" charset="utf-8"></script>
+<script type="text/javascript">
+    QC.Login({
+        btnId:"qqLoginBtn"    //插入按钮的节点id
+    });
+</script>
 </body>
 </html>
