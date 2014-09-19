@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97a22a5b-b9a1-4335-bdd0-cd4b4dfe9045" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/meta.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/meta.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/qcback.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vps/webroot/MainController.java" afterPath="$PROJECT_DIR$/src/main/java/com/vps/webroot/MainController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vps.iws" />
@@ -94,85 +96,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mongodb.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mongodb.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="32" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="272">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pro.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/properties/pro.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="40" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="816">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="0" selection-start="3771" selection-end="3771" vertical-scroll-proportion="0.0" vertical-offset="1838" max-vertical-offset="2465">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring_security.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring_security.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="35" selection-start="2963" selection-end="2970" vertical-scroll-proportion="0.0" vertical-offset="805" max-vertical-offset="1700">
-              <folding>
-                <marker date="1410868363940" expanded="true" signature="3407:3490" placeholder="select accou..sys_user..." />
-                <marker date="1410868363940" expanded="true" signature="3527:3873" placeholder="select u.acc..sys_user..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="meta.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/meta.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="37" selection-start="928" selection-end="928" vertical-scroll-proportion="0.3469388" vertical-offset="102" max-vertical-offset="748">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signin.jsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="signin.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/signin.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="59" selection-start="9661" selection-end="9661" vertical-scroll-proportion="-79.11539" vertical-offset="0" max-vertical-offset="2465">
+            <state line="124" column="18" selection-start="9767" selection-end="9767" vertical-scroll-proportion="0.39285713" vertical-offset="1877" max-vertical-offset="2465">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deplay.sh" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/script/deplay.sh">
+      <file leaf-file-name="MainController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="13" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1224">
+            <state line="112" column="44" selection-start="4701" selection-end="4701" vertical-scroll-proportion="0.0" vertical-offset="1120" max-vertical-offset="1734">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editor.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/editor.jsp">
+      <file leaf-file-name="qcback.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/qcback.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="138" column="18" selection-start="6328" selection-end="6328" vertical-scroll-proportion="0.0" vertical-offset="2346" max-vertical-offset="2822">
+            <state line="14" column="0" selection-start="406" selection-end="1083" vertical-scroll-proportion="-3.5" vertical-offset="147" max-vertical-offset="748">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dev.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/properties/dev.properties">
+      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="28" selection-start="1578" selection-end="1586" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="850">
+            <state line="211" column="9" selection-start="8978" selection-end="8978" vertical-scroll-proportion="-26.538462" vertical-offset="2897" max-vertical-offset="3740">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rest_Webroot.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Webroot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="61" selection-start="1436" selection-end="1439" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="3009">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reset_publish.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Reset_publish.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="236" column="0" selection-start="9309" selection-end="9309" vertical-scroll-proportion="0.0" vertical-offset="3689" max-vertical-offset="4318">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Global_Tools.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/tools/Global_Tools.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="81" column="25" selection-start="3259" selection-end="3259" vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="2805">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tool_Mongo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/tools/Tool_Mongo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="75" selection-start="2311" selection-end="2311" vertical-scroll-proportion="0.0" vertical-offset="1139" max-vertical-offset="2057">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rest_UserControl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_UserControl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="183" column="35" selection-start="7555" selection-end="7555" vertical-scroll-proportion="0.0" vertical-offset="3111" max-vertical-offset="3825">
               <folding />
             </state>
           </provider>
@@ -191,7 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/script/production_shutdown_server.sh" />
         <option value="$PROJECT_DIR$/src/main/resources/script/production_start_server.sh" />
         <option value="$PROJECT_DIR$/src/main/resources/script/production_remove_webapp.sh" />
         <option value="$PROJECT_DIR$/src/main/resources/script/vps.sh" />
@@ -221,11 +219,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/footer.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/head.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/js_control/blog.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/blog.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/master.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vps/webroot/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/plugin/rdp/org_rdp.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/ap.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/plugin/rdp/rdp.js" />
@@ -240,8 +236,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/script/deplay.sh" />
         <option value="$PROJECT_DIR$/src/main/webapp/editor.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/jquery-1.9.1.min.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/signin.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/meta.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vps/webroot/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/qcback.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/signin.jsp" />
       </list>
     </option>
   </component>
@@ -272,9 +271,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -309,7 +308,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -408,37 +406,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -461,6 +429,44 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -522,6 +528,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -1009,12 +1016,14 @@
       <workItem from="1411021637069" duration="14000" />
       <workItem from="1411030703777" duration="545000" />
       <workItem from="1411050492804" duration="5606000" />
-      <workItem from="1411091924138" duration="1712000" />
+      <workItem from="1411091924138" duration="1996000" />
+      <workItem from="1411126461171" duration="1386000" />
+      <workItem from="1411143124545" duration="2386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="542723000" />
+    <option name="totallyTimeSpent" value="546779000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1037,8 +1046,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1061,7 +1070,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18754804" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17140661" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1097,18 +1106,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/configuraction/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="39" selection-start="1504" selection-end="1513" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="2147" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate_credit.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="74" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0" vertical-offset="43" max-vertical-offset="1463">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/tools/Tool_Hibernate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="9" selection-start="2342" selection-end="2342" vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1444" />
@@ -1122,11 +1119,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/tools/EmailAuthenticator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="13" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/tools/Global_Tools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="25" selection-start="3259" selection-end="3259" vertical-scroll-proportion="0.0" vertical-offset="877" max-vertical-offset="2641" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.pin.js">
@@ -1192,16 +1184,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/head.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="45" selection-start="2638" selection-end="2638" vertical-scroll-proportion="2.4638405" vertical-offset="0" max-vertical-offset="1881" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="27" selection-start="414" selection-end="414" vertical-scroll-proportion="-8.444445" vertical-offset="0" max-vertical-offset="3743" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_UserControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="35" selection-start="7555" selection-end="7555" vertical-scroll-proportion="0.0" vertical-offset="2669" max-vertical-offset="3838" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/plugin/rdp/org_rdp.html">
@@ -1281,28 +1263,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Webroot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="2372" selection-end="2372" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="2310" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="2481" selection-end="2481" vertical-scroll-proportion="0.0" vertical-offset="556" max-vertical-offset="1470">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/tools/Tool_Mongo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="75" selection-start="2311" selection-end="2311" vertical-scroll-proportion="0.0" vertical-offset="807" max-vertical-offset="1695" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mongodb.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="32" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="240">
-          <folding />
-        </state>
+        <state line="8" column="32" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="240" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.3.RELEASE/spring-web-3.2.3.RELEASE.jar!/org/springframework/web/bind/annotation/support/HandlerMethodInvoker.class">
@@ -1310,18 +1273,9 @@
         <state line="23" column="34" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.37563452" vertical-offset="256" max-vertical-offset="1455" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/script/deplay.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="13" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1080">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/editor.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="18" selection-start="6328" selection-end="6328" vertical-scroll-proportion="0.0" vertical-offset="2234" max-vertical-offset="2822">
-          <folding />
-        </state>
+        <state line="138" column="18" selection-start="6328" selection-end="6328" vertical-scroll-proportion="0.0" vertical-offset="2234" max-vertical-offset="2822" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/demo/demo01.html">
@@ -1331,9 +1285,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/properties/pro.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="40" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="816">
-          <folding />
-        </state>
+        <state line="19" column="40" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="816" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
@@ -1346,23 +1298,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring_security.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="35" selection-start="2963" selection-end="2970" vertical-scroll-proportion="0.0" vertical-offset="805" max-vertical-offset="1700">
-          <folding>
-            <marker date="1410868363940" expanded="true" signature="3407:3490" placeholder="select accou..sys_user..." />
-            <marker date="1410868363940" expanded="true" signature="3527:3873" placeholder="select u.acc..sys_user..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-1.9.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="38" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.5037037" vertical-offset="0" max-vertical-offset="37536" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/signin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="59" selection-start="9661" selection-end="9661" vertical-scroll-proportion="-79.11539" vertical-offset="0" max-vertical-offset="2465">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/properties/dev.properties">
@@ -1372,9 +1314,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/script/deplay.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="12" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/tools/Global_Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="25" selection-start="3259" selection-end="3259" vertical-scroll-proportion="0.0" vertical-offset="1632" max-vertical-offset="2363">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/tools/Tool_Mongo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="75" selection-start="2311" selection-end="2311" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1921">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_UserControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="183" column="35" selection-start="7555" selection-end="7555" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="3434">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Rest_Webroot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="61" selection-start="1436" selection-end="1439" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2618">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/Reset_publish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="236" column="0" selection-start="9309" selection-end="9309" vertical-scroll-proportion="0.0" vertical-offset="3689" max-vertical-offset="4318">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/meta.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="37" selection-start="928" selection-end="928" vertical-scroll-proportion="0.3469388" vertical-offset="102" max-vertical-offset="748">
+        <state line="25" column="39" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.4506803" vertical-offset="160" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vps/webroot/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="44" selection-start="4701" selection-end="4701" vertical-scroll-proportion="0.0" vertical-offset="1120" max-vertical-offset="1734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/qcback.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="406" selection-end="1083" vertical-scroll-proportion="-3.5" vertical-offset="147" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="211" column="9" selection-start="8978" selection-end="8978" vertical-scroll-proportion="-26.538462" vertical-offset="2897" max-vertical-offset="3740">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/signin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="18" selection-start="9767" selection-end="9767" vertical-scroll-proportion="0.39285713" vertical-offset="1877" max-vertical-offset="2465">
           <folding />
         </state>
       </provider>

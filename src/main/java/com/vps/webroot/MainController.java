@@ -108,4 +108,8 @@ public class MainController {
         model.put("target", "winser");
         return new ModelAndView("/winser",model);
     }
+    @RequestMapping(method = RequestMethod.GET,value = "/qc")
+    public ModelAndView qc(HttpServletRequest request, HttpServletResponse response) {
+        return new ModelAndView("/qc_back");
+    }
 }
