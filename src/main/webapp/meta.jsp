@@ -11,9 +11,9 @@
 <meta name="msvalidate.01" content="50F691AE3C177EB991C958102B21442E" />
 <meta name="baidu-site-verification" content="McMg2Qh54j" />
 <meta name="robots" content="none">
-<meta name="description" content="VPS，东京节点vps，服务器架设，服务器部署，web站点搭建">
+<meta name="description" content="IMDOU8技术资源分享社区，为开发者提供一个交流平台，同时社区为web开发者免费提供有限的VPS资源，在这里你可以获取最新的免费资源信息，为开发者提供一个将理论和实践结合起来的平台">
 <meta name="keywords" content="imdou8">
-<meta name="viewport" content="VPS服务器架设，技术交流，服务器架设技术">
+<meta name="viewport" content="VPS服务器架设，技术交流，服务器架设技术，vps资源分享">
 <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <link rel="shortcut icon" href="/img/favicon.ico" />
 <link href="/css/bootstrap.css" rel="stylesheet">
