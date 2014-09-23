@@ -15,7 +15,6 @@
 <script type="text/javascript">
     //从页面收集OpenAPI必要的参数。get_user_info不需要输入参数，因此paras中没有参数
     var paras = {};
-
     //用JS SDK调用OpenAPI
     QC.api("get_user_info", paras)
         //指定接口访问成功的接收函数，s为成功返回Response对象
