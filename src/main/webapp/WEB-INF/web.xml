@@ -100,6 +100,12 @@
         <servlet-name>default</servlet-name>
         <url-pattern>/plugin/*</url-pattern>
     </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>/*.html</url-pattern>
+    </servlet-mapping>
+
     <servlet-mapping>
         <servlet-name>default</servlet-name>
         <url-pattern>/baidu_verify_KK6SqnFH47.html</url-pattern>
