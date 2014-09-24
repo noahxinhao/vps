@@ -103,7 +103,7 @@
 
     <servlet-mapping>
         <servlet-name>default</servlet-name>
-        <url-pattern>/*.html</url-pattern>
+        <url-pattern>/qc_callback.html</url-pattern>
     </servlet-mapping>
 
     <servlet-mapping>
