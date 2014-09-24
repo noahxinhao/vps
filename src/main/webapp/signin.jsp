@@ -119,7 +119,8 @@
                                 <input type="checkbox" name="_spring_security_remember_me" checked/>
                             </form>
                         </div>
-                        <div class="panel-footer text-right"><span id="qqLoginBtn"></span></div>
+                        <%--<div class="panel-footer text-right"><span id="qqLoginBtn"></span></div>--%>
+                        <div class="panel-footer text-right"><span id=""><a href="http://openapi.qzone.qq.com/oauth/show?which=ConfirmPage&display=pc&response_type=code&client_id=101155638&redirect_uri=http://www.imdou8.com/qc">QQ登陆</a></span></div>
                     </div>
                 </div>
             </div>
@@ -130,7 +131,7 @@
 <jsp:include page="footer.jsp"/>
 <script src="${pageContext.request.contextPath}/js_control/signin.js"></script>
 <script type="text/javascript" src="http://qzonestyle.gtimg.cn/qzone/openapi/qc_loader.js" data-appid="101155638" data-redirecturi="http://www.imdou8.com/qc_callback.html" charset="utf-8"></script>
-
+<%--openapi.qzone.qq.com/oauth/show?which=ConfirmPage&display=pc&response_type=code&client_id=101155638&redirect_uri=http://www.imdou8.com/qc--%>
 <script type="text/javascript">
     QC.Login({
         btnId:"qqLoginBtn"    //插入按钮的节点id
