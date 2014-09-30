@@ -120,7 +120,7 @@
                             </form>
                         </div>
                         <%--<div class="panel-footer text-right"><span id="qqLoginBtn"></span></div>--%>
-                        <div class="panel-footer text-right"><span id=""><a href="http://openapi.qzone.qq.com/oauth/show?which=ConfirmPage&display=pc&response_type=code&client_id=101155638&redirect_uri=http://www.imdou8.com/qc">QQ登陆</a></span></div>
+                        <div class="panel-footer text-right"><span id=""><a href="http://openapi.qzone.qq.com/oauth/show?which=ConfirmPage&display=pc&response_type=code&client_id=101155638&redirect_uri=http://www.imdou8.com/qcback">QQ登陆</a></span></div>
                     </div>
                 </div>
             </div>
