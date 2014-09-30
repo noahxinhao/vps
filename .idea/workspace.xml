@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97a22a5b-b9a1-4335-bdd0-cd4b4dfe9045" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vps/webroot/MainController.java" afterPath="$PROJECT_DIR$/src/main/java/com/vps/webroot/MainController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/signin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/signin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templete/homePage/user.json" afterPath="$PROJECT_DIR$/src/main/webapp/templete/homePage/user.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="97a22a5b-b9a1-4335-bdd0-cd4b4dfe9045" name="Default" comment="" />
     <ignored path="vps.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -128,7 +123,7 @@
       <file leaf-file-name="user.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/user.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="31" selection-start="54" selection-end="54" vertical-scroll-proportion="0.056572378" vertical-offset="0" max-vertical-offset="601">
+            <state line="4" column="1" selection-start="82" selection-end="82" vertical-scroll-proportion="0.113144755" vertical-offset="0" max-vertical-offset="601">
               <folding />
             </state>
           </provider>
@@ -1240,12 +1235,12 @@
       <workItem from="1411613843531" duration="1225000" />
       <workItem from="1411641192766" duration="38000" />
       <workItem from="1412050844474" duration="34000" />
-      <workItem from="1412050895157" duration="61000" />
+      <workItem from="1412050895157" duration="200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="567568000" />
+    <option name="totallyTimeSpent" value="567707000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1624,7 +1619,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/templete/homePage/user.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="31" selection-start="54" selection-end="54" vertical-scroll-proportion="0.056572378" vertical-offset="0" max-vertical-offset="601">
+        <state line="4" column="1" selection-start="82" selection-end="82" vertical-scroll-proportion="0.113144755" vertical-offset="0" max-vertical-offset="601">
           <folding />
         </state>
       </provider>
